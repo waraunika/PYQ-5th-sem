@@ -1,0 +1,256 @@
+\documentclass[12pt]{article}
+\usepackage{hyperref}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{xparse}
+\usepackage{enumitem}
+\parindent 0px
+\newcommand{\lb}{\left|\rightarrow\right.}
+\newcommand{\enter}{\\\textcolor{white}{1}}
+
+\ExplSyntaxOn
+\NewDocumentCommand{\bo}{m}
+ {
+   \bold_commas:n { #1 }
+ }
+
+\cs_new:Npn \bold_commas:n #1
+ {
+   \seq_set_split:Nnn \l_tmpa_seq { , } { #1 }
+   \seq_map_indexed_function:NN \l_tmpa_seq \__bold_commas_aux:nn
+ }
+
+\cs_new:Npn \__bold_commas_aux:nn #1 #2
+ {
+   \textbf{#2}
+   \int_compare:nNnTF { #1 } < { \seq_count:N \l_tmpa_seq }
+     { , }
+     { }
+ }
+
+\ExplSyntaxOff
+
+\title{Computer Organization and Architecture}
+\author{Me lol}
+\date{\today}
+
+\begin{document}
+\maketitle
+\pagebreak
+\tableofcontents
+\pagebreak
+
+\section{Introduction}
+\begin{center}(3 Hours/6 Marks)\end{center}
+\subsection{Computer organization and architecture}
+\begin{enumerate}[noitemsep, topsep = 0pt]
+\item Define computer architecture.\hfill[2] (\bo{75 Ch}) [1.5] (81 Bh) [1] (\bo{72 Ch})
+\item Define computer organization.\hfill[1.5] (\bo{\texttt{81 Bh}}) [1] (\bo{72 Ch})
+\item Differentiate between computer organization and architecture.\hfill[2] (\bo{71 Ch}, 78 Ka) [3] (72 Ka)
+\item Explain the design goals and performance metrics for a computer system regarding its organization and architecture.\hspace{9.9cm}[5] (76 Ash)
+\end{enumerate}
+\subsection{Structure and function}
+\begin{enumerate}[noitemsep, topsep = 0pt]
+\item Define structure and function of a computer system.\hfill[4] (80 Ba)\\
+$\lb$Explain about the structural and functional viewpoint of a computer.\hfill[4] (\bo{\texttt{79 Bh}})
+\item Explain the functional view and four types of operations used in computer. \hfill[6] (68 Ch)
+\end{enumerate}
+\subsection{Designing for performance}
+\begin{enumerate}[noitemsep, topsep = 0pt]
+\item What are the driving factors behind the need to design for performance?\hfill[4] (71 Shr)
+\item How can we maintain a performance balance between processor and memory?\hfill[2] (\bo{72 Ch})\\
+$\lb$ What is performance balance and why it is required?\hfill[3] (70 Asa)
+\end{enumerate}
+\subsection{Interconnection structures}
+\begin{enumerate}[noitemsep, topsep = 0pt]
+\item Explain the Interconnection structures of computer.\hfill[6] (75 Ash)\\ 
+$\lb$Definition\hfill[2] (73 Shr)\\
+$\lb$Explain different types.\hfill[4] (73 Shr)
+\item Explain the interconnection of CPU with Memory and I/O devices along with different operations over them.\hfill[3+3] (\bo{70 Ch})
+\end{enumerate}
+\subsection{Bus interconnection}
+\begin{enumerate}[noitemsep, topsep = 0pt]
+\item What do you understand by Bus Interconnection.\hfill[2] (71 Shr)
+\item What does the width of address bus represent in a system?\hfill[2] (\bo{75 Ch, 71 Ch})
+\item Explain different elements of bus design.\hfill[2] (\bo{\texttt{79 Bh}}) [3] (70 Asa)
+\item Discuss the limitations of using single bus system to connect different devices.
+\enter\hfill[2] (\bo{75 Ch, 72 Ch})
+\item Compare and explain the bus structure of typical computer system.\hfill[4] (78 Ka)
+\item Explain different types of bus arbitration and compare them.\hfill[6] (\bo{\texttt{78 Bh}})
+\item Why is bus hierarchy required?\hfill[2] (\bo{71 Ch})
+\item Discuss about the usage of a Multiple Hierarchical Bus Architecture over single bus system.
+\enter\hfill[6] (\bo{\texttt{80 Bh}})
+\end{enumerate}
+\subsection{PCI}
+\begin{enumerate}[noitemsep, topsep = 0pt]
+\item What is PCI?\hfill[1] (76 Ash)\\
+$\lb$ Describe PCI bus configuration.\hfill[3] (81 Ba)
+\end{enumerate}
+
+\pagebreak
+\section{Central Processing Unit}
+\begin{center}(10 Hours/18 Marks)\end{center}
+\subsection{CPU Structure and Function}
+\begin{enumerate}[noitemsep, topsep = 0pt]
+	\item Explain the component of CPU. \hfill [2] (\bo{\texttt{78 Ch}})
+\item Draw the instruction cycle state diagram with example.\hfill[6] (\bo{76 Ch})\\
+$\lb$Draw instruction cycle, state diagram with interrupt and explain it.\hfill[6] (\bo{74 Ch})\\
+$\lb$Explain instruction cycle state diagram.\hfill[3] (81 Ba)\\
+$\lb$Explain instruction cycle state diagram with interrupt handling.\hfill[2] (80 Ba) [3] (\bo{\texttt{81 Bh}})\\
+$\lb$Explain the computer functions with different cycles.\hfill[3] (72 Ka)
+
+	\item Explain the general organization of register in CPU. \hfill [6] (\bo{71 Ch})
+\end{enumerate}
+\subsection{Arithmetic and Logic Unit}
+\begin{enumerate}[noitemsep, topsep = 0pt]
+	\item Design a 1-bit ALU which can perform addition, AND, OR, and X-OR operations. Explain the different types of instruction formats. \hfill [4+4] (\bo{\texttt{80 Bh}})
+	
+	\item Design a 2-bit ALU that can perform subtraction, AND, OR and XOR. \hfill [8] (\bo{75 Ch})
+	
+	\item What are the stages of ALU design? Explain with the example of 2-bit ALU performing addition, subtraction, OR and XOR. \hfill [8] (70 Asa)
+\end{enumerate}
+\subsection{Instruction Formats}
+\begin{enumerate}[noitemsep, topsep = 0pt]
+	\item What do you mean by instruction format? \hfill [4] (\bo{72 Ch})
+	
+	\item What are the different types of instructions? \hfill [3] (\bo{71 Ch})
+	
+	\item Explain Instruction Format with its types? \hfill [2] (71 Shr)
+	
+	\item What are the most common fields in an instruction. \hfill [2] (\bo{68 Ch})
+	
+	\item Write down the code to evaluate in three address, two address, one address and zero address instruction format.
+	\begin{enumerate}[noitemsep, topsep = 0pt, label = \alph*.]
+		\item Y = (A-B/C)*[D+(E*G)] \hfill [8] (\bo{\texttt{81 Bh}, 76 Ch})
+		\item N = ((P-QxR)/S)+(T/U)+VxW) \hfill [8] (81 Ba)
+		\item $\text{X} = \dfrac{\text{A-B+Cx(DxE-F})}{\text{G+HxK}}$ \hfill [8] (80 Ba)
+		\item X = ((A+B)/C) + (D-E) \hfill [8] (\bo{\texttt{79 Bh}})
+		\item Y = (A-B/C) x (D+ExG)/F \hfill [8] (78 Ka)
+		\item Y = (W+X) * (Y-Z) \hfill [8] (76 Ash)
+		\item Y = (A+B)/C + D/(E*F) \hfill [8] (\bo{75 Ch})
+		\item (\textit{In present sources, operation is not given. If found, please contact})\hfill [8] (75 Ash)
+		\item X = (P+Q) x (R+S) \hfill [8] (\bo{74 Ch})
+		\item Y = A * (B+D/C)+(G*E)/F \hfill [8] (73 Shr)
+		\item X = (A-B*F)*C+D/E \hfill [8] (\bo{72 Ch})
+		\item Y = (A+B)*(C+D)+G/E*F \hfill [8] (72 Ka)
+		\item X = (A+B) x (C+D) \hfill [5] (\bo{71 Ch}) [6] (\bo{68 Ch}, 71 Shr)
+		\item Y = A/B+(CxD) + F(H/G) \hfill [8] (\bo{70 Ch}
+		\item Y = A+(B*C)+D \hfill [8] (\bo{68 Ba})
+		\item Y = AB + (F/G) + CD [8] (\bo{67 Asa})
+		
+	\end{enumerate}
+\end{enumerate}
+\subsection{Data Transfer and Manipulation}
+\begin{enumerate}[noitemsep, topsep = 0pt]
+	\item Explain data transfer instruction with example. \hfill [4] (\bo{\texttt{81 Bh}})
+	
+	\item Explain different types of data manipulation instructions with example. \hfill [8] (\bo{\texttt{78 Bh}})\\
+	$\lb$What are the three types of data manipulation instructions used in computer? Explain. 
+	\enter\hfill [8] (\bo{67 Asa})
+\end{enumerate}
+\subsection{Addressing Modes}
+\begin{enumerate}[noitemsep, topsep = 0pt]
+	\item What is addressing mode? \hfill [2] (\bo{\texttt{80 Bh}, 76 Ch, 68 Ch})
+	
+	\item Differentiate between Immediate and direct addressing modes. \hfill [4] (\bo{\texttt{81 Bh}})
+	
+	\item Write down the need for addressing modes. \hfill [2] (\bo{74 Ch})
+	
+	\item Comparision of different types of addressing modes. \hfill [6] (\bo{76 Ch}) [8] (76 Ash) [10] (72 Ka)\\
+	$\lb$with adv/disadv. \hfill [10] (78 Ka)\\
+	$\lb$with algorithm as well as adv/disadv. \hfill [8] (\bo{68 Ba})
+	
+	\item Write down different types of addressing mode and:\\
+	$\lb$Explain with adv/disadv. \hfill [8] (81 Ba, 80 Ba) [10] (\bo{70 Ch})\\
+	$\lb$Explain with suitable example. \hfill [6] (\bo{\texttt{80 Bh, 79 Bh}, 74 Ch}) [8] (\bo{68 Ch}, 70 Asa)
+		
+	\item Following instructions are give: \hfill [10] (73 Shr)
+	\begin{enumerate}[noitemsep, topsep = 0pt, label = \alph*.]
+		\item LDA 2000H
+		\item MVI B, 32H
+		\item STAX D
+		\item MOV A, B
+	\end{enumerate}
+	Which addressing modes are used in the above instructions? Explain briefly about them.
+	
+	\item Describe the operation of LD (load) instruction under various addressing modes with syntax. 
+	\enter\hfill [4] (\bo{71 Ch})
+\end{enumerate}
+\subsection{RISC and CISC}
+\begin{enumerate}[noitemsep, topsep = 0pt]
+	\item Comparison between RISC and CISC architecture. \hfill [6] (\bo{\texttt{78 Bh}, 72 Ch}, 75 Ash)
+\end{enumerate}
+\subsection{64 – Bit Processor}
+
+\pagebreak
+\section{Control Unit}
+\begin{center}(6 Hours/10 Marks)\end{center} 
+\subsection{Control Memory}
+\subsection{Addressing sequencing}
+\subsection{Computer configuration}
+\subsection{Microinstruction Format}
+\subsection{Symbolic Microinstructions}
+\subsection{Symbolic Microprogram}
+\subsection{Control Unit Operation}
+\subsection{Design of Control Unit}
+
+\pagebreak
+\section{Pipeline and Vector processing}
+\begin{center}(5 Hours/10 Marks)\end{center}
+\subsection{Pipelining}
+\subsection{Parallel Processing}
+\subsection{Arithmetic Pipeline}
+\subsection{Instruction Pipeline}
+\subsection{RISC Pipeline}
+\subsection{Vector Processing}
+\subsection{Array Processing}
+
+\pagebreak
+\section{Computer Arithmetic}
+\begin{center}(8 Hours/14 Marks)\end{center}
+\subsection{Addition Algorithm}
+\subsection{Subtraction Algorithm}
+\subsection{Multiplication Algorithm}
+\begin{enumerate}[noitemsep, topsep=0pt]
+	\item Draw a flowchart for Booth's multiplication algorithm for signed multiplication. \hfill [5] (\bo{\texttt{81 Bh}})
+\end{enumerate}
+\subsection{Division Algorithm}
+\subsection{Logical Operation}
+
+\pagebreak
+\section{Memory System}
+\begin{center}(5 Hours/8 Marks)\end{center}
+\subsection{Microcomputer Memory}
+\subsection{Characteristics of memory systems}
+\subsection{The Memory Hierarchy}
+\subsection{Internal and External memory}
+\subsection{Cache memory principles}
+\subsection{Elements of Cache design}
+\subsubsection{Cache size}
+\subsubsection{Mapping function}
+\subsubsection{Replacement algorithm}
+\subsubsection{Write policy}
+\subsubsection{Number of caches}
+
+\pagebreak
+\section{Input-Output organization}
+\begin{center}(6 Hours/10 Marks)\end{center}
+\subsection{Peripheral devices}
+\subsection{I/O modules}
+\subsection{Input-Output interface}
+\subsection{Modes of transfer}
+\subsubsection{Programmed I/O}
+\subsubsection{Interrupt-driven I/O}
+\subsubsection{Direct Memory access}
+\subsection{I/O Processors}
+\subsection{Data Communication Processor}
+
+\pagebreak
+\section{Multiprocessors}
+\begin{center}(2 Hours/4 Marks)\end{center}
+\subsection{Characteristics of multiprocessors}
+\subsection{Interconnection Structures}
+\subsection{Interprocessor Communication and Synchronization}
+\end{document}

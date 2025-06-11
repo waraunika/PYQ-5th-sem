@@ -1,0 +1,334 @@
+\documentclass[12pt]{article}
+\usepackage{hyperref}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage[margin=1.5cm]{geometry}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{xparse}
+\usepackage{enumitem}
+\parindent 0px
+\newcommand{\lb}{\\$\left|\rightarrow\right.$}
+\newcommand{\enter}{\\\textcolor{white}{1}}
+
+\ExplSyntaxOn
+\NewDocumentCommand{\bo}{m}
+ {
+   \bold_commas:n { #1 }
+ }
+
+\cs_new:Npn \bold_commas:n #1
+ {
+   \seq_set_split:Nnn \l_tmpa_seq { , } { #1 }
+   \seq_map_indexed_function:NN \l_tmpa_seq \__bold_commas_aux:nn
+ }
+
+\cs_new:Npn \__bold_commas_aux:nn #1 #2
+ {
+   \textbf{#2}
+   \int_compare:nNnTF { #1 } < { \seq_count:N \l_tmpa_seq }
+     { , }
+     { }
+ }
+
+\ExplSyntaxOff
+
+\title{Computer Network}
+\author{Me lol}
+\date{\today}
+
+\begin{document}
+\maketitle
+\vspace{13cm}
+\begin{large}\textbf{Notes}\end{large}
+\begin{itemize}
+\item PYQs of BEX's CT657, BEI's CT613 and BCT's CT702 are combined.
+\item BEX's and BCT's are kept with normal font.\item BEI's are kept with \texttt{this styling to differentiate}.
+\end{itemize}
+\pagebreak
+\tableofcontents
+\pagebreak
+
+\section{Introduction to Computer Network}
+\begin{center}(5 Hours/8 Marks)\end{center}
+\subsection{Computer Network \& Uses}
+\begin{enumerate}[noitemsep, topsep = 0pt]
+\item What are the applications of computer networks?\hfill[2] (76 Ba)
+\item What is computer network?\hfill[1] (76 Ba) [2] (71 Shr)
+\item What are the advantages of computer network?\hfill[3] (72 Ma)
+\item Explain five instances of how networks are a part of your life today. \hfill [5] (\bo{72 Ch})
+\end{enumerate}
+\subsection{Networking model: client/server, P2P, active network}
+\begin{enumerate}[noitemsep, topsep = 0pt]
+\item Discuss Client-Server model and Peer-to-Peer model.\hfill[4] (\texttt{81 Ba})
+\item How does client-server model work?\hfill[3] (73 Ma)
+\item What are the features of Client/Server Architecture?\hfill[4] (70 Ch, 76 Ash)
+\item Draw the architecture for Client/Server network model.\hfill[2] (\bo{75 Ch})
+\item Explain briefly the architecture for peer-to-peer network model with example.\hfill[3] (\bo{77 Ch})
+\lb How does P2P works? Explain.\hfill[6] (\bo{\texttt{80 Bh}})
+\lb Explain in details about P2P network model with supportive examples.\hfill[6] (\bo{75 Ch})
+\item Distinguish between Client-Server network and Peer-Peer network.\hfill[3] (\bo{74 Ch}) [5] (73 Ma)
+\end{enumerate}
+
+\subsection{Network Software, Protocols and Standards}
+\begin{enumerate}[noitemsep, topsep = 0pt]
+\item Define protocol.\hfill[1] (\bo{76 Ch, 72 Ash}) [4] (bo{79 Ch}) 
+
+\item Explain about connection oriented and connection less service.\hfill[3] (\bo{71 Bh})
+\item Mention service primitives for implementing connection oriented service.\hfill[2] (75 Ash)
+\item What do you mean by network architecture?\hfill[2] (\bo{71 Ch})
+\item Why do you need layering?\hfill[2] (\bo{\texttt{80 Bh}})
+\item Why do we need layered protocol architecture?\hfill[2] (\bo{72 Ash})
+\item What are the reasons for using layered network architecture?\hfill[2] (\bo{76 Ch}) [3] (\bo{73 Ch}, 75 Ba)
+\item Why layering is important?\hfill[2] (\bo{\texttt{79 Bh}}, 75 Ash) [4] (\bo{73 Bh})
+\item What are the layer design issues?\hfill[3] (\bo{71 Bh})
+\item Explain design issues for layers in detail.\hfill[4] (75 Ash)
+\item Explain about the design issues of Computer Network software.\hfill[5] (\bo{74 Bh})
+\end{enumerate}
+
+\subsection{OSI model and TCP/IP model}
+\begin{enumerate}[noitemsep, topsep = 0pt]
+\item Explain Open System Interconnection (OSI) model.\hfill[5] (\bo{74 Ch}, 71 Ma)
+\lb Explain OSI reference model with suitable diagram. \hfill [6] (\texttt{80 Ba})
+\lb Explain the different layers of OSI reference Model with appropriate figure.\hfill[5] (\bo{76 Bh})
+\item What is the significance of OSI layer?\hfill[2] (74 Ash)
+\lb What are the reasons for using layered protocol?\hfill[3] (75 Bh)
+\item Explain in which level of OSI layer following tasks are done.\hfill[3] (\bo{72 Ch})\\
+(i) Error detection and correction \hspace{20mm} (ii) Encryption and Decryption of data\\
+(iii) Logical identification of computer \hspace{11mm} (iv) Point-to-point connection of socket\\
+(v) Dialogue control \hspace{45mm}(vi) Physical identification of computer
+\item Explain each layer of TCP/IP protocols architecture in detail.\hfill[5] (\bo{72 Ash})
+
+\item List out the functions of physical lapyer in TCP/IP reference model. \hfill [2] (72 Ka)
+
+\item Distinguish between physical channel and physical layer.\hfill[3] (\bo{74 Bh})
+\end{enumerate}
+
+\subsection{Comparison of OSI and TCP/IP model}
+\begin{enumerate}[noitemsep, topsep = 0pt]
+\item Differentiate between TCP/IP and OSI Model.
+\enter\hfill[3] \begin{footnotesize}(\bo{76 Bh, 71 Ch}, 71 Ma)\end{footnotesize} [4] \begin{footnotesize}(81 Ba)\end{footnotesize} [5] \begin{footnotesize}(\bo{77 Ch, 76 Ch, 72 Ch}, 76 Ba, 75 Ba, 73 Shr, 72 Ma)\end{footnotesize} [6] \begin{footnotesize}(71 Shr)\end{footnotesize} 
+\lb Explain OSI model and compare OSI with TCP/IP reference model.\hfill[6] (\bo{\texttt{79 Bh}})
+\item How do you differentiate OSI's network and transport layer with TCP/IP's Network and transport layer?\hfill[4] (\bo{79 Ch})
+\end{enumerate}
+
+\subsection{Data Encapsulation}
+\begin{enumerate}[noitemsep, topsep = 0pt]
+	\item What is data encapsulation? \hfill [2] (\texttt{80 Ba})
+	
+	\item How the process of data encapsulation occurs in transmission mode described by seven layers of OSI model.\hfill[5] (75 Bh)
+
+	\item What are headers and trailers and how do they get added and removed?
+\enter\hfill[4] (76 Ash, 70 Ch) [5] (\bo{73 Ch}) 
+\end{enumerate}
+
+\subsection{Example network: The Internet, X.25, Frame Relay, Ethernet, VoIP, NGN and MPLS, xDSL}
+\begin{enumerate}[noitemsep, topsep = 0pt]
+\item Explain X.25 Network with its key feature.\hfill[3] (\bo{71 Ch})
+\item Define Frame Relay in detail.\hfill[3] (73 Shr)
+\item What is Internet work?\hfill[2] (\bo{71 Bh})
+\item Explain the function of following of following devices in brief:\hfill[6] (\bo{73 Bh})\\
+(i) Hub (ii) Bridge (iii) Router
+\item You are assigned to design a network infrastructure for a 3-start hotel. Recommend a network solution with hardwares and softwares in current trend that can be used in the hotel. Make necessary assumptions and justify your recommendation with logical arguments where possible.\hfill[8] (72 Ka)
+\end{enumerate}
+
+\pagebreak
+\section{Physical Layer}
+\begin{center}(5 Hours/8 Marks)\end{center}
+\subsection{Network monitoring: delay, latency, throughput}
+\begin{enumerate}[noitemsep, topsep=0pt]	
+	\item Define:
+	\lb Delay \hfill [1] (\bo{\texttt{80 Bh}}, \texttt{80 Ba})
+	\lb Bandwidth \hfill [1] (\bo{\texttt{80 Bh}, 76 Bh})
+	\lb MAC address \hfill [1] \bo{\texttt{80 Bh}}
+	\lb Throughput \hfill [1] (\bo{76 Bh}, \texttt{80 Ba}, 76 Ba)
+	\lb Latency \hfill [1] (76 Ba)
+	
+	\item What are the causes of packet delay? \hfill [2] (\bo{76 Bh})
+\end{enumerate}
+
+\subsection{Transmission media: Twisted pair, Coaxial, Fiber optic, Line-of-site, Satellite}
+\begin{enumerate}[noitemsep, topsep=0pt]
+	\item What is transmission medium?  \hfill [1] (\bo{76 Ch, 71 Bh}) [2] (71 Shr) [3] (\bo{74 Ch})
+	
+	\item Write down the transmission medium used for networking. \hfill [4] (\bo{72 Ash})
+	
+	\item Explain different types of transmission media. \hfill [6] (72 Ka)
+	\lb Explain about any three transmission media in detail. \hfill [6] (71 Shr)
+	
+	\item What are the factors to be considered while selecting transmission media? \hfill [2] (\bo{\texttt{79 Bh}}, \texttt{81 Ba})
+
+	\item Explain twisted pair cable with its practical applications. \hfill [4] (\bo{77 Ch})	
+	
+	\item Explain optical fiber cable in detail with its advantages and disadvantages. \hfill [6] (\texttt{81 Ba})
+	
+	\item Explain different transmission medium with their merits and demerits. \hfill [6] (\bo{76 Ch})
+	
+	\item Explain the characteristics of twisted pair, coaxial and optical fiber cable. \hfill [6] (76 Ba)
+	
+	\item Explain about any two guided transmission media in detail. \hfill [6] (74 Ash)	
+	
+	\item List guided and unguided media used in computer network. \hfill [2] (73 Ma)
+	
+	\item Explain Ethernet cable standards. \hfill [6] (73 Ma)
+	
+	\item Compare different types of guided transmission media with appropriate figures. \hfill [6] (\texttt{80 Ba})
+	
+	\item Differentiate between wired and wireless media with their benefits and drawbacks. \hfill [3] (75 Ba)
+	
+	\item Compare among Twisted Pair, Coaxial cable and Fiber optic. \hfill [5] (\bo{74 Ch})
+	
+	\item Why, now a day all communication media like twisted pair, co-axial pair even wireless media are replaced by optical fibre? Justify your answer with necessary diagram, working principle and transmission mechanism. \hfill [7] (\bo{71 Bh})
+	
+	\item Explain various cabling techniques used in IEEE 802.3 standard. \hfill [4] (71 Ma)
+\end{enumerate}
+
+\subsection{Multiplexing, Circuit switching, Packet switching, VC Switching, Telecommunication switching system (Networking of Telephone exchanges)}
+\begin{enumerate}[noitemsep, topsep=0pt]
+	\item What is switching? \hfill [1] (\bo{75 Ch}, 74 Ash) [2] (\bo{74 Bh}, 73 Shr)[3] (\bo{75 Bh})
+	
+	\item What are the various switching techniques? \hfill [2] (\bo{75 Ch})
+	\lb Explain about various switchings with practical implementation example. \hfill [6] (\bo{70 Ch})
+	
+	\item What do you mean by data switching? \hfill [2] (\bo{70 Ch})
+	
+	\item Define multiplexing. \hfill [1] (74 Ash)
+	
+	\item Explain different types of multiplexing used in communication system. \hfill [4] (72 Ma)
+	
+	\item Compare switching with multiplexing. \hfill [2] (73 Shr)
+
+	\item Elaborate packet switching with a proper diagram. \hfill [5] (\bo{75 Ch})	
+	
+	\item (Assumed) Discuss how data or packets goes through switch to switch in Frame Relay Virtual-circuit network. \hspace{12.6cm} [5] (\bo{\texttt{80 Bh}})
+	
+	\item Differentiate between datagram switching and virtual circuit switching approach. 
+	\enter \hfill [4] (72 Ma) [6] (\bo{\texttt{79 Bh}})
+	\lb with suitable diagram. \hfill [6] (\bo{74 Bh})
+	
+	\item Differentiate between circuit switching and packet switching. 
+	\enter\hfill [3] (\bo{75 Bh}, 75 Ash) [4] (\bo{77 Ch, 76 Bh, 72 Ash})
+	\lb Compare and which would you prefer and why? \hfill [2+2] (71 Ma)
+	
+	\item Discuss Packet and Circuit switching concepts with example. \hfill [5] (75 Ba)
+\end{enumerate}
+
+\subsection{ISDN: Architecture, Interface, and Signaling}
+\begin{enumerate}[noitemsep, topsep=0pt]
+	\item What is ISDN? \hfill [2] (\bo{71 Ch})
+	
+	\item Explain about the ISDN architecture in detail with example. \hfill [6] (\bo{71 Ch})
+	
+	\item Why the telephone companies developed ISDN? \hfill [2] (76 Ash)
+	
+	\item Explain the working principle of ISDN with its interface and functional group. \hfill [6] (76 Ash)
+	
+	\item Explain ISDN channels with architecture. \hfill [5] (75 Ash)
+	
+	\item Explain the E1 Telephone hierarchy system. \hfill [4] (73 Shr)
+\end{enumerate}
+
+\pagebreak
+\section{Data Link Layer}
+\begin{center}(5 Hours/8 Marks)\end{center}
+\subsection{Functions of Data link layer}
+\begin{enumerate}[noitemsep, topsep=0pt]
+	\item How does data link apply flow control technique in network communication? Explain with example. \hfill [6] (\bo{79 Ch})
+\end{enumerate}
+\subsection{Framing}
+\begin{enumerate}[noitemsep, topsep=0pt]
+	\item What do you mean by Framing? \hfill [2] (\bo{79 Ch})
+\end{enumerate}
+\subsection{Error Detection and Corrections}
+\subsection{Flow Control}
+\subsection{Examples of Data Link Protocol, HDLC, PPP}
+\subsection{The Medium Access Sub-layer}
+\begin{enumerate}[noitemsep, topsep=0pt]
+	\item (Assumed) Through we have MAC address, why do we use IP address to represent the host in networks? Explain your answer. \hfill [3] (\bo{72 Ch})
+\end{enumerate}
+\subsection{The channel allocation problem}
+\begin{enumerate}[noitemsep, topsep=0pt]
+	\item Why do you think that static channel assignment is not efficient? \hfill [2] (\bo{73 Ch}) 
+\end{enumerate}
+\subsection{Multiple Access Protocols}
+\subsection{Ethernet}
+\subsection{Networks: FDDI, ALOHA, VLAN, CSMA/CD, IEEE 802.3(Ethernet), 802.4(Token Bus), 802.5(Token Ring), and 802.1(Wireless LAN)}
+\begin{enumerate}[noitemsep, topsep=0pt]
+	\item What is ALOHA system? \hfill [2] (\bo{79 Ch})
+	
+	\item How does CSMA-CD works? Explain. \hfill [6] (\bo{79 Ch})
+	
+	\item Explain about operation of Carrier Sense Multiple Access with Collision Detection. \hfill [6] (\bo{73 Ch})
+	
+\subsection{Numericals}
+\begin{enumerate}[noitemsep, topsep=0pt]
+	\item A frame having size of 1000 bits is transmitted through a channel having capacity of 200 KB/Sec. Calculate the percentage of idleness of the channel assuming the round trip time of the channel to be 20ms. Is the channel efficient? What is your recommendation further?
+	\enter\hfill [5+1+4] (\bo{73 Bh})
+\end{enumerate}
+\end{enumerate}
+
+\pagebreak
+\section{Network Layer}
+\begin{center}(9 Hours/16 Marks)\end{center}
+\subsection{Internet working and devices: Repeaters, Hubs, Bridges, Switches, Router, Gateway}
+\subsection{Addressing: Internet address, classful address}
+\begin{enumerate}[noitemsep, topsep=0pt]
+	\item What are IPv4 address classes? \hfill [2] (\bo{79 Ch})
+\end{enumerate}
+
+\subsection{Subnetting}
+\begin{enumerate}[noitemsep, topsep=0pt]
+	\item How do you subnetwork a class C network block to following subnets of 41,14,102, and 21 computers respectively? Explain with example. \hfill [8] (\bo{79 Ch})
+\end{enumerate}
+
+\subsection{Routing: techniques, static vs. dynamic routing , routing table for classful address}
+\subsection{Routing Protocols: RIP, OSPF, BGP, Unicast and multicast routing protocols}
+\subsection{Routing algorithms: shortest path algorithm, flooding, distance vector routing, link state routing; Protocols: ARP, RARP, IP, ICMP}
+
+\pagebreak
+\section{Transport Layer}
+\begin{center}(5 Hours/8 Marks)\end{center}
+\subsection{The transport service: Services provided to the upper layers}
+\subsection{Transport protocols: UDP, TCP}
+\subsection{Port and Socket}
+\subsection{Connection establishment, Connection release}
+\subsection{Flow control and buffering}
+\subsection{Multiplexing and de-multiplexing}
+\subsection{Congestion control algorithm: Token Bucket and Leaky Bucket Transport Layer}
+
+
+\pagebreak
+\section{Application Layer}
+\begin{center}(5 Hours/8 Marks)\end{center}
+\subsection{Web: HTTP and HTTPS}
+\subsection{File Transfer: FTP, PuTTY, WinSCP}
+\subsection{Electronic Mail: SMTP, POP3, IMAP}
+\subsection{DNS}
+\subsection{P2PApplications}
+\subsection{Socket Programming}
+\subsection{Application server concept proxy caching, Web/Mail/DNS server optimization}
+\subsection{Concept of traffic analyzer: MRTG, PRTG, SNMP, Packet tracer, Wireshark.}
+
+\pagebreak
+\section{Introduction to IPV6}
+\begin{center}(4 Hours/8 Marks)\end{center}
+\subsection{IPv6- Advantages}
+\subsection{Packet formats}
+\subsection{Extension headers}
+\subsection{Transition from IPv4 to IPv6: Dual stack, Tunneling, Header Translation}
+\subsection{Multicasting}
+
+\pagebreak
+\section{Network Security}
+\begin{center}(7 Hours/16 Marks)\end{center}
+\subsection{Properties of secure communication}
+\subsection{Principles of cryptography: Symmetric Key and Public Key}
+\subsection{RSA Algorithm}
+\subsection{Digital Signatures}
+\subsection{Securing e-mail (PGP)}
+\subsection{Securing TCP connections (SSL)}
+\subsection{Network layer security (IPsec, VPN)}
+\subsection{Securing wireless LANs (WEP)}
+\subsection{Firewalls: Application Gateway and Packet Filtering, and IDS}
+
+
+\end{document}
