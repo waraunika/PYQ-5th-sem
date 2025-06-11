@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.6.9)  11 JUN 2025 07:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.6.9)  11 JUN 2025 08:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -324,27 +324,246 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 ))
 Package: xparse 2023-02-02 L3 Experimental document command parser
 )
+(./EE.aux)
+\openout1 = `EE.aux'.
 
-! LaTeX Error: File `inconsolata.sty' not found.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+Package hyperref Info: Link coloring OFF on input line 43.
+ (./EE.out) (./EE.out)
+\@outlinefile=\write3
+\openout3 = `EE.out'.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.17 \ExplSyntaxOn
-                  ^^M
-*** (cannot \read from terminal in nonstop modes)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(42.67912pt, 528.93675pt, 42.67912pt)
+* v-part:(T,H,B)=(42.67912pt, 709.61174pt, 42.67912pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=528.93675pt
+* \textheight=709.61174pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-66.59087pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- 
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count288
+\scratchdimen=\dimen165
+\scratchbox=\box55
+\nofMPsegments=\count289
+\nofMParguments=\count290
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count291
+\MPscratchDim=\dimen166
+\MPnumerator=\count292
+\makeMPintoPDFobject=\count293
+\everyMPtoPDFconversion=\toks25
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
+st/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./EE.toc [2])
+\tf@toc=\write4
+\openout4 = `EE.toc'.
+
+ [3]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 67.
+ [4] [5]
+Overfull \hbox (3.11098pt too wide) in paragraph at lines 109--110
+\OT1/cmr/m/n/12 ples. [2+2] (\OT1/cmtt/m/n/12 80 Bh\OT1/cmr/m/n/12 ) 
+ []
+
+[6] [7]
+<ee_1.png, id=457, 644.4075pt x 101.37875pt>
+File: ee_1.png Graphic file (type png)
+<use ee_1.png>
+Package pdftex.def Info: ee_1.png  used on input line 185.
+(pdftex.def)             Requested size: 289.07999pt x 45.47923pt.
+ [8 <./ee_1.png>]
+Overfull \hbox (15.31276pt too wide) in paragraph at lines 204--204
+[]\OT1/cmr/bx/n/14.4 Determining Min-i-mum At-trac-tive (Ac-cept-able) Rate of 
+Re-turn (MARR) 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--222
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--230
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 267--274
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 306--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--343
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--351
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 367--374
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--381
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--388
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--402
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--409
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--426
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 427--434
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 444--450
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--458
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 492--501
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 548--549
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 554--564
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 614--628
+
+ []
+
+[16] [17] [18] [19] [20] (./EE.aux)
+Package rerunfilecheck Info: File `EE.out' has not changed.
+(rerunfilecheck)             Checksum: C9BFCE45662CDF032455CEFF3F96F788;17882.
+ ) 
 Here is how much of TeX's memory you used:
- 10187 strings out of 477985
- 157809 string characters out of 5839381
- 1849388 words of memory out of 6000000
- 30302 multiletter control sequences out of 15000+600000
- 512585 words of font info for 33 fonts, out of 8000000 for 9000
+ 11051 strings out of 477985
+ 169895 string characters out of 5839381
+ 1875388 words of memory out of 6000000
+ 30890 multiletter control sequences out of 15000+600000
+ 521556 words of font info for 68 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,0n,76p,267b,36s stack positions out of 10000i,1000n,20000p,200000b,200000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 75i,10n,76p,563b,591s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/cm-super/sfrm1200.pfb>
+Output written on EE.pdf (20 pages, 180617 bytes).
+PDF statistics:
+ 695 PDF objects out of 1000 (max. 8388607)
+ 648 compressed objects within 7 object streams
+ 225 named destinations out of 1000 (max. 500000)
+ 606 words of extra memory for PDF output out of 10000 (max. 10000000)
+
