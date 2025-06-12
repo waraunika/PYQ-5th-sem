@@ -35,41 +35,41 @@
 \contentsline {subsection}{\numberline {4.1}Comparing Mutually Exclusive Alternatives having Same useful life by}{15}{subsection.4.1}%
 \contentsline {subsubsection}{\numberline {4.1.1}Payback Period Method and Equivalent Worth Method}{15}{subsubsection.4.1.1}%
 \contentsline {subsubsection}{\numberline {4.1.2}Rate of Return Methods and Benefit Cost Ratio Method}{15}{subsubsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.2}Comparing Mutually Exclusive Alternatives having different useful lives by}{15}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Repeatability Assumption}{16}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Co‐terminated Assumption}{16}{subsubsection.4.2.2}%
-\contentsline {subsubsection}{\numberline {4.2.3}Capitalized Worth Method}{16}{subsubsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.3}Comparing Mutually Exclusive, Contingent and Independent Projects in Combination}{16}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Replacement Analysis}{17}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Fundamentals of Replacement Analysis}{17}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}Basic Concepts and Terminology}{17}{subsubsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.2}Approaches for Comparing Defender and Challenger}{17}{subsubsection.5.1.2}%
-\contentsline {subsection}{\numberline {5.2}Economic Service Life of Challenger and Defender}{17}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Replacement Analysis When Required Service Life is Long}{17}{subsection.5.3}%
-\contentsline {subsubsection}{\numberline {5.3.1}Required Assumptions and Decision Framework}{17}{subsubsection.5.3.1}%
-\contentsline {subsubsection}{\numberline {5.3.2}Replacement Analysis under the Infinite Planning Horizon}{17}{subsubsection.5.3.2}%
-\contentsline {subsubsection}{\numberline {5.3.3}Replacement Analysis under the Finite Planning Horizon}{17}{subsubsection.5.3.3}%
-\contentsline {section}{\numberline {6}Risk Analysis}{18}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Origin/Sources of Project Risks}{18}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Methods of Describing Project Risks}{18}{subsection.6.2}%
-\contentsline {subsubsection}{\numberline {6.2.1}Sensitivity Analysis}{18}{subsubsection.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2}Breakeven Analysis}{18}{subsubsection.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.3}Scenario Analysis}{18}{subsubsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.3}Probability Concept of Economic Analysis}{18}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Decision Tree and Sequential Investment Decisions}{18}{subsection.6.4}%
-\contentsline {section}{\numberline {7}Depreciation and Corporate Income Taxes}{19}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Concept and Terminology of Depreciation}{19}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Basic Methods of Depreciation}{19}{subsection.7.2}%
-\contentsline {subsubsection}{\numberline {7.2.1}Straight line method}{19}{subsubsection.7.2.1}%
-\contentsline {subsubsection}{\numberline {7.2.2}Declining Balance Method}{19}{subsubsection.7.2.2}%
-\contentsline {subsubsection}{\numberline {7.2.3}Sinking Fund Method}{19}{subsubsection.7.2.3}%
-\contentsline {subsubsection}{\numberline {7.2.4}Sum of the Year Digit Method}{19}{subsubsection.7.2.4}%
-\contentsline {subsubsection}{\numberline {7.2.5}Modified Accelerated Cost Recovery System (MACRS)}{19}{subsubsection.7.2.5}%
-\contentsline {subsection}{\numberline {7.3}Introduction to Corporate Income Tax}{19}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}After Tax Cash flow Estimate}{19}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}General Procedure for Making After Tax Economic Analysis.}{19}{subsection.7.5}%
-\contentsline {section}{\numberline {8}Inflation and Its Impact on Project Cashflows}{20}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Concept of Inflation}{20}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Measuring Inflation}{20}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Equivalence Calculation Under Inflation}{20}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Impact of Inflation on Economic Evaluation}{20}{subsection.8.4}%
+\contentsline {subsection}{\numberline {4.2}Comparing Mutually Exclusive Alternatives having different useful lives by}{17}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Repeatability Assumption}{17}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Co‐terminated Assumption}{17}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Capitalized Worth Method}{17}{subsubsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.3}Comparing Mutually Exclusive, Contingent and Independent Projects in Combination}{18}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Replacement Analysis}{19}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Fundamentals of Replacement Analysis}{19}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Basic Concepts and Terminology}{19}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.2}Approaches for Comparing Defender and Challenger}{19}{subsubsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.2}Economic Service Life of Challenger and Defender}{19}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Replacement Analysis When Required Service Life is Long}{19}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Required Assumptions and Decision Framework}{19}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}Replacement Analysis under the Infinite Planning Horizon}{19}{subsubsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.3}Replacement Analysis under the Finite Planning Horizon}{19}{subsubsection.5.3.3}%
+\contentsline {section}{\numberline {6}Risk Analysis}{20}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Origin/Sources of Project Risks}{20}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Methods of Describing Project Risks}{20}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Sensitivity Analysis}{20}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Breakeven Analysis}{20}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}Scenario Analysis}{20}{subsubsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.3}Probability Concept of Economic Analysis}{20}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Decision Tree and Sequential Investment Decisions}{20}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Depreciation and Corporate Income Taxes}{21}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Concept and Terminology of Depreciation}{21}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Basic Methods of Depreciation}{21}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Straight line method}{21}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Declining Balance Method}{21}{subsubsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.3}Sinking Fund Method}{21}{subsubsection.7.2.3}%
+\contentsline {subsubsection}{\numberline {7.2.4}Sum of the Year Digit Method}{21}{subsubsection.7.2.4}%
+\contentsline {subsubsection}{\numberline {7.2.5}Modified Accelerated Cost Recovery System (MACRS)}{21}{subsubsection.7.2.5}%
+\contentsline {subsection}{\numberline {7.3}Introduction to Corporate Income Tax}{21}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}After Tax Cash flow Estimate}{21}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}General Procedure for Making After Tax Economic Analysis.}{21}{subsection.7.5}%
+\contentsline {section}{\numberline {8}Inflation and Its Impact on Project Cashflows}{22}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Concept of Inflation}{22}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Measuring Inflation}{22}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Equivalence Calculation Under Inflation}{22}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Impact of Inflation on Economic Evaluation}{22}{subsection.8.4}%
