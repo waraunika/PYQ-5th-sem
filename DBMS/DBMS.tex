@@ -5,7 +5,7 @@
 \usepackage{xcolor}
 \usepackage{graphicx}
 \usepackage{xparse}
-\usepackage{enumitem}
+\usepackage{enumitem, inconsolata}
 \parindent 0px
 \newcommand{\lb}{\\$\left|\rightarrow\right.$}
 \newcommand{\ra}{\rightarrow}
@@ -988,21 +988,55 @@
     \pagebreak
 \section{Query Processing and Optimization}
     \begin{center}(4 Hours/8 Marks)\end{center}
-        \begin{enumerate}[noitemsep, topsep=0pt]
-            \item Explain about the steps involved in query processing with necessary diagram. \hfill [4] (\bo{\texttt{81 Bh}})
-
-            \item Briefly outline the Query Porcessing and optimization. \hfill [3] (\texttt{81 Ba})
-        \end{enumerate}
+     \begin{enumerate}[noitemsep, topsep=0pt]
+        	\item Define query processing. \hfill [1] (\bo{78 Ch})
+        	
+        \item Explain about the steps involved in query processing. 
+        \enter\hfill [2] \begin{footnotesize} (\bo{\texttt{80 Bh}}) \end{footnotesize} [3] \begin{footnotesize}(\bo{78 Ch})\end{footnotesize} [4] \begin{footnotesize}(\bo{76 Bh})\end{footnotesize} [5] \begin{footnotesize} (\bo{77 Ch})\end{footnotesize}
+        		\lb with necessary diagram. \hfill [4] (\bo{\texttt{81 Bh}, 80 Ch}, \texttt{80 Ba}) [5] (\bo{79 Ch}, 76 Ba)
+        		\lb with examples. \hfill [4] (\bo{\texttt{79 Bh}})
+            
+     	\item Briefly outline the Query Porcessing and optimization. \hfill [3] (\texttt{81 Ba})
+  	\end{enumerate}
+        
     \subsection{Pipelining}
         \begin{enumerate}[noitemsep, topsep=0pt]
-            \item Briefly explain about the pipelining approaches used for evaluation of query. [4] (\bo{\texttt{81 Bh}})
+			\item What is pipelining in query evaluation. Explain with an example. \hfill [3] (76 Ba)     
+        
+            \item Briefly explain about the pipelining approaches used for evaluation of query. \hfill [4] (\bo{\texttt{81 Bh}})
+            
+            \item How is pipeline approach different from materialization approach? \hfill [4] (\bo{78 Ch})
+            
+            \item Explain how pipelining can be used to improve query evaluation of efficiency. \hfill [3] (\bo{77 Ch})
         \end{enumerate}
+        
     \subsection{Query Cost Estimation}
     \subsection{Query Operations}
     \subsection{Evaluation of Expressions}
+        \begin{enumerate}[noitemsep, topsep=0pt]            
+            \item What is pipelining evaluation in a query? Explain with an example. \hfill [3] (\bo{79 Ch})
+            
+			\item Discuss the methods used for evaluation of entire expression tree. \hfill [3] (\bo{76 Bh})    			
+    			
+    			\item (Assumed) Transform the following relational algebra expression using equivalence rule. Show each step involved. \hfill [6] (\bo{\texttt{80 Bh}})\\
+    			instructor (ID, name, dept\_name, salary)\\
+    			teaches (ID, course\_id, sec\_id, semester, year)\\
+    			course (course\_id, title, dept\_name, credits)\\
+    			$\Pi_{\text{name, title}} \left( 
+    \sigma_{\text{dept\_name}} = \text{``Music"} \char`\^ \text{year} = 2017 \right.$
+			\enter\hspace{2cm}$ (\text{instructor}) \bowtie \left( \text{teaches} \bowtie \Pi_{\text{course\_id, title}} (\text{course}) \right)
+)) $
+    		\end{enumerate}
+    		
     \subsection{Query Optimization}
         \begin{enumerate}[noitemsep, topsep=0pt]
-            \item Optimize the given tree. \hfill [5] (\texttt{81 Ba})
+        		\item What are the different approaches for Query Optimization? Explain in brief. \hfill [4] (\bo{80 Ch})
+        		
+        		\item Explain the differences between cost-based and heruistics based methods of query optimization.
+        		\enter\hfill [4] (\bo{\texttt{79 Bh}}) [5] (\texttt{80 Ba})
+        		
+            \item Optimize the given tree. \hfill [5] (\texttt{81 Ba})\\
+            \includegraphics[width=4in]{dbms_1}
         \end{enumerate}
     \subsection{Query Decomposition}
     \subsection{Performance Tuning}

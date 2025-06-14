@@ -37,29 +37,29 @@
 \contentsline {subsection}{\numberline {5.3}Query Operations}{26}{subsection.5.3}%
 \contentsline {subsection}{\numberline {5.4}Evaluation of Expressions}{26}{subsection.5.4}%
 \contentsline {subsection}{\numberline {5.5}Query Optimization}{26}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}Query Decomposition}{26}{subsection.5.6}%
-\contentsline {subsection}{\numberline {5.7}Performance Tuning}{26}{subsection.5.7}%
-\contentsline {section}{\numberline {6}File Structure and Hashing}{27}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Records Organizations}{27}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Disks and Storage}{27}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Remote Backup System}{27}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Hashing Concepts, Static and Dynamic Hashing}{27}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}Order Indices}{27}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}B+ tree index}{27}{subsection.6.6}%
-\contentsline {section}{\numberline {7}Transactions processing andConcurrency Control}{28}{section.7}%
-\contentsline {subsection}{\numberline {7.1}ACID properties}{28}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Concurrent Executions}{28}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Serializability Concept}{28}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Lock based Protocols}{28}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Deadlock handling and Prevention}{28}{subsection.7.5}%
-\contentsline {section}{\numberline {8}Crash Recovery}{29}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Failure Classification}{29}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Recovery and Atomicity}{29}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Log‐based Recovery}{29}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Shadow paging}{29}{subsection.8.4}%
-\contentsline {subsection}{\numberline {8.5}Advanced Recovery Techniques}{29}{subsection.8.5}%
-\contentsline {section}{\numberline {9}Advanced database Concepts}{30}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Concept of Objet‐Oriented and Distributed Database Model}{30}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Properties of Parallel and Distributed Databases}{30}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Concept of Data warehouse Database}{30}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}Concept of Spatial Database}{30}{subsection.9.4}%
+\contentsline {subsection}{\numberline {5.6}Query Decomposition}{27}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Performance Tuning}{27}{subsection.5.7}%
+\contentsline {section}{\numberline {6}File Structure and Hashing}{28}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Records Organizations}{28}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Disks and Storage}{28}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Remote Backup System}{28}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Hashing Concepts, Static and Dynamic Hashing}{28}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Order Indices}{28}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}B+ tree index}{28}{subsection.6.6}%
+\contentsline {section}{\numberline {7}Transactions processing andConcurrency Control}{29}{section.7}%
+\contentsline {subsection}{\numberline {7.1}ACID properties}{29}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Concurrent Executions}{29}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Serializability Concept}{29}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Lock based Protocols}{29}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Deadlock handling and Prevention}{29}{subsection.7.5}%
+\contentsline {section}{\numberline {8}Crash Recovery}{30}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Failure Classification}{30}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Recovery and Atomicity}{30}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Log‐based Recovery}{30}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Shadow paging}{30}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Advanced Recovery Techniques}{30}{subsection.8.5}%
+\contentsline {section}{\numberline {9}Advanced database Concepts}{31}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Concept of Objet‐Oriented and Distributed Database Model}{31}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Properties of Parallel and Distributed Databases}{31}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Concept of Data warehouse Database}{31}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Concept of Spatial Database}{31}{subsection.9.4}%
