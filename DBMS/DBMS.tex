@@ -989,25 +989,32 @@
 \section{Query Processing and Optimization}
     \begin{center}(4 Hours/8 Marks)\end{center}
      \begin{enumerate}[noitemsep, topsep=0pt]
-        	\item Define query processing. \hfill [1] (\bo{78 Ch})
+        	\item Define query processing. \hfill [1] (\bo{78 Ch}) [2] (73 Ma)
         	
         \item Explain about the steps involved in query processing. 
-        \enter\hfill [2] \begin{footnotesize} (\bo{\texttt{80 Bh}}) \end{footnotesize} [3] \begin{footnotesize}(\bo{78 Ch})\end{footnotesize} [4] \begin{footnotesize}(\bo{76 Bh})\end{footnotesize} [5] \begin{footnotesize} (\bo{77 Ch})\end{footnotesize}
-        		\lb with necessary diagram. \hfill [4] (\bo{\texttt{81 Bh}, 80 Ch}, \texttt{80 Ba}) [5] (\bo{79 Ch}, 76 Ba)
+        \enter\hfill [2] \begin{footnotesize}(\bo{\texttt{80 Bh}})\end{footnotesize} [3] \begin{footnotesize}(\bo{78 Ch, 74 Bh})\end{footnotesize} [4] \begin{footnotesize}(\bo{76 Bh, 73 Bh})\end{footnotesize} [5] \begin{footnotesize}(\bo{77 Ch})\end{footnotesize} [6] \begin{footnotesize}(\bo{72 Ash, 68 Bh}, 68 Ma)\end{footnotesize}
+        		\lb with necessary diagram. \hfill [4] (\bo{\texttt{81 Bh}, 80 Ch}, \texttt{80 Ba}) [5] (\bo{79 Ch, 75 Bh}, 76 Ba) [6] (72 Ma)
         		\lb with examples. \hfill [4] (\bo{\texttt{79 Bh}})
             
      	\item Briefly outline the Query Porcessing and optimization. \hfill [3] (\texttt{81 Ba})
+     	
+     	\item What is task of evaluation engine in query processing? \hfill [4] (75 Ba)
+     	
+     	\item (No idea where this belongs:) What is the significance of materilazied views? 
+     	\enter\hfill [2] (\bo{72 Ash, 68 Bh})
   	\end{enumerate}
         
     \subsection{Pipelining}
         \begin{enumerate}[noitemsep, topsep=0pt]
-			\item What is pipelining in query evaluation. Explain with an example. \hfill [3] (76 Ba)     
+			\item What is pipelining in query evaluation. \hfill [2] (72 Ma)
+			\lb Explain with an example. \hfill [3] (76 Ba)     
         
             \item Briefly explain about the pipelining approaches used for evaluation of query. \hfill [4] (\bo{\texttt{81 Bh}})
             
-            \item How is pipeline approach different from materialization approach? \hfill [4] (\bo{78 Ch})
+            \item How is pipeline approach different from materialization approach? \hfill [4] (\bo{78 Ch}) [5] (\bo{74 Bh})
             
-            \item Explain how pipelining can be used to improve query evaluation of efficiency. \hfill [3] (\bo{77 Ch})
+            \item Explain how pipelining can be used to improve query evaluation of efficiency.
+            \enter\hfill [3] (\bo{77 Ch}) [4] (\bo{70 Bh})
         \end{enumerate}
         
     \subsection{Query Cost Estimation}
@@ -1016,7 +1023,16 @@
         \begin{enumerate}[noitemsep, topsep=0pt]            
             \item What is pipelining evaluation in a query? Explain with an example. \hfill [3] (\bo{79 Ch})
             
-			\item Discuss the methods used for evaluation of entire expression tree. \hfill [3] (\bo{76 Bh})    			
+            \item Explain the process how a query is evaluated in RDBMS systems. \hfill [3] (70 Ma)
+            
+			\item Discuss the methods used for evaluation of entire expression tree. \hfill [3] (\bo{76 Bh})   
+			\lb Explain the various approaches used to evaluate any expression with suitable example. 
+			\enter\hfill [6] (73 Ma) 			
+			
+			\item Explain the difference between materialzation and pipelining methods for query evaluation 
+			\enter\hfill [3] (71 Ma)
+    			
+			\item What are the major disadvantages of using materialization approach for evaluation of expression? And how does pipeling approach overcome those disadvantages? \hfill [6] (65 Ka)    			
     			
     			\item (Assumed) Transform the following relational algebra expression using equivalence rule. Show each step involved. \hfill [6] (\bo{\texttt{80 Bh}})\\
     			instructor (ID, name, dept\_name, salary)\\
@@ -1030,13 +1046,28 @@
     		
     \subsection{Query Optimization}
         \begin{enumerate}[noitemsep, topsep=0pt]
+			\item Write short notes on: Query optimization. \hfill [5] (\bo{67 Mng})        		
+        		
         		\item What are the different approaches for Query Optimization? Explain in brief. \hfill [4] (\bo{80 Ch})
+        		
+        		\item How are equivalence rules for relational algebra helpful for query optimization? Explain with example. \hfill [3] (\bo{75 Bh}) [5] (70 Ma)
+        		
+			\item What is cost-based optimization. \hfill [2] (\bo{69 Bh})        		
+        		
+			\item Explain cost based query optimization and Heuristic optimization.
+			\enter\hfill [3] (\bo{71 Bh}) [4] (\bo{73 Bh}, 75 Ba)        		
+			\item Explain how a DBMS chooses an appropriate query execution plan for optimized query execution. \hfill [5] (71 Ma)
+			\lb Explain the process of query optimization. \hfill [6] (\bo{69 Bh})
         		
         		\item Explain the differences between cost-based and heruistics based methods of query optimization.
         		\enter\hfill [4] (\bo{\texttt{79 Bh}}) [5] (\texttt{80 Ba})
         		
-            \item Optimize the given tree. \hfill [5] (\texttt{81 Ba})\\
-            \includegraphics[width=4in]{dbms_1}
+            \item Optimize the given tree. \\
+            a. \includegraphics[width=4in]{dbms_1} \hfill [5] (\texttt{81 Ba})\\
+            b. \includegraphics[width=4in]{dbms_2} \hfill [2] (68 Ma)
+            
+            \item How can you optimize the following query? \hfill [5] (\bo{71 Bh})\\
+            $\Pi_{\text{name, title}}\left(\sigma_{\text{dept\_name=``Music"}}(\text{instructor} \bowtie \Pi_{\text{course\_id, title}} (\text{teaches} \bowtie \text{course}))\right)$
         \end{enumerate}
     \subsection{Query Decomposition}
     \subsection{Performance Tuning}
