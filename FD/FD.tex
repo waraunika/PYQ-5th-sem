@@ -300,6 +300,9 @@ $\alpha_{max}$ = 0.25dB, $\alpha_{min}$ = 18dB \hfill[2] (\bo{72 Ch})
 \begin{center}(7 Hours/13 Marks)\end{center}
 \subsection{One-port passive circuits}
 \subsubsection{Properties of passive circuits, positive real functions}
+	\begin{enumerate}[noitemsep, topsep=0pt]
+		\item What are the required properties of a function to be realizable? \hfill [3] (71 Shr)
+	\end{enumerate}
 \subsubsection{Properties of lossless circuits}
 \begin{enumerate}[noitemsep, topsep=0pt]
 	\item Write the properties of lossless one port network. \hfill [2] (\bo{81 Bh}, 76 Ash, 74 Ash) [3] (\bo{78 Bh, 76 Ch})
@@ -338,6 +341,9 @@ Z(S) &= \frac{S^5+10S^3+24S}{S^4+6S^2+5}
 	
 	\item Realize the given function using Cauer-I and Cauer-II method. \hfill [6] (72 Ka)\\
 	$Z(s) = \dfrac{4s^4+40s^2+36}{s^3+4s}$
+	
+	\item Realize the following LC function using Cauer II method. $Z(s) = \dfrac{s(s^2+3)}{(s^2+1)(s^2+4)}$ \hfill [4] (70 Asa)
+	
 	
 	\item Which of the following function is valid LC driving point impedance function? State with reason.
 $Z(s) = \dfrac{8s^3+10s}{s^4+6s^2+5}$,\hspace*{1cm}    $Z(s) = \dfrac{(s^2+4)(s^2+9)}{(s^2+16)(s^2+25)}$ \hfill [3+3] (\texttt{81 Ba})\\
@@ -394,11 +400,32 @@ Find the Cauer second from of valid driving point impedance function.
 	$Z_2(s)=\dfrac{(s^2+2)(s^2+10)}{s(s^2+5)}$ \hspace{2cm}
 	$Z_3(s)=\dfrac{s^2+25}{s(s^2+5)(s^2+50)}$
 	
+	\item Which of the following functions are LC driving point impedance function and why? Also find the Foster series and Caucer II Realization of the valid LC driving point impedance function.\\
+	$Z(s) = 2\dfrac{(s^2+4)(s^2+16}{(s^2+1)(s^2+9}$ \hspace{2cm}
+	$Z(s) = 4\dfrac{(s+2)(s+5)}{(s+1)(s+4)}$ \hfill [2+3+3] (\bo{71 Ch})
+	
+	\item Which of the following functions are LC driving point impedance function and why? Pick one of the valid LC driving point impedance and synthesize it in Foster-I and Caver-I form:\\
+	$Z_1(s) = \dfrac{(s^2+1)(s^2+5}{(s^2+2)(s^2+10)}$ \hspace{2cm}
+	$Z_2(s) = \dfrac{5s(s^4+4)}{(s^2+1)(s^2+3)}$ \hfill [2+3+3] (\bo{70 Ch})\\
+	$Z_3(s) = \dfrac{2(s^2+1)(s^2+9)}{s(s^2+4)}$ \hspace{2cm}
+	$Z_4(s) = 4\dfrac{(s+2)(s+5)}{(s+1)(s+4)}$
+	
+	\item Which of the following functions are LC driving point impedance and why? \hfill [4+3] (\bo{69 Ch})\\
+	$Z(s) = \dfrac{s(s^2+4)}{(s^2+9)(s^2+16)}$, \hspace{2cm}
+	$Z(s) = \dfrac{s(s^2+1)(s^2+9)}{(s^2+4)(s^2+16)}$ \\
+	$Z(s) = \dfrac{s(s^2+4)}{2(s^2+1)(s^2+9)}$, \hspace{2cm}
+	$Z(s) = \dfrac{2(s+1)(s+3)}{(s+2)(s+4)}$\\
+	Also find the Cauer II realization of the valid LC driving point impedance function.
+	
 	\item Synthesize a two port LC ladder to satisfy the following open circuit impedance parameters: $z_{21}(s) = \dfrac{k(s^2+9}{s(s^2+4}$; $z_{22}(s) = \dfrac{(s^2+1)}{s(s^2+4)}$ \hfill [7] (72 Ka)
 \end{enumerate}
 \subsubsection{Properties and synthesis of RC one-port circuits}
 \begin{enumerate}
 	\item What are the properties of RC impedance function?\hfill [2] (\bo{74 Ch}) [3] (\bo{75 Ch}, \texttt{80 Ba}, 80 Ba)
+	\lb Explain with example. \hfill [4] (70 Asa)
+	
+	\item Synthesize the given RC impedance in Foster and Cauer form.\hfill[3+3] (\texttt{80 Ba})\\
+$Z(s) = \dfrac{3(s+2)(s+4)}{s(s+3)}$
 	
 	\item Which of the following are valid RC driving point impedance function and why? \hfill [5] (80 Ba)\\
 	$Z(s) = \dfrac{\text{(s+3)(s+6)}}{\text{(s+1)(s+5)}}$, \hspace{1cm} $Z(s) = \dfrac{\text{2(s+1)(s+3)}}{\text{(s+2)(s+4)}}$\\
@@ -412,14 +439,17 @@ Find the Cauer second from of valid driving point impedance function.
 	
 	\item Which of the following functions are lossless impedance function? State with reason. 
 	\enter\hfill [2+3+3] (\bo{73 Ch})\\
-	$\dfrac{(s^2+1)(s^2+9)}{(s^2+4)(s^2_16)}$ \hspace{1cm}
+	$\dfrac{(s^2+1)(s^2+9)}{(s^2+4)(s^2+16)}$ \hspace{1cm}
 	$\dfrac{s(s^2+4)}{(s^2+1)(s^2+3)}$ \hspace{1cm}
 	$\dfrac{2(s^2+1)(s^2+9)}{s(s^2+4)}$ \hspace{1cm}
 	$\dfrac{s^5+4s^3+5s}{s^4+5s^2+6}$\\
 	Synthesize one of the valid lossless impedance function using Foster I and Cauer I forms.	
 	
-	\item Synthesize the given RC impedance in Foster and Cauer form.\hfill[3+3] (\texttt{80 Ba})\\
-$Z(s) = \dfrac{3(s+2)(s+4)}{s(s+3)}$
+	\item Which of the following function is valid RC admittance function? State with reason. Realize one of the RC admittance function in Foster II and RC ladder form. \hfill [2+3+3] (71 Shr)\\
+	$Y(s) = \dfrac{(s+1)(s+3)}{(s+2)(s+4)}$, \hspace{2cm}
+	$Y(s) = \dfrac{(s^2+1)(s^2+3)}{(s^2+2)(s^2+4)}$\\
+	$Y(s) = \dfrac{(s+2)(s+4)}{(s+1)(s+3)}$, \hspace{2cm}
+	$Y(s) = \dfrac{(s+1)(s+3)}{s(s+2)(s+4)}$
 \end{enumerate}
 
 \subsection{Two-port Passive Circuits}
@@ -427,15 +457,17 @@ $Z(s) = \dfrac{3(s+2)(s+4)}{s(s+3)}$
 	\item What do you mean by 2-port network? \hfill [1] (\bo{\texttt{81 Bh}}) 
 \end{enumerate}
 \subsubsection{Properties of passive two-port circuits, residue condition, transmission zeros}
-\begin{enumerate}
+\begin{enumerate}[noitemsep, topsep=0pt]
+	\item Explain the properties of lossless two port function. \hfill [3+3] (71 Shr)
+
 	\item What is called poles and transmission poles. \hfill [1] (\bo{80 Bh})
 
 	\item Define transmission zeros in two port network.
-	\enter\hfill [1] \begin{footnotesize}(\bo{\texttt{80 Bh}, 80 Bh, 76 Ch, 75 Ch, 74 Ch, 73 Ch, 72 Ch}, \texttt{81 Ba}, 80 Ba, 79 Ba, 75 Ash)\end{footnotesize} [2] \begin{footnotesize}(\bo{\texttt{79 Bh}})\end{footnotesize}
+	\enter\hfill [1] \begin{footnotesize}(\bo{\texttt{80 Bh}, 80 Bh, 76 Ch, 75 Ch, 74 Ch, 73 Ch, 72 Ch, 71 Ch, 70 Ch}, \texttt{81 Ba}, 80 Ba, 79 Ba, 75 Ash, 70 Asa)\end{footnotesize} [2] \begin{footnotesize}(\bo{\texttt{79 Bh}})\end{footnotesize}
 	
 	\item How can zeros of transmission be realized in ckts?
 	\lb Explain with suitable diagrams. \hfill [4] (\bo{\texttt{79 Bh}, 76 Ch}) [5] (\bo{75 Ch}, \texttt{81 Ba})
-	\lb Explain with examples. \hfill [3] (79 Ba) [4] (\bo{74 Ch, 73 Ch, 72 Ch})
+	\lb Explain with examples. \hfill [3] (79 Ba) [4] (\bo{74 Ch, 73 Ch, 72 Ch, 71 Ch}, 70 Asa)
 	
 	\item What are the different ways of producing zeros in a network realization? \hfill [3] (\bo{80 Bh})
 	\lb Explain with examples. \hfill [5] (80 Ba)
@@ -451,8 +483,10 @@ $Z(s) = \dfrac{3(s+2)(s+4)}{s(s+3)}$
 	\item How is zero shifting useful for two port networks synthesis? Explain with examples. \hfill [4] (81 Ba)
 	
 	\item What is zero shifting by partial removal of pole? \hfill [1] (73 Shr)
-	\lb Explain w/ suitable example.\hfill [3] (\bo{\texttt{80 Bh}}, 75 Ash) [5] (\texttt{80 Ba})
+	\lb Explain w/ suitable example.\hfill [3] (\bo{\texttt{80 Bh}}, 75 Ash) [4] (\bo{71 Ch, 69 Ch}) [5] (\texttt{80 Ba})
 	\lb Explain its signficance with example. \hfill [5] (\bo{78 Bh})
+	
+	\item Explain importance of zero shifting in two port network synthesis. \hfill [2] (\bo{69 Ch})
 
 	\item What do you mean by partial removal and complete of pole in the synthesis of 2-port lossless ladder network? Explain w/ examples. \hfill [6] (\bo{79 Bh})
 	\lb How can two-port passive circuits be synthesized using zero-shifting by partial pole removal? Explain. \hfill [4] (73 Shr)

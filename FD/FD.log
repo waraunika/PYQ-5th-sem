@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.6.11)  16 JUN 2025 08:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.6.11)  16 JUN 2025 12:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -526,54 +526,54 @@ File: fd_7.png Graphic file (type png)
 <use fd_7.png>
 Package pdftex.def Info: fd_7.png  used on input line 295.
 (pdftex.def)             Requested size: 289.07999pt x 106.70421pt.
- [10 <./fd_8.png> <./fd_10.png> <./fd_6.png> <./fd_7.png>] [11]
-Overfull \hbox (18.92009pt too wide) in paragraph at lines 392--396
+ [10 <./fd_8.png> <./fd_10.png> <./fd_6.png> <./fd_7.png>] [11] [12]
+Overfull \hbox (18.92009pt too wide) in paragraph at lines 398--402
 \OML/cmm/m/it/12 Z[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 ) = []$ 
   $\OML/cmm/m/it/12 Z[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 ) = [
 ]$   $\OML/cmm/m/it/12 Z[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 ) 
 = []$ 
  []
 
-[12] [13] [14] [15] [16] [17] [18]
-<fd_4.png, id=573, 567.11874pt x 165.61874pt>
+[13] [14] [15] [16] [17] [18]
+<fd_4.png, id=581, 567.11874pt x 165.61874pt>
 File: fd_4.png Graphic file (type png)
 <use fd_4.png>
-Package pdftex.def Info: fd_4.png  used on input line 556.
+Package pdftex.def Info: fd_4.png  used on input line 590.
 (pdftex.def)             Requested size: 264.46837pt x 77.23683pt.
 
-Overfull \hbox (378.34496pt too wide) in paragraph at lines 560--565
+Overfull \hbox (378.34496pt too wide) in paragraph at lines 594--599
 \OT1/cmr/m/n/12 The nec-es-sary in-for-ma-tion is listed in the given ta-ble be
 low:|  [8] (81 Ba) [] 
  []
 
 [19 <./fd_4.png>]
-<fd_1.png, id=586, 762.85pt x 316.18124pt>
+<fd_1.png, id=594, 762.85pt x 316.18124pt>
 File: fd_1.png Graphic file (type png)
 <use fd_1.png>
-Package pdftex.def Info: fd_1.png  used on input line 588.
+Package pdftex.def Info: fd_1.png  used on input line 622.
 (pdftex.def)             Requested size: 264.46837pt x 109.61334pt.
  [20 <./fd_1.png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 596.
+(hyperref)                than one, level fixed on input line 630.
 
-<fd_2.png, id=598, 716.6775pt x 544.0325pt>
+<fd_2.png, id=606, 716.6775pt x 544.0325pt>
 File: fd_2.png Graphic file (type png)
 <use fd_2.png>
-Package pdftex.def Info: fd_2.png  used on input line 597.
+Package pdftex.def Info: fd_2.png  used on input line 631.
 (pdftex.def)             Requested size: 289.07999pt x 219.44373pt.
-<fd_3.png, id=599, 759.83875pt x 212.795pt>
+<fd_3.png, id=607, 759.83875pt x 212.795pt>
 File: fd_3.png Graphic file (type png)
 <use fd_3.png>
-Package pdftex.def Info: fd_3.png  used on input line 600.
+Package pdftex.def Info: fd_3.png  used on input line 634.
 (pdftex.def)             Requested size: 289.07999pt x 80.95709pt.
 [21 <./fd_2.png> <./fd_3.png>] (./FD.aux)
 Package rerunfilecheck Info: File `FD.out' has not changed.
 (rerunfilecheck)             Checksum: F2A20BE95C06D35089E3F913118867A0;19210.
  ) 
 Here is how much of TeX's memory you used:
- 11468 strings out of 477985
- 176257 string characters out of 5839380
+ 11476 strings out of 477985
+ 176321 string characters out of 5839380
  1869388 words of memory out of 6000000
  31274 multiletter control sequences out of 15000+600000
  526142 words of font info for 84 fonts, out of 8000000 for 9000
@@ -595,10 +595,10 @@ amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pf
 b>
-Output written on FD.pdf (21 pages, 863815 bytes).
+Output written on FD.pdf (21 pages, 865763 bytes).
 PDF statistics:
- 727 PDF objects out of 1000 (max. 8388607)
- 645 compressed objects within 7 object streams
- 228 named destinations out of 1000 (max. 500000)
+ 737 PDF objects out of 1000 (max. 8388607)
+ 655 compressed objects within 7 object streams
+ 236 named destinations out of 1000 (max. 500000)
  563 words of extra memory for PDF output out of 10000 (max. 10000000)
 
