@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.6.9)  11 JUN 2025 08:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.6.11)  16 JUN 2025 08:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -313,9 +313,29 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count285
 \enitdp@description=\count286
 )
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/inconsolata.sty
+Package: inconsolata 2019/05/17 v1.12
+
+`inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
+(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks24
+\XKV@tempa@toks=\toks25
+)
+\XKV@depth=\count287
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+\zifour@ocount=\count288
+)
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count287
+\l__color_backend_stack_int=\count289
 \l__pdf_internal_box=\box54
 )
 (./FD.aux)
@@ -381,17 +401,17 @@ Package hyperref Info: Link coloring OFF on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count288
+\scratchcounter=\count290
 \scratchdimen=\dimen165
 \scratchbox=\box55
-\nofMPsegments=\count289
-\nofMParguments=\count290
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count291
+\nofMPsegments=\count291
+\nofMParguments=\count292
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count293
 \MPscratchDim=\dimen166
-\MPnumerator=\count292
-\makeMPintoPDFobject=\count293
-\everyMPtoPDFconversion=\toks25
+\MPnumerator=\count294
+\makeMPintoPDFobject=\count295
+\everyMPtoPDFconversion=\toks27
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -401,6 +421,10 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
 LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
 
 
@@ -412,16 +436,26 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+LaTeX Font Info:    Trying to load font information for OT1+zi4 on input line 4
+8.
+
+(/usr/share/texlive/texmf-dist/tex/latex/inconsolata/ot1zi4.fd
+File: ot1zi4.fd 2018/01/14 OT1/zi4 (Inconsolata)
+)
+LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
+(Font)              scaled to size 12.0pt on input line 48.
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-di
-st/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./FD.toc [2])
+st/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texlive/texmf-dist/fon
+ts/enc/dvips/inconsolata/i4-ot1-0.enc}] (./FD.toc [2])
 \tf@toc=\write4
 \openout4 = `FD.toc'.
 
  [3]
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 58.
+LaTeX Font Info:    Font shape `OT1/zi4/b/n' will be
+(Font)              scaled to size 12.0pt on input line 58.
 
 Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
@@ -452,14 +486,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--95
 
  []
 
-<fd_5.png, id=372, 545.03625pt x 185.69376pt>
+<fd_5.png, id=373, 545.03625pt x 185.69376pt>
 File: fd_5.png Graphic file (type png)
 <use fd_5.png>
 Package pdftex.def Info: fd_5.png  used on input line 106.
 (pdftex.def)             Requested size: 289.07999pt x 98.48805pt.
-[5 <./fd_5.png>] [6]
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 224.
+[5 <./fd_5.png>]
+LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
+(Font)              scaled to size 10.95pt on input line 154.
+ [6]
+LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
+(Font)              scaled to size 10.0pt on input line 214.
+LaTeX Font Info:    Font shape `OT1/zi4/b/n' will be
+(Font)              scaled to size 10.0pt on input line 224.
  [7] [8]
 <fd_9.png, id=436, 336.25626pt x 171.64125pt>
 File: fd_9.png Graphic file (type png)
@@ -487,71 +526,79 @@ File: fd_7.png Graphic file (type png)
 <use fd_7.png>
 Package pdftex.def Info: fd_7.png  used on input line 295.
 (pdftex.def)             Requested size: 289.07999pt x 106.70421pt.
- [10 <./fd_8.png> <./fd_10.png> <./fd_6.png> <./fd_7.png>] [11] [12] [13] [14] 
-[15] [16]
-<fd_4.png, id=552, 567.11874pt x 165.61874pt>
+ [10 <./fd_8.png> <./fd_10.png> <./fd_6.png> <./fd_7.png>] [11]
+Overfull \hbox (18.92009pt too wide) in paragraph at lines 392--396
+\OML/cmm/m/it/12 Z[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 ) = []$ 
+  $\OML/cmm/m/it/12 Z[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 ) = [
+]$   $\OML/cmm/m/it/12 Z[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 ) 
+= []$ 
+ []
+
+[12] [13] [14] [15] [16] [17] [18]
+<fd_4.png, id=573, 567.11874pt x 165.61874pt>
 File: fd_4.png Graphic file (type png)
 <use fd_4.png>
-Package pdftex.def Info: fd_4.png  used on input line 483.
+Package pdftex.def Info: fd_4.png  used on input line 556.
 (pdftex.def)             Requested size: 264.46837pt x 77.23683pt.
 
-Overfull \hbox (378.34496pt too wide) in paragraph at lines 487--492
+Overfull \hbox (378.34496pt too wide) in paragraph at lines 560--565
 \OT1/cmr/m/n/12 The nec-es-sary in-for-ma-tion is listed in the given ta-ble be
 low:|  [8] (81 Ba) [] 
  []
 
-[17 <./fd_4.png>]
-<fd_1.png, id=564, 762.85pt x 316.18124pt>
+[19 <./fd_4.png>]
+<fd_1.png, id=586, 762.85pt x 316.18124pt>
 File: fd_1.png Graphic file (type png)
 <use fd_1.png>
-Package pdftex.def Info: fd_1.png  used on input line 515.
+Package pdftex.def Info: fd_1.png  used on input line 588.
 (pdftex.def)             Requested size: 264.46837pt x 109.61334pt.
- [18 <./fd_1.png>]
+ [20 <./fd_1.png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 523.
+(hyperref)                than one, level fixed on input line 596.
 
-<fd_2.png, id=576, 716.6775pt x 544.0325pt>
+<fd_2.png, id=598, 716.6775pt x 544.0325pt>
 File: fd_2.png Graphic file (type png)
 <use fd_2.png>
-Package pdftex.def Info: fd_2.png  used on input line 524.
+Package pdftex.def Info: fd_2.png  used on input line 597.
 (pdftex.def)             Requested size: 289.07999pt x 219.44373pt.
-<fd_3.png, id=577, 759.83875pt x 212.795pt>
+<fd_3.png, id=599, 759.83875pt x 212.795pt>
 File: fd_3.png Graphic file (type png)
 <use fd_3.png>
-Package pdftex.def Info: fd_3.png  used on input line 527.
+Package pdftex.def Info: fd_3.png  used on input line 600.
 (pdftex.def)             Requested size: 289.07999pt x 80.95709pt.
-[19 <./fd_2.png> <./fd_3.png>] (./FD.aux)
+[21 <./fd_2.png> <./fd_3.png>] (./FD.aux)
 Package rerunfilecheck Info: File `FD.out' has not changed.
 (rerunfilecheck)             Checksum: F2A20BE95C06D35089E3F913118867A0;19210.
  ) 
 Here is how much of TeX's memory you used:
- 11069 strings out of 477985
- 168793 string characters out of 5839381
- 1867388 words of memory out of 6000000
- 30915 multiletter control sequences out of 15000+600000
- 525617 words of font info for 82 fonts, out of 8000000 for 9000
+ 11468 strings out of 477985
+ 176257 string characters out of 5839380
+ 1869388 words of memory out of 6000000
+ 31274 multiletter control sequences out of 15000+600000
+ 526142 words of font info for 84 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,8n,76p,666b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on FD.pdf (19 pages, 847704 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4
+b.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/inconsolata/Inconsolata
+-zi4r.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pf
+b>
+Output written on FD.pdf (21 pages, 863815 bytes).
 PDF statistics:
- 700 PDF objects out of 1000 (max. 8388607)
- 620 compressed objects within 7 object streams
- 213 named destinations out of 1000 (max. 500000)
+ 727 PDF objects out of 1000 (max. 8388607)
+ 645 compressed objects within 7 object streams
+ 228 named destinations out of 1000 (max. 500000)
  563 words of extra memory for PDF output out of 10000 (max. 10000000)
 
