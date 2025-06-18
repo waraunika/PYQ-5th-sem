@@ -216,37 +216,58 @@
 		\item Explain the floating-point addition and subtraction process
 		\lb with example. \hfill [3+3] (\bo{\texttt{81 Bh, 79 Bh, 78 Bh}}) [7] (73 Shr)
 		\lb with flowchart and example. \hfill [6] (\texttt{78 Ka}) [10] (\bo{74 Ch})
+		
+		\item Draw a flowchart of floating point subtraction. \hfill [4] (70 Asa)
 	\end{enumerate}
 	\subsection{Subtraction Algorithm}
 	\subsection{Multiplication Algorithm}
 		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item Draw a flowchart for Booth's multiplication algorithm for signed multiplication. \hfill [4] (\texttt{78 Ka}) [5] (\bo{\texttt{81 Bh}})
 			
-			\item Explain booth's algorithm. \hfill [4] (\bo{\texttt{80 Bh}}) [5] (\bo{76 Ch})
+			\item Explain booth's algorithm. \hfill [3] (\bo{70 Ch}) [4] (\bo{\texttt{80 Bh}, 68 Ch, 67 Asa}, 72 Ka) [5] (\bo{76 Ch})
 			\lb with example and give hardware requirement diagram. \hfill [10] (75 Ash)
-			\lb Write the algorithm. \hfill [5] (76 Ash)
+			\lb Explain with hardware algorithm with diagram. \hfill [5] (\bo{72 Ch})
+			\lb Write the algorithm. \hfill [5] (76 Ash, 71 Shr)
+			
+			\item Design a booth multiplication algorithm hardware. \hfill [4] (\bo{71 Ch})
 			
 			\item Multiply using Booth's multiplication algorithm.
 				\lb -6 x 7 \hfill [5] (\bo{\texttt{81 Bh}}, \texttt{80 Ba})
 				\lb -7 x 3 \hfill [6] (\bo{74 Ch})
+				\lb -6 x 12 \hfill [6] (72 Ka)
 				\lb 10 x (-7) \hfill [6] (\texttt{81 Ba})
 				\lb 10 x (-5) \hfill [5] (\bo{76 Ch})
+				\lb 5 x -6 \hfill [4] (\bo{72 Ch})
+				\lb (9) x (-3) \hfill [5] (71 Shr)
+				\lb 23 x -21 \hfill [4] (\bo{68 Ch})
 				\lb 9 x 4 \hfill [6] (\bo{\texttt{80 Bh}})
 				\lb 8 x 4 \hfill [5] (76 Ash)
+				\lb 8 x 9 \hfill [3] (\bo{70 Ch})
+				\lb 6 x 7 \hfill [4] (\bo{67 Asa})
 				\lb -7 x -10 \hfill [4] (\texttt{78 Ka})
 				\lb -6 x -11 \hfill [6] (\bo{75 Ch})
+				\lb -5 x -9 \hfill [5] (\bo{72 Ch})
 		\end{enumerate}
 	\subsection{Division Algorithm}
 		\begin{enumerate}[noitemsep, topsep=0pt]
-			\item Draw the flowchart for Restoring Division. \hfill [4] (\texttt{81 Ba})
+			\item How division operation can be performed? Explain with its hardware implementation. 
+			\enter\hfill [10] (70 Asa)		
+		
+			\item Draw the flowchart for Restoring Division. \hfill [4] (\texttt{81 Ba}, 72 Ka)
+			
 			\item Draw the flowchart for Non-restoring Division. \hfill [4] (\bo{\texttt{79 Bh}})
 			\lb Explain signed binary division algorithm. \hfill [4] (73 Shr)
 			
 			\item Explain non-restoring division algorithm. \hfill [3] (\bo{75 Ch}) [5] (\bo{\texttt{78 Bh}})
 			\lb with flowchart. \hfill [5] (\texttt{80 Ba})
+			\lb with flowchart and example. \hfill [8] (\bo{70 Ch})
 			
-			\item Compare restoring division algorithm with non restoring algorithm. \hfill [6] (\bo{\texttt{80 Bh}}, 76 Ash, 75 Ash)
-			\lb with example. \hfill [6] (\bo{76 Ch})
+			\item Draw the flowchart for division of floating point numbers. \hfill [4] (\bo{72 Ch, 71 Ch})
+			
+			\item Explain floating point division algorithm. \hfill [6] (\bo{68 Ch})
+			
+			\item Compare restoring division algorithm with non restoring algorithm. \hfill [4] (71 Shr) [6] (\bo{\texttt{80 Bh}}, 76 Ash, 75 Ash)
+			\lb with example. \hfill [6] (\bo{76 Ch}) [8] (\bo{68 Ba})
 			
 			\item Divide using restoring division. 
 				\lb $\dfrac{11}{5}$ \hfill [6] (\texttt{81 Ba})

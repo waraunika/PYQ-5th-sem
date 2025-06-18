@@ -1,65 +1,65 @@
-\contentsline {section}{\numberline {1}Introduction to Computer Network}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Computer Network \& Uses}{3}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Networking model: client/server, P2P, active network}{3}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Network Software, Protocols and Standards}{3}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}OSI model and TCP/IP model}{3}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Comparison of OSI and TCP/IP model}{4}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}Data Encapsulation}{4}{subsection.1.6}%
-\contentsline {subsection}{\numberline {1.7}Example network: The Internet, X.25, Frame Relay, Ethernet, VoIP, NGN and MPLS, xDSL}{4}{subsection.1.7}%
-\contentsline {section}{\numberline {2}Physical Layer}{5}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Network monitoring: delay, latency, throughput}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Transmission media: Twisted pair, Coaxial, Fiber optic, Line-of-site, Satellite}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Multiplexing, Circuit switching, Packet switching, VC Switching, Telecommunication switching system (Networking of Telephone exchanges)}{5}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}ISDN: Architecture, Interface, and Signaling}{6}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Data Link Layer}{7}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Functions of Data link layer}{7}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Framing}{7}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Error Detection and Corrections}{7}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Flow Control}{7}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Examples of Data Link Protocol, HDLC, PPP}{7}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}The Medium Access Sub-layer}{7}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}The channel allocation problem}{7}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}Multiple Access Protocols}{7}{subsection.3.8}%
-\contentsline {subsection}{\numberline {3.9}Ethernet}{7}{subsection.3.9}%
-\contentsline {subsection}{\numberline {3.10}Networks: FDDI, ALOHA, VLAN, CSMA/CD, IEEE 802.3(Ethernet), 802.4(Token Bus), 802.5(Token Ring), and 802.1(Wireless LAN)}{7}{subsection.3.10}%
-\contentsline {subsection}{\numberline {3.11}Numericals}{7}{subsection.3.11}%
-\contentsline {section}{\numberline {4}Network Layer}{8}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Internet working and devices: Repeaters, Hubs, Bridges, Switches, Router, Gateway}{8}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Addressing: Internet address, classful address}{8}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Subnetting}{8}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Routing: techniques, static vs. dynamic routing , routing table for classful address}{8}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Routing Protocols: RIP, OSPF, BGP, Unicast and multicast routing protocols}{8}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Routing algorithms: shortest path algorithm, flooding, distance vector routing, link state routing; Protocols: ARP, RARP, IP, ICMP}{8}{subsection.4.6}%
-\contentsline {section}{\numberline {5}Transport Layer}{9}{section.5}%
-\contentsline {subsection}{\numberline {5.1}The transport service: Services provided to the upper layers}{9}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Transport protocols: UDP, TCP}{9}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Port and Socket}{9}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Connection establishment, Connection release}{9}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Flow control and buffering}{9}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}Multiplexing and de-multiplexing}{9}{subsection.5.6}%
-\contentsline {subsection}{\numberline {5.7}Congestion control algorithm: Token Bucket and Leaky Bucket Transport Layer}{9}{subsection.5.7}%
-\contentsline {section}{\numberline {6}Application Layer}{10}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Web: HTTP and HTTPS}{10}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}File Transfer: FTP, PuTTY, WinSCP}{10}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Electronic Mail: SMTP, POP3, IMAP}{10}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}DNS}{10}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}P2PApplications}{10}{subsection.6.5}%
-\contentsline {subsection}{\numberline {6.6}Socket Programming}{10}{subsection.6.6}%
-\contentsline {subsection}{\numberline {6.7}Application server concept proxy caching, Web/Mail/DNS server optimization}{10}{subsection.6.7}%
-\contentsline {subsection}{\numberline {6.8}Concept of traffic analyzer: MRTG, PRTG, SNMP, Packet tracer, Wireshark.}{10}{subsection.6.8}%
-\contentsline {section}{\numberline {7}Introduction to IPV6}{11}{section.7}%
-\contentsline {subsection}{\numberline {7.1}IPv6- Advantages}{11}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Packet formats}{11}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Extension headers}{11}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Transition from IPv4 to IPv6: Dual stack, Tunneling, Header Translation}{11}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Multicasting}{11}{subsection.7.5}%
-\contentsline {section}{\numberline {8}Network Security}{12}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Properties of secure communication}{12}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Principles of cryptography: Symmetric Key and Public Key}{12}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}RSA Algorithm}{12}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Digital Signatures}{12}{subsection.8.4}%
-\contentsline {subsection}{\numberline {8.5}Securing e-mail (PGP)}{12}{subsection.8.5}%
-\contentsline {subsection}{\numberline {8.6}Securing TCP connections (SSL)}{12}{subsection.8.6}%
-\contentsline {subsection}{\numberline {8.7}Network layer security (IPsec, VPN)}{12}{subsection.8.7}%
-\contentsline {subsection}{\numberline {8.8}Securing wireless LANs (WEP)}{12}{subsection.8.8}%
-\contentsline {subsection}{\numberline {8.9}Firewalls: Application Gateway and Packet Filtering, and IDS}{12}{subsection.8.9}%
+\contentsline {section}{\numberline {1}Introduction to Computer Network}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Computer Network \& Uses}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Networking model: client/server, P2P, active network}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Network Software, Protocols and Standards}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}OSI model and TCP/IP model}{4}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Comparison of OSI and TCP/IP model}{5}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Data Encapsulation}{5}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Example network: The Internet, X.25, Frame Relay, Ethernet, VoIP, NGN and MPLS, xDSL}{5}{subsection.1.7}%
+\contentsline {section}{\numberline {2}Physical Layer}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Network monitoring: delay, latency, throughput}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Transmission media: Twisted pair, Coaxial, Fiber optic, Line-of-site, Satellite}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Multiplexing, Circuit switching, Packet switching, VC Switching, Telecommunication switching system (Networking of Telephone exchanges)}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}ISDN: Architecture, Interface, and Signaling}{7}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Data Link Layer}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Functions of Data link layer}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Framing}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Error Detection and Corrections}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Flow Control}{8}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Examples of Data Link Protocol, HDLC, PPP}{8}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}The Medium Access Sub-layer}{8}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}The channel allocation problem}{8}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Multiple Access Protocols}{8}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Ethernet}{8}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}Networks: FDDI, ALOHA, VLAN, CSMA/CD, IEEE 802.3(Ethernet), 802.4(Token Bus), 802.5(Token Ring), and 802.1(Wireless LAN)}{8}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}Numericals}{8}{subsection.3.11}%
+\contentsline {section}{\numberline {4}Network Layer}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Internet working and devices: Repeaters, Hubs, Bridges, Switches, Router, Gateway}{9}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Addressing: Internet address, classful address}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Subnetting}{9}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Routing: techniques, static vs. dynamic routing , routing table for classful address}{9}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Routing Protocols: RIP, OSPF, BGP, Unicast and multicast routing protocols}{9}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Routing algorithms: shortest path algorithm, flooding, distance vector routing, link state routing; Protocols: ARP, RARP, IP, ICMP}{9}{subsection.4.6}%
+\contentsline {section}{\numberline {5}Transport Layer}{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}The transport service: Services provided to the upper layers}{10}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Transport protocols: UDP, TCP}{10}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Port and Socket}{10}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Connection establishment, Connection release}{10}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Flow control and buffering}{10}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Multiplexing and de-multiplexing}{10}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Congestion control algorithm: Token Bucket and Leaky Bucket Transport Layer}{10}{subsection.5.7}%
+\contentsline {section}{\numberline {6}Application Layer}{11}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Web: HTTP and HTTPS}{11}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}File Transfer: FTP, PuTTY, WinSCP}{11}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Electronic Mail: SMTP, POP3, IMAP}{11}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}DNS}{11}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}P2PApplications}{11}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Socket Programming}{11}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}Application server concept proxy caching, Web/Mail/DNS server optimization}{11}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}Concept of traffic analyzer: MRTG, PRTG, SNMP, Packet tracer, Wireshark.}{11}{subsection.6.8}%
+\contentsline {section}{\numberline {7}Introduction to IPV6}{12}{section.7}%
+\contentsline {subsection}{\numberline {7.1}IPv6- Advantages}{12}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Packet formats}{12}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Extension headers}{12}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Transition from IPv4 to IPv6: Dual stack, Tunneling, Header Translation}{12}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Multicasting}{12}{subsection.7.5}%
+\contentsline {section}{\numberline {8}Network Security}{13}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Properties of secure communication}{13}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Principles of cryptography: Symmetric Key and Public Key}{13}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}RSA Algorithm}{13}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Digital Signatures}{13}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Securing e-mail (PGP)}{13}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Securing TCP connections (SSL)}{13}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.7}Network layer security (IPsec, VPN)}{13}{subsection.8.7}%
+\contentsline {subsection}{\numberline {8.8}Securing wireless LANs (WEP)}{13}{subsection.8.8}%
+\contentsline {subsection}{\numberline {8.9}Firewalls: Application Gateway and Packet Filtering, and IDS}{13}{subsection.8.9}%
