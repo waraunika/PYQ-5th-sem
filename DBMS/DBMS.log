@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.6.11)  29 JUN 2025 11:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.6.11)  29 JUN 2025 16:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -500,13 +500,14 @@ File: dbms_2.png Graphic file (type png)
 <use dbms_2.png>
 Package pdftex.def Info: dbms_2.png  used on input line 1067.
 (pdftex.def)             Requested size: 289.07999pt x 238.66376pt.
- [27 <./dbms_1.png> <./dbms_2.png>] [28] [29] [30] [31] (./DBMS.aux)
+ [27 <./dbms_1.png> <./dbms_2.png>] [28] [29] [30] [31] [32]
+(./DBMS.aux)
 Package rerunfilecheck Info: File `DBMS.out' has not changed.
 (rerunfilecheck)             Checksum: A1C4F47FAE89AD85C22C1BA1DB3A36B3;12082.
  ) 
 Here is how much of TeX's memory you used:
- 11716 strings out of 477985
- 179362 string characters out of 5839380
+ 11742 strings out of 477985
+ 179569 string characters out of 5839380
  1866388 words of memory out of 6000000
  31274 multiletter control sequences out of 15000+600000
  523023 words of font info for 73 fonts, out of 8000000 for 9000
@@ -525,10 +526,10 @@ nts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-
 super/sfrm1200.pfb>
-Output written on DBMS.pdf (31 pages, 358049 bytes).
+Output written on DBMS.pdf (32 pages, 360655 bytes).
 PDF statistics:
- 1019 PDF objects out of 1200 (max. 8388607)
- 946 compressed objects within 10 object streams
- 474 named destinations out of 1000 (max. 500000)
+ 1053 PDF objects out of 1200 (max. 8388607)
+ 979 compressed objects within 10 object streams
+ 500 named destinations out of 1000 (max. 500000)
  531 words of extra memory for PDF output out of 10000 (max. 10000000)
 
