@@ -25,66 +25,67 @@
 \contentsline {subsection}{\numberline {3.3}Race Condition}{17}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Mutual Exclusion}{17}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Semaphores and Mutex}{17}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Message Passing}{17}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Monitors}{17}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}Classical Problems of Synchronization: Readers-Writers Problem, Producer Consumer Problem, Dining Philosopher problem}{17}{subsection.3.8}%
-\contentsline {section}{\numberline {4}Memory Management}{18}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Memory address, Swapping and Managing Free Memory Space}{18}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Resident Monitor}{18}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Multiprogramming with Fixed Partition}{18}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Multiprogramming With Variable Partition}{18}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Multiple Base Register}{18}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Virtual Memory Management}{18}{subsection.4.6}%
-\contentsline {subsubsection}{\numberline {4.6.1}Paging}{18}{subsubsection.4.6.1}%
-\contentsline {subsubsection}{\numberline {4.6.2}Segmentation}{18}{subsubsection.4.6.2}%
-\contentsline {subsubsection}{\numberline {4.6.3}Paged Segmentation}{18}{subsubsection.4.6.3}%
-\contentsline {subsection}{\numberline {4.7}Demand Paging}{18}{subsection.4.7}%
-\contentsline {subsection}{\numberline {4.8}Performance}{18}{subsection.4.8}%
-\contentsline {subsection}{\numberline {4.9}Page Replacement Algorithms}{18}{subsection.4.9}%
-\contentsline {subsection}{\numberline {4.10}Allocation of Frames}{18}{subsection.4.10}%
-\contentsline {subsection}{\numberline {4.11}Thrashing}{18}{subsection.4.11}%
-\contentsline {section}{\numberline {5}File Systems}{19}{section.5}%
-\contentsline {subsection}{\numberline {5.1}File: Name, Structure, Types, Access, Attribute, Operations}{19}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Directory and File Paths}{19}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}File System Implementation}{19}{subsection.5.3}%
-\contentsline {subsubsection}{\numberline {5.3.1}Selecting Block Size}{19}{subsubsection.5.3.1}%
-\contentsline {subsubsection}{\numberline {5.3.2}Impact of Block Size Selection}{19}{subsubsection.5.3.2}%
-\contentsline {subsubsection}{\numberline {5.3.3}Implementing File: Contiguous Allocation, Link List Allocation, Link List Allocation with Table, Inode}{19}{subsubsection.5.3.3}%
-\contentsline {subsubsection}{\numberline {5.3.4}Implementing Directory}{19}{subsubsection.5.3.4}%
-\contentsline {subsection}{\numberline {5.4}Impact of Allocation Policy on Fragmentation}{19}{subsection.5.4}%
-\contentsline {subsection}{\numberline {5.5}Mapping File Blocks on The Disk Platter}{19}{subsection.5.5}%
-\contentsline {subsection}{\numberline {5.6}File System Performance}{19}{subsection.5.6}%
-\contentsline {subsection}{\numberline {5.7}Example File Systems: CD ROM file system, MS-DOS file system, Unix File system}{19}{subsection.5.7}%
-\contentsline {section}{\numberline {6}I/O Management and Disk Scheduling}{20}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Principles of I/O Hardware}{20}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Principles of I/O software}{20}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}I/O software Layer}{20}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Disk}{20}{subsection.6.4}%
-\contentsline {subsubsection}{\numberline {6.4.1}Hardware}{20}{subsubsection.6.4.1}%
-\contentsline {subsubsection}{\numberline {6.4.2}Formatting}{20}{subsubsection.6.4.2}%
-\contentsline {subsubsection}{\numberline {6.4.3}Arm scheduling}{20}{subsubsection.6.4.3}%
-\contentsline {subsubsection}{\numberline {6.4.4}Error handling}{20}{subsubsection.6.4.4}%
-\contentsline {subsubsection}{\numberline {6.4.5}Stable Storage}{20}{subsubsection.6.4.5}%
-\contentsline {section}{\numberline {7}Deadlock}{21}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Principles of deadlock}{21}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Deadlock Prevention}{21}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Deadlock Avoidance}{21}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Deadlock Detection}{21}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Recovery from deadlock}{21}{subsection.7.5}%
-\contentsline {subsection}{\numberline {7.6}An Integrated Deadlock Strategies}{21}{subsection.7.6}%
-\contentsline {subsection}{\numberline {7.7}Other Issues: Two phase locking, Communication Deadlock, Livelock, Starvation}{21}{subsection.7.7}%
-\contentsline {section}{\numberline {8}Security}{22}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Security breaches}{22}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Types of Attacks}{22}{subsection.8.2}%
-\contentsline {subsection}{\numberline {8.3}Security Policy and Access Control}{22}{subsection.8.3}%
-\contentsline {subsection}{\numberline {8.4}Basics of Cryptography}{22}{subsection.8.4}%
-\contentsline {subsection}{\numberline {8.5}Protection Mechanisms}{22}{subsection.8.5}%
-\contentsline {subsection}{\numberline {8.6}Authentication}{22}{subsection.8.6}%
-\contentsline {subsection}{\numberline {8.7}OS Design Considerations For Security}{22}{subsection.8.7}%
-\contentsline {subsection}{\numberline {8.8}Access Control Lists And OS Support}{22}{subsection.8.8}%
-\contentsline {section}{\numberline {9}System administration}{23}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Administration Tasks}{23}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}User Account Management}{23}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Start And Shutdown Procedures}{23}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}Setting up Operational Environment for a New User}{23}{subsection.9.4}%
-\contentsline {subsection}{\numberline {9.5}AWK tool, Search, Sort tools, Shell scripts, Make tool}{23}{subsection.9.5}%
+\contentsline {subsection}{\numberline {3.6}Test and Set Lock}{18}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Message Passing}{18}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Monitors}{18}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Classical Problems of Synchronization: Readers-Writers Problem, Producer Consumer Problem, Dining Philosopher problem}{18}{subsection.3.9}%
+\contentsline {section}{\numberline {4}Memory Management}{20}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Memory address, Swapping and Managing Free Memory Space}{20}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Resident Monitor}{20}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Multiprogramming with Fixed Partition}{20}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Multiprogramming With Variable Partition}{20}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Multiple Base Register}{20}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Virtual Memory Management}{20}{subsection.4.6}%
+\contentsline {subsubsection}{\numberline {4.6.1}Paging}{20}{subsubsection.4.6.1}%
+\contentsline {subsubsection}{\numberline {4.6.2}Segmentation}{20}{subsubsection.4.6.2}%
+\contentsline {subsubsection}{\numberline {4.6.3}Paged Segmentation}{20}{subsubsection.4.6.3}%
+\contentsline {subsection}{\numberline {4.7}Demand Paging}{20}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.8}Performance}{20}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.9}Page Replacement Algorithms}{20}{subsection.4.9}%
+\contentsline {subsection}{\numberline {4.10}Allocation of Frames}{20}{subsection.4.10}%
+\contentsline {subsection}{\numberline {4.11}Thrashing}{20}{subsection.4.11}%
+\contentsline {section}{\numberline {5}File Systems}{21}{section.5}%
+\contentsline {subsection}{\numberline {5.1}File: Name, Structure, Types, Access, Attribute, Operations}{21}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Directory and File Paths}{21}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}File System Implementation}{21}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Selecting Block Size}{21}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}Impact of Block Size Selection}{21}{subsubsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.3}Implementing File: Contiguous Allocation, Link List Allocation, Link List Allocation with Table, Inode}{21}{subsubsection.5.3.3}%
+\contentsline {subsubsection}{\numberline {5.3.4}Implementing Directory}{21}{subsubsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.4}Impact of Allocation Policy on Fragmentation}{21}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Mapping File Blocks on The Disk Platter}{21}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}File System Performance}{21}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Example File Systems: CD ROM file system, MS-DOS file system, Unix File system}{21}{subsection.5.7}%
+\contentsline {section}{\numberline {6}I/O Management and Disk Scheduling}{22}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Principles of I/O Hardware}{22}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Principles of I/O software}{22}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}I/O software Layer}{22}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Disk}{22}{subsection.6.4}%
+\contentsline {subsubsection}{\numberline {6.4.1}Hardware}{22}{subsubsection.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.2}Formatting}{22}{subsubsection.6.4.2}%
+\contentsline {subsubsection}{\numberline {6.4.3}Arm scheduling}{22}{subsubsection.6.4.3}%
+\contentsline {subsubsection}{\numberline {6.4.4}Error handling}{22}{subsubsection.6.4.4}%
+\contentsline {subsubsection}{\numberline {6.4.5}Stable Storage}{22}{subsubsection.6.4.5}%
+\contentsline {section}{\numberline {7}Deadlock}{23}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Principles of deadlock}{23}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Deadlock Prevention}{23}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Deadlock Avoidance}{23}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Deadlock Detection}{23}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Recovery from deadlock}{23}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}An Integrated Deadlock Strategies}{23}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.7}Other Issues: Two phase locking, Communication Deadlock, Livelock, Starvation}{23}{subsection.7.7}%
+\contentsline {section}{\numberline {8}Security}{24}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Security breaches}{24}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Types of Attacks}{24}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Security Policy and Access Control}{24}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Basics of Cryptography}{24}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Protection Mechanisms}{24}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}Authentication}{24}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.7}OS Design Considerations For Security}{24}{subsection.8.7}%
+\contentsline {subsection}{\numberline {8.8}Access Control Lists And OS Support}{24}{subsection.8.8}%
+\contentsline {section}{\numberline {9}System administration}{25}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Administration Tasks}{25}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}User Account Management}{25}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Start And Shutdown Procedures}{25}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Setting up Operational Environment for a New User}{25}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}AWK tool, Search, Sort tools, Shell scripts, Make tool}{25}{subsection.9.5}%
