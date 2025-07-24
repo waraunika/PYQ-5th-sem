@@ -193,14 +193,22 @@
 	\subsection{Addressing sequencing}
 		\begin{enumerate}
 			\item Explain address sequencing with the help of a block diagram. \hfill [5] (\bo{\texttt{80 Bh}})
-		\end{enumerate}			
+			
+			\item What is address sequencing? \hfill [3] (\bo{71 Ch, 67 Asa})
+			
+			\item How does a sequencing logic work in micro-programmed control unit to execute a micro-program?
+			\enter\hfill [6] (\bo{70 Ch})
+			\item Explain the address sequencing capabilities required in a control memory. \hfill [5] (\bo{67 Asa})
+		\end{enumerate}
 	
 	\subsection{Computer configuration}
 	
 	\subsection{Microinstruction Format}
 		\begin{enumerate}[noitemsep, topsep=0pt]
-			\item Explain the microinstruction format.  \hfill [3] (\bo{\texttt{80 Bh}}) [4] (\texttt{81 Ba})
-			\lb with example. \hfill [5] (\bo{\texttt{81 Bh}})
+			\item Explain the microinstruction format.  \hfill [3] (\bo{\texttt{80 Bh}}) [4] (\texttt{81 Ba}) [5] (72 Ka)
+			\lb with example. \hfill [5] (\bo{\texttt{81 Bh}}) [6] (71 Shr)
+			\lb Explain various fields in micro-instruction format with neat and clean block diagram.
+			\enter\hfill [3] (\bo{68 Ch})
 		\end{enumerate}
 		
 	\subsection{Symbolic Microinstructions}
@@ -214,7 +222,7 @@
 			
 			\item Differentiate between symbolic and bianry micro instruction. \hfill [4] (\texttt{81 Ba})
 			
-			\item Explain the operation of microprogram sequencer useed in microprogrammed control unit. 
+			\item Explain the operation of microprogram sequencer used in microprogrammed control unit. 
 			\enter\hfill [5] (\bo{\texttt{79 Bh}})
 			
 			\item Explain with diagram the working of microprogram sequencer for control memory. \hfill [6] (78 Ka)
@@ -224,21 +232,50 @@
 			
 			\item Describe various fields in micro-instruction format with diagram showing different fields.
 			\enter\hfill [6] (76 Ash)
+			
+			\item Write micro program for fetch cycle. \hfill [4] (73 Shr)
 		\end{enumerate}
 		
 	\subsection{Control Unit Operation}
+		\begin{enumerate}[noitemsep, topsep=0pt]
+			\item What are the types of control signals? \hfill [3] (\bo{68 Ba})
+		\end{enumerate}
 	
 	\subsection{Design of Control Unit}
 		\begin{enumerate}[noitemsep, topsep=0pt]
-			\item Differentiate between hardwired and microprogrammed control unit. \hfill [5] (\texttt{80 Ba})
+			\item Differentiate between hardwired and microprogrammed control unit. 
+			\enter\hfill [4] (\bo{74 Ch}, 70 Asa) [5] (\bo{75 Ch, 70 Ch}, \texttt{80 Ba})
 			
 			\item Describe the operation of hardwired control unit with a typical diagram. \hfill [5] (\bo{\texttt{79 Bh}})
+			\lb Explain the key steps of hardware implementation of control unit. \hfill [7] (\bo{68 Ba})
 			
 			\item Explain microprogrammed control unit with block diagram. \hfill [5] (\texttt{80 Ba})
 			
 			\item Explain the organization structure of a microprogram control unit and the generation of control signals using microprogram. \hfill [10] (\bo{\texttt{78 Bh}})
 			
 			\item Explain block diagram of micro-programmed control organization. \hfill [4] (76 Ash)
+			
+			\item Draw and explain block diagram of micro-programmed sequencer for control memory.
+			\enter\hfill [5] (\bo{75 Ch})	
+			\lb Draw the diagram of Micro-programmed sequencer for a control memory and explain it. 
+			\enter\hfill [10] (75 Ash)
+			\lb Explain the micro program sequencer used in microprogrammed control unit. \hfill [6] (\bo{74 Ch})
+			
+			\item Explain microinstruction format used in microprogramming control unit. \hfill [6] (73 Shr)
+			
+			\item What factors cause micro-programmed control unit to be selected over hardwired control unit.
+			\enter\hfill [3] (\bo{72 Ch})
+			
+			\item Explain with block diagram, how address of control memory is selected in micro-programmed control unit. \hfill [7] (\bo{72 Ch})
+			\lb Describe how address of control memory is selected. \hfill [7] (\bo{68 Ch})
+			
+			\item Explain the address sequencer with the help of a block diagram. \hfill [5] (72 Ka)
+			
+			\item Explain the selection of address for control memory with its block diagram. \hfill [7] (\bo{71 Ch})
+			
+			\item Explain the organization of a control memory. \hfill [4] (71 Shr)
+			
+			\item Explain with steps involved when you are designing micro-program control unit. \hfill [6] (70 Asa)
 		\end{enumerate}
 
 	\pagebreak
