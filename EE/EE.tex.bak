@@ -42,13 +42,27 @@
 
 \begin{document}
 \maketitle
-\vspace{10cm}
+\vspace{9cm}
 \begin{large}\textbf{Notes}\end{large}
-\begin{itemize}
+\begin{itemize}[noitemsep]
 \item PYQs of BEX/BCT's CE655 and BEI's CE615 are combined.
 \item CE655 are kept with normal font, while \texttt{our CE615 questions are kept in this style}.
 \item 2069 Poush QP has no marking given for any questions. Any and all markings given for 2069 Poush in this document are assumed that will hopefully reflect the actual markings.
 \item The question paper for 67 Mangsir and earlier are of different course. So, there will be inherently different kinds of questions being asked.
+\item Months are marked as: 
+\begin{itemize}[noitemsep]
+	\item Ba: Baisakh
+	\item Jth: Jestha
+	\item Asa: Ashar
+	\item Shr: Shrawan
+	\item Bh: Bhadra
+	\item Ash: Ashwin
+	\item Ka: Kartik
+	\item Mng: Mangsir
+	\item Po: Poush
+	\item Ma: Magh
+	\item Ch: Chaitra
+\end{itemize}
 \end{itemize}
 \pagebreak
 \tableofcontents
@@ -566,7 +580,7 @@
 				\hline
 				Project & A & B \\ \hline
 				Initial Cost & 350,000 & 500,000 \\ \hline
-				Annual O\& M Cost & 130,000 & 175,000 \\ \hline
+				Annual Revenue & 130,000 & 175,000 \\ \hline
 				Annual Cost & 35,000 & 25,000 \\ \hline
 				Salvage Value & 35,000 & 50,000 \\ \hline
 				Useful life & 8 yrs & 8 yrs \\ \hline
@@ -762,7 +776,7 @@
 				Useful life & 6 & 5 \\ \hline
 			\end{tabular}
 
-			\item These projects are being considered with the estimated cash flow over 10 years. Recommend which investement alternative should be selected using IRR method? Assume MARR = 10\%. 
+			\item These projects are being considered with the estimated cash flow over 10 years. Recommend which investment alternative should be selected using IRR method? Assume MARR = 10\%. 
 			\begin{tabular}{|c|c|c|}
 				\hline
 				Project & A & B \\ \hline
@@ -887,7 +901,7 @@
 				\item Use repeatability assumption to select the best project from the following projects. \hfill [6] (\bo{71 Bh})
 				\begin{tabular}{|c|c|c|c|c|}
 					\hline
-					Project & Initial Investement & Annual Expenditure & Useful Life & Salvage Value \\ \hline
+					Project & Initial Investment & Annual Expenditure & Useful Life & Salvage Value \\ \hline
 					A & 100,000 & 25,000 & 3 & 40,000 \\ \hline
 					B & 200,000 & 20,000 & 5 & 50,000 \\ \hline
 					C & 250,000 & 15,000 & 7 & 60,000 \\ \hline
@@ -897,7 +911,7 @@
 				\item Compare following projects by using  repeatibility assumption when MARR is 12\%. \hfill [4] (70 Ma)\\
 				\begin{tabular}{|c|c|c|c|c|c|}
 					\hline
-					Project & Initial Investement & Annual revenue & Annual Costs & Useful Life & Salvage Value \\ \hline
+					Project & Initial Investment & Annual revenue & Annual Costs & Useful Life & Salvage Value \\ \hline
 					A & 200,000 & 25,000 & 7,000 & 6 & 10,000 \\ \hline
 					B & 300,000 & 30,000 & 9,000 & 8 & 20,000 \\ \hline
 				\end{tabular}
@@ -905,7 +919,7 @@
 				\item Recommend the best project from the following information by using repeatability assumption when MARR = 12\%. \hfill [6] (69 Po)\\
 				\begin{tabular}{|c|c|c|c|c|c|}
 					\hline
-					Project & Initial Investement & Annual revenue & Annual Costs & Useful Life & Salvage Value \\ \hline
+					Project & Initial Investment & Annual revenue & Annual Costs & Useful Life & Salvage Value \\ \hline
 					A & 400,000 & 175,000 & 25,000 & 6 & 40,000 \\ \hline
 					B & 700,000 & 250,000 & 35,000 & 9 & 70,000 \\ \hline
 				\end{tabular}
@@ -1005,17 +1019,218 @@
 	\pagebreak
 \section{Replacement Analysis}
 	\begin{center}(8 Hours/12 Marks)\end{center}
-	\begin{enumerate}[noitemsep, topsep = 0pt]
-		\item What do you mean by replacement analysis. \hfill [1] (81 Ash)
-	\end{enumerate}
+
 	\subsection{Fundamentals of Replacement Analysis}
-	\subsubsection{Basic Concepts and Terminology}
-	\subsubsection{Approaches for Comparing Defender and Challenger}
+
+		\subsubsection{Basic Concepts and Terminology}
+			\begin{enumerate}
+				\item Define replacement. \hfill [1] (\bo{75 Bh})
+
+				\item What do you mean by replacement analysis. \hfill [1] (\bo{76 Bh}, 81 Ash, 75 Ba, 68 Po)
+
+				\item List out major cause of replacement. \hfill [1] (81 Ash)
+				\lb What factors should be considered in replacement analysis? \hfill [1] (\bo{76 Bh})
+
+				\item Define defender and challenger. \hfill [2] (\bo{74 Bh})
+
+				\item Define defender, challenger and explain cashflow approach and opportunity cost approach of comparing. \hspace{13.9cm} [3] (\bo{80 Ch})
+
+				\item Define the terms: defender, challenger, ESL, AEC and replacement strategy. \hfill [5] (\bo{\texttt{80 Bh}})
+
+				\item Explain about the sunk cost, economic life and reasons for replacement of an asset. \hfill [8] (\bo{71 Bh})
+
+				\item Why replacement of existing equipment is necessary? \hfill [1] (\bo{80 Ch}) [3] (\bo{75 Bh}) [4] (\bo{70 Bh}, 76 Ba)
+
+				\item Why replacement analysis is necessary in economic analysis? \hfill [2] (\bo{78 Ch})
+			\end{enumerate}
+
+		\subsubsection{Approaches for Comparing Defender and Challenger}
+			\begin{enumerate}
+				\item Distinguish between cash flow approach and opportunity cost approach in replacement.
+				\enter\hfill [1] (81 Ash)
+
+				\item Explain the cash flow approach and opportunity cost approach. \hfill [2] (\bo{77 Ch})
+			\end{enumerate}
+
+		\subsubsection{Numericals}
+			\begin{enumerate}
+				\item Determine the choice between defender and challenger when current market value of defender is Rs. 5,000 and a challenger can be purchased for Rs. 7,500. Both have 3 years service life \& MARR is 12\%. Their operating costs are as follows: \hfill [4] (81 Ash)\\
+				\begin{tabular}{|c|c|c|}
+					\hline
+					Year & Defender & Challenger \\ \hline
+					1 & 1,700 & 500 \\ \hline
+					2 & 2,000 & 1,100 \\ \hline
+					3 & 2,500 & 1,300 \\ \hline
+				\end{tabular}\\
+				Use both cash flow and opportunity cost approach
+
+				\item Consider the following information for the current and proposed equipment:\\
+				\begin{tabular}{|c|c|c|c|c|}
+					\hline
+					& \multicolumn{2}{|c|}{Current Equipment} & \multicolumn{2}{|c|}{Proposed equipment} \\ \hline
+					Year & Salvage value (EOY) & Maintenace cost & Salvage value (EOY) & Maintenace Cost \\ \hline
+					0 & 20,000 & - & 80,000 & - \\ \hline
+					1 & 17,000 & 9,500 & 75,000 & 0 \\ \hline
+					2 & 14,000 & 9,600 & 70,000 & 0 \\ \hline
+					3 & 11,000 & 9,700 & 66,000 & 1,000 \\ \hline
+					4 & 7,000 & 9,800 & 62,000 & 3,000 \\ \hline
+				\end{tabular}\\
+				Both old and new ovens have similar productivities and energy cost. Should the oven be replaced this year? MARR = 10\% per year. \hfill [6] (\bo{79 Ch})
+				\lb Same question, MARR = 12\% per year. \hfill [8] (\bo{80 Ch})
+
+				\item Suppose that the firm has a contract to perform a given service on which current defender or challenger is considered for 8 years with the following annual equipment cost: \\
+				\begin{tabular}{|c|c|c|}
+					\hline
+					EOY & Defender & Challenger \\ \hline
+					1 & -3078 & -5100 \\ \hline
+					2 & -3070 & -4291 \\ \hline
+					3 & -3300 & -4094 \\ \hline
+					4 & -3576 & -4065 \\ \hline
+					5 & -3860 & -4110 \\ \hline
+					6 & & -4189 \\ \hline
+				\end{tabular}\\ 
+				Determine the best replacement strategy. \hfill [7] (77 Po)
+
+				\item A chemical plant owns a filter press that was bought 3 years ago for Rs. 30,000. Now it has a market value of Rs. 9,000 a life of 5 years, and a salvage value of Rs. 2,000 at that time. The challenger has a cost of Rs. 36,000, a life of 5 years and estimated market value of Rs. 112,000 after 5 years. 5 years planning period to be used and the MARR is 15\%. The operating and maintenance cost of the alternatives are given in the following table: \\
+				\begin{tabular}{|c|c|c|}
+					\hline
+					EOY & Defender & Challenger \\ \hline
+					0 & 0 & 0 \\ \hline
+					1 & 7,000 & 0 \\ \hline
+					2 & 8,000 & 1,000 \\ \hline
+					3 & 9,000 & 2,000 \\ \hline
+					4 & 10,000 & 3,000 \\ \hline
+					5 & 11,000 & 4,000 \\ \hline
+				\end{tabular}\\
+				Should the old filter be replaced now? Use cashflow approach. \hfill [6] (76 Ba)
+
+				\item The Annual Equivalent Cost of defender and challenger are given in the table below. What is teh best replacement strategy? Use MARR = 10\%. The planning horizon of the project is 8 years. \\
+				\begin{tabular}{|c|c|c|c|c|c|c|}
+					\hline
+					EOY & 1 & 2 & 3 & 4 & 5 & 6 \\ \hline
+					AEC\sub{D} & 5400 & 5200 & 5500 & 5700 & 6200 & 6600 \\ \hline
+					AEC\sub{C} & 7700 & 6200 & 5700 & 5600 & 5680 & 5900 \\ \hline
+				\end{tabular} \hfill [4] (\bo{71 Bh})
+
+				\item The Annual Equivalent Cost (AEC) of the defender and challenger are given in the table below. What is the best replacement strategy? Use MARR = 12\%. The planning horizon of the project is 8 years. \hfill [8] (\bo{70 Bh})\\
+				\begin{tabular}{|c|c|c|c|c|c|c|}
+					\hline
+					EOY & 1 & 2 & 3 & 4 & 5 & 6 \\ \hline
+					AEC\sub{D} & 5300 & 5250 & 5400 & 5750 & 6200 & 6550 \\ \hline
+					AEC\sub{C} & 7700 & 6150 & 5700 & 5600 & 5675 & 5800 \\ \hline
+				\end{tabular}
+
+				\item Determine the choice between defender and challenger with following information from AEC approach when useful life is 5 years and MARR is 10\%. \\ 
+				\begin{tabular}{|c|c|c|}
+					\hline
+					Item & Defender & Challenger \\ \hline
+					Initial Investment & 25,00,000 & 35,00,000 \\ \hline
+					Annual cost & 10,00,000 & 7,50,000 \\ \hline
+					Salvage value & 5,00,000 & 12,00,000 \\ \hline
+				\end{tabular} \hfill [4] (69 Po)
+			\end{enumerate}
+
 	\subsection{Economic Service Life of Challenger and Defender}
+		\begin{enumerate}
+			\item What do you mean by economic service life? \hfill [1] (75 Ba, 69 Po)
+			\lb Explain. \hfill [2] (\bo{74 Bh, 69 Bh})
+
+			\item Find economic service life of the following asset: \hfill [4] (81 Ash) \enter
+			Initial investment (Rs) 50,000 \enter
+			Operating cost (Rs) 10,000 for the first year and increase by 15\% thereafter \enter
+			Salvage value (Rs) Decrease each year by 20\% from previous year's salvage value \enter
+			Useful life 7 years \enter
+			MARR 15\% per year.
+
+			\item You are going to purchase a new bike costing Rs 4,00,000 12\% interest loan from a bank, the market value of the bike is if assumed to be Rs 3,50,000 after its 1 year use then decreases by Rs 35,000 every year then after, it requires operation and maintenance cost of Rs 65,000 for the first year then increases by 20\% each year, what will be the ESL of this bike? \hfill [7] (\bo{\texttt{80 Bh}})
+
+			\item A 5-year old defender has a current market value of Rs 40,000, except Operation and Maintenance of Rs. 30,000 this year, increasing by Rs. 15,000 per year. Future market values are expected to decline by Rs. 10,000 per year. The Challenger costs Rs. 60,000 and has Operation and Maintenance of Rs. 20,000 per year, increasing by 10,000 each year. Salvage value expected at the end of 5 years is Rs. 20,000. Calculate the economic service life of both defender and challenger.
+			\enter\hfill [8] (\bo{78 Ch})
+
+			\item Suppose a company is considering purchasing a new machine that would cost \$ 1800 and operating cost of \$ 300 in the first year. For the remaining years, Operating Cost increases by 15\% over the previous year's Operating Cost. Similarly,, the salvage value declines each year by 20\% from the previous year's salvage value. The new machine truck has a maximum life of eight years. MARR = 12\% before tax. Find the economic service life to the asset. \hfill [8] (\bo{77 Ch})
+
+			\item A new machine costs \$ 20,000. Future market values are expected to decrease by \$ 2000 each year over the previous year's value. Useful life of the machine is six years. Operating costs are estimated at \$ 3000 during the first year and expected to increase 15\% per year thereafter. MARR = 12\%. Determine the economic service life of the machine. \hfill [4] (\bo{76 Bh})
+
+			\item Find economic service life from the following data. \hfill [8] (\bo{75 Bh})\\
+			Initial cost = Rs 50,000 \\
+			Operating cost = Rs 10,000 for the 1\super{st} year that increases by 15\% thereafter \\
+			Salvage value = Decreases each year by 20\% from previous value \\
+			Useful Life = 7 years \\
+			MARR = 15\% per year
+
+			\item Calculate AECs from the following information and determine economic service life. \hfill [6] (75 Ba)\\
+			I = Rs 18,000 \\
+			N = 8 years \\
+			O \& M = 3,000 for the 1\super{st} year and increases by 15\% thereafter \\
+			S = Decline by 20\% each successive year over than previous price \\
+			MARR = 12\% per year
+
+			\item Company X is going to purchase a router having initial cost Rs. 18,000 having salvage value of Rs. 12,000 at the end of first year and decreases by 20\% each year then after for remaining useful life. Annual operation and maintenance cost is Rs. 5,000 in first year and increases by Rs. 2000 each year. Its useful life is 6 years. Caclulate economic service life of the router. \hfill [8] (\bo{74 Bh})
+
+			\item Find economic service life from the following information. \hfill [8] (\bo{73 Bh}) \\
+			Initial cost = Rs 50,000 \\
+			Operation cost = Rs 10,000 for the 1\super{st} year and increases by 15\% thereafter \\
+			Salvage value = Decline each successive year by 20\% over previous year. \\
+			Useful life = 8 years \\
+			MARR = 15\%
+
+			\item The new machine costs 10,000 operating cost 2200 in first year, then increases by 20\% per year. Market value is 6000 after one year and will decline by 15\% each year N = 5 years. If required, old machine can work another 3 years. Market value now is 5,000 and will decline by 25\% each year. Immediate overhauling to restore to operable condition costs 1200. Operating costs 2000 in the first year increases by 1500 per year thereafter MARR = 15\%. \hfill [8+4] (70 Ma)\\
+			\begin{itemize}[noitemsep, topsep=0pt]
+				\item Find the economic service life of this machine (new)
+				\item AEC of defender is as followings:\\
+				\begin{tabular}{|c|c|c|c|c|}
+					\hline
+					N & 1 & 2 & 3 & 4 \\ \hline
+					AEC & 5380 & 5203 & 5468 & 5845 \\ \hline
+				\end{tabular}\\
+				When should the old machine be replaced with the new machine.
+			\end{itemize}
+
+			\item From the following information find the economic service life of an asset. \hfill [4] (69 Po) \\
+			\begin{tabular}{|c|l|}
+				\hline
+				Initial investment & 50,000 \\ \hline
+				AOC & 10,000 for the 1\super{st} and increasing by 15\% over the previous year \\ \hline
+				Salvage value & Declining each year by 20\% from the previou year's salvage value \\ \hline
+				Useful life & 7 years \\ \hline
+				MARR & 15\% \\ \hline
+			\end{tabular}
+
+			\item Find the economic service life of a new electric lift truck which costs \$ 20,000, have a operating cost of \$ 1000 in the first year and have salvage value of \$ 12,000 at the end of the first year. For the remaining years,  operating costs increase each by 10\% over the previous years operating costs. Similarly the salvage value declines each year by 20\% from the previous years salvage value. The lift truck has a maximum life of 7 years. An overhaul costing of \$ 3000 and \$ 5000 will be required during the fifth and seventh year of service respectively. The firm's required rate of return is 15\% per year. \hfill [10] (\bo{69 Bh})
+
+			\item A firm has a contract to provide printing service to IOE for next 8 years. It can provide the service using its old printing machine (the current defender) or the newly brought machine (the challenger). After the contract work neither the old machine nor the new machine will be ratined. Considering the annual equivalent costs of the old machine and new machine as follows, what are their economic service life? And what is the best replacement strategy? \hfill [10] (\bo{69 Bh})
+		\end{enumerate}
+
 	\subsection{Replacement Analysis When Required Service Life is Long}
-	\subsubsection{Required Assumptions and Decision Framework}
-	\subsubsection{Replacement Analysis under the Infinite Planning Horizon}
-	\subsubsection{Replacement Analysis under the Finite Planning Horizon}
+
+		\subsubsection{Required Assumptions and Decision Framework}
+
+		\subsubsection{Replacement Analysis under the Infinite Planning Horizon}
+			\begin{enumerate}
+				\item Write down the steps for making the replacement decision when planning horizon is infinite.
+				\enter\hfill [3] (77 Po) [4] (\bo{77 Ch, 76 Bh, 73 Bh}, \texttt{81 Ba})
+			\end{enumerate}
+
+		\subsubsection{Replacement Analysis under the Finite Planning Horizon}
+			\begin{enumerate}
+				\item How do you make replacement analysis when planning horizon is finite? \hfill [2] (\bo{78 Ch})
+
+				\item Write step by step process of replacement analysis when the planning horizon is finite and infinite.
+				\enter\hfill [3] (\bo{\texttt{81 Bh}}) [4] (\texttt{81 Ba}, 75 Ba)
+			\end{enumerate}
+
+		\subsubsection{Numericals}
+			\begin{enumerate}
+				\item Find the economic service life of ``Chevrolet Spark 1.0 LT" car which costs Rs. 19,00,000 at first and running since 2012 AD (end). The owner of the car wants to know the economic service life of his car for replacement purpose. He finds out the average mileage of 12km/litre and average daily run of vehicle is 25km throughout 320 days running in a year for the first year then after average operation cost of vehicle increases by Rs. 20,00,000 every year. An average cost of petrol per liter can be assumed to be Rs. 170. The annual maintenance cost for the first year is Rs. 45,000 and increases by 15\% per year then after. Market value of the car will be decreased by 20\% annually in last year's value. Is this year 2024 a replacement year for him? Take MARR = 12\%. 
+				\enter\hfill [8] (\bo{\texttt{81 Bh}})
+
+				\item An existing asset that cost \$ 16,000 two years ago has a market value of \$ 12,000 today, an expected salvage value of \$ 2,000 at the end of its remaining useful life of six more years, and annual operating costs of \$ 4,000. A new asset under consideration as a replacement has an initial cost of \$ 10,000, an expected salvage value of \$ 4,000 at the end of its economic life of three years, and annual operating costs of \$ 2,000. It is assumed that this new asset could be replaced by another one identical in every respect after three years at a salvage value of \$ 4,000, if desired. Use an MARR of 11\%, a six-year study period, and PW calculations to decide whether the existing asset should be replaced by the new one. \hfill [8] (\texttt{81 Ba})
+
+				\item A company is contemplating replacing a machine having a current market value of Rs. 9,000 which decreases each year by Rs. 1500 per year. Its operating cost is Rs. 3000 for the first year and increases each year by 800 Rs per year for 5 years. The company will have to pay Rs. 18,000 for the new machine and its market value decreases by 20\% per year over the previous year for five years. The new machine needs Rs 1500 for operation in the first year and this cost increases by 25\% each year. Find the annual equivalent cost of both the machines and compute the best replacement strategy if the machine is needed for 5 years. \hfill [5+5] (\texttt{80 Ba})
+
+				\item A company is considering the replacement of old machine. If the machine is repaired, it can be used for 5 more years. It can be sold to the other firm is Rs 5000. If the machine is kept it will require an immediate overhaul (renovation) of Rs 1200 to make it operable condition. Overhaul charge is not extended for service life. The operation cost is estimated at Rs 2000 during the first year and these are expected to increase by Rs. 1500 per year thereafter. Further market values are expected to decline by Rs 1000 per year. The new machine cost Rs. 10,000 and will have operating costs of Rs. 2000 in the first year, increasing Rs. 800 per year thereafter. Salvage value is Rs 6000 after one year and will decline by 15\% each year. The company requires a rate of return of 15\%. Determine economic life of each option and when the defender should be replaced?
+				\enter\hfill [12] (\bo{\texttt{79 Bh}})
+			\end{enumerate}
 
 	\pagebreak
 \section{Risk Analysis}

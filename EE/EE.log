@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.23)  26 JUL 2025 18:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.4.23)  26 JUL 2025 19:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -548,7 +548,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 543--550
 [19]
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 987--1001
+Underfull \hbox (badness 10000) in paragraph at lines 979--993
 
  []
 
@@ -563,7 +563,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 987--1001
 [24]
 
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 1177--1178
+Underfull \hbox (badness 10000) in paragraph at lines 1169--1170
 
  []
 
@@ -586,8 +586,8 @@ Package rerunfilecheck Info: File `EE.out' has not changed.
 (rerunfilecheck)             Checksum: 68C101F881A418EFDDD9406D9337A60F;17031.
  ) 
 Here is how much of TeX's memory you used:
- 11819 strings out of 469959
- 181981 string characters out of 5469834
+ 11818 strings out of 469959
+ 181973 string characters out of 5469834
  594299 words of memory out of 5000000
  38139 multiletter control sequences out of 15000+600000
  636338 words of font info for 77 fonts, out of 8000000 for 9000
@@ -604,9 +604,9 @@ rs/warau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb
 ><C:/Users/warau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mr8.pfb><C:/Users/warau/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb>
-Output written on EE.pdf (30 pages, 311861 bytes).
+Output written on EE.pdf (30 pages, 311480 bytes).
 PDF statistics:
- 821 PDF objects out of 1000 (max. 8388607)
- 313 named destinations out of 1000 (max. 500000)
+ 819 PDF objects out of 1000 (max. 8388607)
+ 312 named destinations out of 1000 (max. 500000)
  590 words of extra memory for PDF output out of 10000 (max. 10000000)
 
