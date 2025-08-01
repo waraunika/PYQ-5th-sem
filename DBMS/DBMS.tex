@@ -43,12 +43,26 @@
 
 \begin{document}
 \maketitle
-\vspace{13cm}
+\vspace{10cm}
 \begin{large}\textbf{Notes}\end{large}
 \begin{itemize}
 \item PYQs of BEI's CT610, BCT's CT652 are combined.
 \item PYQs of BEI's CT610's are styled as \texttt{this font in order to say that these are our syllabus' pyq's}.
 \item PYQ of BCT with no subject code mentioned in the question paper, starting from 2068 Magh and earlier, will be \textit{stylized as italic to differentiate them}
+\item Months are marked as: 
+\begin{itemize}[noitemsep]
+	\item Ba: Baisakh
+	\item Jth: Jestha
+	\item Asa: Ashar
+	\item Shr: Shrawan
+	\item Bh: Bhadra
+	\item Ash: Ashwin
+	\item Ka: Kartik
+	\item Mng: Mangsir
+	\item Po: Poush
+	\item Ma: Magh
+	\item Ch: Chaitra
+\end{itemize}
 \end{itemize}
 
 \pagebreak
@@ -1040,8 +1054,7 @@
     			course (course\_id, title, dept\_name, credits)\\
     			$\Pi_{\text{name, title}} \left( 
     \sigma_{\text{dept\_name}} = \text{``Music"} \char`\^ \text{year} = 2017 \right.$
-			\enter\hspace{2cm}$ (\text{instructor}) \bowtie \left( \text{teaches} \bowtie \Pi_{\text{course\_id, title}} (\text{course}) \right)
-)) $
+			\enter\hspace{2cm}$ (\text{instructor}) \bowtie \left( \text{teaches} \bowtie \Pi_{\text{course\_id, title}} (\text{course}) \right))) $
     		\end{enumerate}
     		
     \subsection{Query Optimization}
@@ -1189,13 +1202,68 @@
     		\end{enumerate}
 
     \pagebreak
-\section{Transactions processing andConcurrency Control}
+\section{Transactions processing and Concurrency Control}
     \begin{center}(6 Hours/12 Marks)\end{center}
+
+    \subsection{Transactions}
+            \begin{enumerate}[noitemsep, topsep=0pt]
+                \item Define transaction. \hfill [1] (\bo{80 Ch}, 76 Ba)
+                \lb and its properties. \hfill [3] (\bo{80 Ch})
+                \lb and the ideal properties of a transaction. \hfill [4] (77 Ba)
+
+                \item Explain about the state diagram of transaction. \hfill [3] (\bo{\texttt{80 Bh}})
+                \lb During execution, a transaction passes through several states until it finally commits or aborts. Explain all possible sequences of state through which a transaction may pass. \hfill [5] (\bo{77 Ch})
+                \lb What are the possible transaction states? \hfill [2] (\bo{76 Bh})
+            \end{enumerate}
+
     \subsection{ACID properties}
+        \begin{enumerate}[noitemsep, topsep=0pt]
+            \item Explain ACID properties in database transaction with an example. \hfill [4] (\bo{\texttt{81 Bh}, 78 Ch})
+            \lb Define transaction and explain its ACID properites. \hfill [1+3] (\bo{\texttt{79 Bh}})
+
+            \item Database-system implementers have paid much more attention to the ACID properites than have file-system implementers. Why might this be the cases? \hfill [4] (\texttt{80 Ba})
+        \end{enumerate}
+
     \subsection{Concurrent Executions}
+        \begin{enumerate}
+            \item Explain how graph based protocol maintains concurrent execution of transactions. \hfill [4] (\bo{79 Ch})
+        \end{enumerate}
+
     \subsection{Serializability Concept}
+        \begin{enumerate}[noitemsep, topsep=0pt]
+            \item Define schedule and give proper examples. \hfill [2] (\bo{\texttt{79 Bh}})
+
+            \item What is a serializable schedule? \hfill [2] (\bo{\texttt{79 Bh}})
+            
+            \item How to test Conflict Serializability of a Schedule S, explain in details with example. \hfill [5] (\bo{\texttt{80 Bh}})
+            
+            \item Check whether the given schedule S is conflict serializable or not. If yes, then determine all the possible serialzed schedules. (\textit{no schedule given lmao}) \hfill [2+6] (\texttt{81 Ba})            
+
+            \item Consider a schedule S: r1(y); r3(z); w1(y); w2(z); r3(y); w2(y). State whether it is conflict serializable schedule or not. Determine the equivalent serial schedule if it is serializable.
+            \enter\hfill [4] (\bo{79 Ch})
+
+            \item Which of the following schedule is conflict serializable? For each serializable schedule, determine the equivalent serial schedule. \hfill [4] (\bo{76 Bh})
+            \begin{itemize}[noitemsep, topsep=0pt]
+                \item r1(X); r3(X); w1(X); r2(X); w3(X)
+                \item r1(X); r3(X); w3(X); w1(X); r2(X)
+            \end{itemize}
+        \end{enumerate}
+        
     \subsection{Lock based Protocols}
+         \begin{enumerate}[noitemsep, topsep=0pt]
+            \item Explain two phase locking protocol for concurrency control in DBMS. \hfill [4] (\bo{80 Ch, 78 Ch})
+            \lb Explain two phase locking protocol with an example. \hfill [4] (\texttt{80 Ba})
+            \lb Explain two phase locking protocol briefly. \hfill [2] (\bo{77 Ch}) [3] (76 Ba)
+        \end{enumerate}
+
     \subsection{Deadlock handling and Prevention}
+        \begin{enumerate}[noitemsep, topsep=0pt]
+            \item How deadlocks arise in transaction processing? \hfill [2] (\bo{76 Bh})
+            
+            \item Explain how wait-die scheme and wound-wait scheme helps to prevent deadlock. \hfill [4] (\bo{\texttt{81 Bh}})
+
+            \item Explain wait \& die scheme for deadlock prevention. \hfill [2] (\bo{77 Ch})
+        \end{enumerate}
 
     \pagebreak
 \section{Crash Recovery}
