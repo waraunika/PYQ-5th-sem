@@ -1207,19 +1207,32 @@
 
     \subsection{Transactions}
             \begin{enumerate}[noitemsep, topsep=0pt]
-                \item Define transaction. \hfill [1] (\bo{80 Ch}, 76 Ba)
+                \item Define transaction. \hfill [1] (\bo{80 Ch, 75 Bh}, 76 Ba, 71 Ma) [2] (72 Ma, \bo{\textit{68 Bh}})
                 \lb and its properties. \hfill [3] (\bo{80 Ch})
                 \lb and the ideal properties of a transaction. \hfill [4] (77 Ba)
 
-                \item Explain about the state diagram of transaction. \hfill [3] (\bo{\texttt{80 Bh}})
-                \lb During execution, a transaction passes through several states until it finally commits or aborts. Explain all possible sequences of state through which a transaction may pass. \hfill [5] (\bo{77 Ch})
-                \lb What are the possible transaction states? \hfill [2] (\bo{76 Bh})
+                \item (Assumed) Write short notes on Compensating Transaction. \hfill [4] (65 Ka)
+
+                \item What are the properties a transaction should satisfy in a database system? \hfill [3] (71 Ma)
+
+                \item Explain about the state diagram of transaction. \hfill [3] (\bo{\texttt{80 Bh}, 75 Bh}) [4] (75 Ba)
+                \lb During execution, a transaction passes through several states until it finally commits or aborts. Explain all possible sequences of state through which a transaction may pass.
+                \enter\hfill [4] (\bo{70 Bh}) [5] (\bo{77 Ch})
+                
+                \item What are the possible transaction states? \hfill [2] (\bo{76 Bh})
+
+                \item Explain different states of a transaction along with state transition diagram. \hfill [4] (\bo{72 Ash})
             \end{enumerate}
 
     \subsection{ACID properties}
         \begin{enumerate}[noitemsep, topsep=0pt]
-            \item Explain ACID properties in database transaction with an example. \hfill [4] (\bo{\texttt{81 Bh}, 78 Ch})
+            \item Explain ACID properties in database transaction. \hfill [4] (\bo{74 Bh}, 73 Ma) [5] (\textit{68 Ma})
+            \lb with an example. \hfill [4] (\bo{\texttt{81 Bh}, 78 Ch}) [6] (72 Ma) [8] (70 Ma)
             \lb Define transaction and explain its ACID properites. \hfill [1+3] (\bo{\texttt{79 Bh}})
+
+            \item List the ACID properties. Explain the usefulness of each. \hfill [4] (\bo{70 Bh}) [5] (\bo{\textit{67 Mng}})
+
+            \item Explain Atomicity and Isolation properites of a database transaction. \hfill [4] (\bo{71 Bh})
 
             \item Database-system implementers have paid much more attention to the ACID properites than have file-system implementers. Why might this be the cases? \hfill [4] (\texttt{80 Ba})
         \end{enumerate}
@@ -1232,10 +1245,20 @@
     \subsection{Serializability Concept}
         \begin{enumerate}[noitemsep, topsep=0pt]
             \item Define schedule and give proper examples. \hfill [2] (\bo{\texttt{79 Bh}})
+            \lb Define schedules. \hfill [2] (\bo{73 Bh})
 
-            \item What is a serializable schedule? \hfill [2] (\bo{\texttt{79 Bh}})
+            \item What is a serializable schedule? \hfill [2] (\bo{\texttt{79 Bh}}) [3] (\bo{\textit{68 Bh}})
+
+            \item What do you mean by serializability of a schedule? \hfill [2] (71 Ma)
             
+            \item Explain the concept of conflict serializability. \hfill [4] (\bo{71 Bh}, 73 Ma)
+            \lb with an example. \hfill [4] (\bo{72 Ash}, 75 Ba) [8] (\bo{69 Bh})
+
             \item How to test Conflict Serializability of a Schedule S, explain in details with example. \hfill [5] (\bo{\texttt{80 Bh}})
+
+            \item Describe how conflict serializability differs from the view serializability for concurrent execution of transactions. \hfill [4] (\bo{74 Bh})
+
+            \item Describe the concept of view serializability for concurrent execution of transaction. \hfill [4] (\bo{73 Bh})
             
             \item Check whether the given schedule S is conflict serializable or not. If yes, then determine all the possible serialzed schedules. (\textit{no schedule given lmao}) \hfill [2+6] (\texttt{81 Ba})            
 
@@ -1251,18 +1274,29 @@
         
     \subsection{Lock based Protocols}
          \begin{enumerate}[noitemsep, topsep=0pt]
-            \item Explain two phase locking protocol for concurrency control in DBMS. \hfill [4] (\bo{80 Ch, 78 Ch})
-            \lb Explain two phase locking protocol with an example. \hfill [4] (\texttt{80 Ba})
+            \item Describe granurality of locking for concurrency control? \hfill [2] (71 Ma)
+
+            \item Differentiate between fine granurality and coarse granularity locking in multiple granularity locking protocol. \hfill [4] (\bo{69 Ch})
+            
+            \item Explain two phase locking protocol for concurrency control in DBMS. \hfill [4] (\bo{80 Ch, 78 Ch, 72 Ash}, 73 Ma)
+            \lb Explain two phase locking protocol with an example. \hfill [4] (\bo{70 Ch}, \texttt{80 Ba})
+            \lb Explain two phase locking protocol with its limitations. \hfill [4] (\bo{75 Bh})
             \lb Explain two phase locking protocol briefly. \hfill [2] (\bo{77 Ch}) [3] (76 Ba)
+
+            \item How strict two phase locking protocol improves the two phase locking protocol? \hfill [3] (\textit{65 Ka})
+
+            \item Explain the different types of locks used for concurrency control. Draw the lock compatibility matrix. \hfill [6] (72 Ma)
         \end{enumerate}
 
     \subsection{Deadlock handling and Prevention}
         \begin{enumerate}[noitemsep, topsep=0pt]
-            \item How deadlocks arise in transaction processing? \hfill [2] (\bo{76 Bh})
-            
-            \item Explain how wait-die scheme and wound-wait scheme helps to prevent deadlock. \hfill [4] (\bo{\texttt{81 Bh}})
+            \item How deadlocks arise in transaction processing? \hfill [2] (\bo{76 Bh, 73 Bh})
 
             \item Explain wait \& die scheme for deadlock prevention. \hfill [2] (\bo{77 Ch})
+
+            \item Explain the deadlock prevention strategies. \hfill [4] (\bo{73 Bh})
+            
+            \item Explain how wait-die scheme and wound-wait scheme helps to prevent deadlock. \hfill [4] (\bo{\texttt{81 Bh}})
         \end{enumerate}
 
     \pagebreak

@@ -51,8 +51,8 @@
 \contentsline {subsection}{\numberline {7.2}ACID properties}{31}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}Concurrent Executions}{31}{subsection.7.3}%
 \contentsline {subsection}{\numberline {7.4}Serializability Concept}{31}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Lock based Protocols}{31}{subsection.7.5}%
-\contentsline {subsection}{\numberline {7.6}Deadlock handling and Prevention}{31}{subsection.7.6}%
+\contentsline {subsection}{\numberline {7.5}Lock based Protocols}{32}{subsection.7.5}%
+\contentsline {subsection}{\numberline {7.6}Deadlock handling and Prevention}{32}{subsection.7.6}%
 \contentsline {section}{\numberline {8}Crash Recovery}{33}{section.8}%
 \contentsline {subsection}{\numberline {8.1}Failure Classification}{33}{subsection.8.1}%
 \contentsline {subsection}{\numberline {8.2}Recovery and Atomicity}{33}{subsection.8.2}%

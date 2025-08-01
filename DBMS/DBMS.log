@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.7.31)  1 AUG 2025 11:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.7.31)  1 AUG 2025 12:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -506,8 +506,8 @@ Package rerunfilecheck Info: File `DBMS.out' has not changed.
 (rerunfilecheck)             Checksum: 6CABF6E6B88D814C3290BDE379DFD1ED;12208.
  ) 
 Here is how much of TeX's memory you used:
- 11761 strings out of 477985
- 179733 string characters out of 5839380
+ 11776 strings out of 477985
+ 179853 string characters out of 5839380
  1866388 words of memory out of 6000000
  31275 multiletter control sequences out of 15000+600000
  523023 words of font info for 73 fonts, out of 8000000 for 9000
@@ -526,10 +526,10 @@ nts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-
 super/sfrm1200.pfb>
-Output written on DBMS.pdf (34 pages, 364538 bytes).
+Output written on DBMS.pdf (34 pages, 366119 bytes).
 PDF statistics:
- 1086 PDF objects out of 1200 (max. 8388607)
- 1009 compressed objects within 11 object streams
- 518 named destinations out of 1000 (max. 500000)
+ 1103 PDF objects out of 1200 (max. 8388607)
+ 1026 compressed objects within 11 object streams
+ 533 named destinations out of 1000 (max. 500000)
  539 words of extra memory for PDF output out of 10000 (max. 10000000)
 
