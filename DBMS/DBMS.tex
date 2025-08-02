@@ -1205,37 +1205,30 @@
 \section{Transactions processing and Concurrency Control}
     \begin{center}(6 Hours/12 Marks)\end{center}
 
-    \subsection{Transactions}
-            \begin{enumerate}[noitemsep, topsep=0pt]
-                \item Define transaction. \hfill [1] (\bo{80 Ch, 75 Bh}, 76 Ba, 71 Ma) [2] (72 Ma, \bo{\textit{68 Bh}})
-                \lb and its properties. \hfill [3] (\bo{80 Ch})
+    \subsection{Transactions and ACID}
+            \begin{enumerate}[topsep=0pt]
+                \item Define transaction. \hfill [1] (\bo{\texttt{79 Bh}, 80 Ch, 75 Bh}, 76 Ba, 71 Ma) [2] (72 Ma, \bo{\textit{68 Bh}})
+                \lb and its properties. \hfill [3] (\bo{\texttt{79 Bh}, 80 Ch})
                 \lb and the ideal properties of a transaction. \hfill [4] (77 Ba)
 
-                \item (Assumed) Write short notes on Compensating Transaction. \hfill [4] (65 Ka)
-
                 \item What are the properties a transaction should satisfy in a database system? \hfill [3] (71 Ma)
+                 \lb Explain ACID properties in database transaction. \hfill [4] (\bo{74 Bh}, 73 Ma) [5] (\textit{68 Ma})
+            		\lb with an example. \hfill [4] (\bo{\texttt{81 Bh}, 78 Ch}) [6] (72 Ma) [8] (70 Ma)
+            
+            		\item Explain Atomicity and Isolation properites of a database transaction. \hfill [4] (\bo{71 Bh})
 
-                \item Explain about the state diagram of transaction. \hfill [3] (\bo{\texttt{80 Bh}, 75 Bh}) [4] (75 Ba)
+            		\item Database-system implementers have paid much more attention to the ACID properites than have file-system implementers. Why might this be the cases? \hfill [4] (\texttt{80 Ba})
+
+           		\item List the ACID properties. Explain the usefulness of each. \hfill [4] (\bo{70 Bh}) [5] (\bo{\textit{67 Mng}})
+
+                \item Explain about the state diagram of transaction. \hfill [3] (\bo{\texttt{80 Bh}, 75 Bh}) [4] (75 Ba)                
+                \lb What are the possible transaction states? \hfill [2] (\bo{76 Bh})
+                \lb Explain different states of a transaction along with state transition diagram. \hfill [4] (\bo{72 Ash})
                 \lb During execution, a transaction passes through several states until it finally commits or aborts. Explain all possible sequences of state through which a transaction may pass.
                 \enter\hfill [4] (\bo{70 Bh}) [5] (\bo{77 Ch})
-                
-                \item What are the possible transaction states? \hfill [2] (\bo{76 Bh})
 
-                \item Explain different states of a transaction along with state transition diagram. \hfill [4] (\bo{72 Ash})
+                \item (Assumed) Write short notes on Compensating Transaction. \hfill [4] (65 Ka)
             \end{enumerate}
-
-    \subsection{ACID properties}
-        \begin{enumerate}[noitemsep, topsep=0pt]
-            \item Explain ACID properties in database transaction. \hfill [4] (\bo{74 Bh}, 73 Ma) [5] (\textit{68 Ma})
-            \lb with an example. \hfill [4] (\bo{\texttt{81 Bh}, 78 Ch}) [6] (72 Ma) [8] (70 Ma)
-            \lb Define transaction and explain its ACID properites. \hfill [1+3] (\bo{\texttt{79 Bh}})
-
-            \item List the ACID properties. Explain the usefulness of each. \hfill [4] (\bo{70 Bh}) [5] (\bo{\textit{67 Mng}})
-
-            \item Explain Atomicity and Isolation properites of a database transaction. \hfill [4] (\bo{71 Bh})
-
-            \item Database-system implementers have paid much more attention to the ACID properites than have file-system implementers. Why might this be the cases? \hfill [4] (\texttt{80 Ba})
-        \end{enumerate}
 
     \subsection{Concurrent Executions}
         \begin{enumerate}
