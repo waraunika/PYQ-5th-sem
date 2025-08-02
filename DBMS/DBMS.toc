@@ -41,7 +41,7 @@
 \contentsline {subsection}{\numberline {5.7}Performance Tuning}{27}{subsection.5.7}%
 \contentsline {section}{\numberline {6}File Structure and Hashing}{28}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Records Organizations}{28}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Disks and Storage}{28}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.2}Disks, Storage, and RAID}{28}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Remote Backup System}{28}{subsection.6.3}%
 \contentsline {subsection}{\numberline {6.4}Hashing Concepts, Static and Dynamic Hashing}{28}{subsection.6.4}%
 \contentsline {subsection}{\numberline {6.5}Order Indices}{28}{subsection.6.5}%
