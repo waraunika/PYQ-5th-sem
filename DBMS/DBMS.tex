@@ -287,7 +287,7 @@
 
     \item Consider the relation: \hfill(\bo{\texttt{81 Bh}})
         \enter Employee(\underline{empid}, ename, address, title, headid)
-        \enter Project(\underline{id}, ename, budget, location)
+        \enter Project(\underline{pid}, pname, budget, location)
         \enter Work(empid, pid, responsibility, duration)
         \enter Payment(\underline{title}, salary)
 
@@ -308,7 +308,7 @@
         
         - SQL queries: 
         \begin{enumerate}[noitemsep, topsep = 0pt, label = \alph*.]
-            \item Display all the detail of a Person whose name ends with 'ta' and is involved in some accident.
+            \item Display all the detail of a Person whose name ends with `ta' and is involved in some accident.
             \item Display the license numbers and location where the accident took place on Jan 20, 2020.
             \item Update the brand name "BMW" to "BMW-X" for car manufactured in year 2020.
             \item Create a view named PERSON\_REPORT which contains licenseNo, Name and reportNo as its members where the damage amount is less than or equal to 100,000.
@@ -328,9 +328,11 @@
         \end{enumerate}
 
     \item Consider the relation:\hfill(76 Ba)
-        \enter Product (\underline{Pid}, Pname, Price, description)
+        \enter Product (\underline{Pid}, Pname, Price, description`
         \enter Customer (\underline{Cid}, Cname, Address)
         \enter Sells (\underline{Pid}, Cid, quantity)
+        
+        
         - SQL queries: 
         \begin{enumerate}[noitemsep, topsep = 0pt, label = \alph*.]
             \item Retrieve the record of product who were sold to customer id 12.
@@ -342,7 +344,7 @@
     \item Consider the relation:\hfill(\bo{75 Bh})
         \enter Student (crn, name, address, phone, dob)
         \enter Course (courseid, crn, duration, fee)
-        \enter Enroll (enrolled, cname, courseid, enrolldata, completedata)
+        \enter Enroll (enrollid, cname, courseid, enrolldata, completedata)
         
         - SQL queries:
         \begin{enumerate}[noitemsep, topsep = 0pt, label = \alph*.]
