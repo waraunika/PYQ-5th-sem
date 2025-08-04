@@ -237,6 +237,14 @@
 		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item How does data link apply flow control technique in network communication? Explain with example.
 			\enter\hfill [6] (\bo{79 Ch})
+
+			\item What are the services provided by data link layer? \hfill [2] (\bo{\texttt{80 Bh, 79 Bh}}) [3] (\bo{77 Ch})
+
+			\item What are the different sub-layers of data link layer? \hfill [2] (76 Ba)
+
+			\item Explain the functions of each sub-layer. \hfill [6] (76 Ba)
+
+			\item State the various design issues for the data link layer? \hfill [3] (75 Ash)
 		\end{enumerate}
 		
 	\subsection{Framing}
@@ -244,14 +252,29 @@
 			\item What do you mean by Framing? \hfill [2] (\bo{79 Ch})
 
 			\item Compare Flag byte with byte stuff and bit stuffing in Framing. \hfill [2] (\texttt{81 Ba})
+
+			\item Describe the various framing techniques at data link layer. \hfill [2] (\bo{75 Ch}) [6] (\bo{75 Ch})
+
+			\item Explain any one method of framing with example. \hfill [6] (\bo{75 Ch})
 		\end{enumerate}
 
 	\subsection{Error Detection and Corrections}
 		\begin{enumerate}[noitemsep, topsep=0pt]
-			\item  Detect the error if any using CRC, if received fram is 0101101101 and generator polynomial is 1001. \hfill [6] (\texttt{81 Ba})
+			\item How can CRC be used to detect error? \hfill [6] (\bo{\texttt{80 Bh}})
+			
+			\item Detect the error if any using CRC, if received fram is 0101101101 and generator polynomial is 1001. \hfill [6] (\texttt{81 Ba})
+
+			\item Explain Selective repeat and Go back N ARQ with example. \hfill [6] (\texttt{80 Ba})
 		\end{enumerate}
-		
+
 	\subsection{Flow Control}
+		\begin{enumerate}[noitemsep, topsep=0pt]
+			\item (Assumed) Differentiate between datagram switching and virtual circuit switching approach.
+			\enter\hfill [6] (\bo{\texttt{79 Bh}})
+
+			\item What is piggybacking? \hfill [3] (75 Ash)
+		\end{enumerate}
+
 	\subsection{Examples of Data Link Protocol, HDLC, PPP}
 	\subsection{The Medium Access Sub-layer}
 		\begin{enumerate}[noitemsep, topsep=0pt]
@@ -264,20 +287,42 @@
 		\end{enumerate}
 
 	\subsection{Multiple Access Protocols}
+		\begin{enumerate}[noitemsep, topsep=0pt]
+			\item What are multiple access protocols? \hfill [2] (\bo{76 Bh, 75 Ch})
+		\end{enumerate}
+
 	\subsection{Ethernet}
+		\begin{enumerate}
+			\item Explain Ethernet frame with function of each field. \hfill [5] (\bo{77 Ch})
+		\end{enumerate}
+
 	\subsection{Networks: FDDI, ALOHA, VLAN, CSMA/CD, IEEE 802.3(Ethernet), 802.4(Token Bus), 802.5(Token Ring), and 802.1(Wireless LAN)}
 		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item What is ALOHA system? \hfill [2] (\bo{79 Ch})
+			\lb Explain different types of ALOHA. \hfill [4] (75 Ba)
 			
-			\item How does CSMA-CD works? Explain. \hfill [6] (\bo{79 Ch})
+			\item How does CSMA-CD works? Explain. \hfill [4] (\bo{76 Ch}) [6] (\bo{79 Ch})
+			\lb with figure. \hfill [8] (76 Ash)
+
+			\item Why is CSMA-CD not suitable for wireless medium? Explain. \hfill [2] (\bo{76 Ch})
 			
 			\item Explain about operation of Carrier Sense Multiple Access with Collision Detection. \hfill [6] (\bo{73 Ch})
+			
+			\item What is collission? How is it occured? \hfill [1+1] (\bo{76 Ch})
+
+			\item How the possibility of collision is reduced in IEEE 802.3 and IEEE 802.11? Explain. \hfill [6] (\bo{76 Ch})
+
+			\item Differentiate between Token Bus and Token Ring networks. \hfill [4] (75 Ba)
 		\end{enumerate}
 			
 	\subsection{Numericals}
 		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item A frame having size of 1000 bits is transmitted through a channel having capacity of 200 KB/Sec. Calculate the percentage of idleness of the channel assuming the round trip time of the channel to be 20ms. Is the channel efficient? What is your recommendation further?
 			\enter\hfill [5+1+4] (\bo{73 Bh})
+
+			\item A bit string 0110111011111111011111110 needs to be transmitted with flag 7E at the data linnk layer. What is the string actually transmitted after bit stuffing? \hfill [6] (\texttt{80 Ba})
+
+			\item A bit string 01111011111101111110 needs to be transmitted at the data link layer. What is the string actually transmitted after bit stuffing? \hfill [2] (75 Ash)
 		\end{enumerate}
 
 	\pagebreak
