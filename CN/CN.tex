@@ -33,7 +33,7 @@
 \ExplSyntaxOff
 
 \title{Computer Network}
-\author{Me lol}
+\author{Me lol\\Bhushan Nepal}
 \date{\today}
 
 \begin{document}
@@ -238,7 +238,7 @@
 			\item How does data link apply flow control technique in network communication? Explain with example.
 			\enter\hfill [6] (\bo{79 Ch})
 
-			\item What are the services provided by data link layer? \hfill [2] (\bo{\texttt{80 Bh, 79 Bh}}) [3] (\bo{77 Ch}) [4] (\bo{74 Ch})
+			\item What are the services provided by data link layer? \hfill [2] (\bo{\texttt{80 Bh, 79 Bh, 71 Sh}}) [3] (\bo{77 Ch, 72 Ka}) [4] (\bo{74 Ch}) 
 
 			\item What are the different sub-layers of data link layer? \hfill [2] (76 Ba)
 
@@ -249,11 +249,16 @@
 		
 	\subsection{Framing}
 		\begin{enumerate}[noitemsep, topsep=0pt]
-			\item What do you mean by Framing? \hfill [2] (\bo{79 Ch})
+			\item What do you mean by Framing? \hfill [2] (\bo{79 Ch}) 
+			\lb Explain about framing in detail. \hfill [5] (\texttt{71 Sh})
 
-			\item Compare Flag byte with byte stuff and bit stuffing in Framing. \hfill [2] (\texttt{81 Ba})
+			\item Compare Flag byte with byte stuff and bit stuffing in Framing. \hfill [2](\texttt{81 Ba}) [3] (\bo{73 Ch}) 
 
-			\item Describe the various framing techniques at data link layer. \hfill [2] (\bo{75 Ch}) [6] (\bo{75 Ch})
+			\item Describe the various framing techniques at data link layer. \hfill [2] (\bo{75 Ch}) [5] (\bo{69 Bh}) [6] (\bo{75 Ch})
+
+			\item What are the methodologies used in data framing? \hfill [4] (\bo{72 Ash}) [6] (70 Asa)
+
+			\item How a complete link is established during the dialup connection? Explain. \hfill[4] (\bo{72 Ash})
 
 			\item Explain any one method of framing with example. \hfill [6] (\bo{75 Ch})
 		\end{enumerate}
@@ -265,6 +270,12 @@
 			\item Detect the error if any using CRC, if received fram is 0101101101 and generator polynomial is 1001. \hfill [6] (\texttt{81 Ba})
 
 			\item Explain Selective repeat and Go back N ARQ with example. \hfill [6] (\texttt{80 Ba})
+
+			\item Explain difference between Error Correcting and Error detection process? \hfill [5] (\bo{70 Ch})
+
+			\item Write down the importance of error detection and correction bits. \hfill [3] (\texttt{72 ma})
+
+			\item Describe Cyclic Redundancy Check with example. \hfill [5] (70 Ma)
 		\end{enumerate}
 
 	\subsection{Flow Control}
@@ -275,9 +286,20 @@
 			\item What is piggybacking? \hfill [3] (75 Ash)
 
 			\item (Assumed) What are the causes of packet delay in computer networks? \hfill [2] (74 Ash)
+
+			\item What are the difference between error control and flow control? \hfill [3] (70 Ma)
+
+			\item Explain different types of flow control mechanism in data link layer. \hfill [8] (\bo{70 Bh})
+
+			\item (Assumed) Define switching and multiplexing. \hfill [4] (\bo{69 Ch})
+
+			\item Differentiate between circuit switching and packet switching. \hfill [4] (\bo{69 Ch}) [5] (\bo{69 Bh})
 		\end{enumerate}
 
 	\subsection{Examples of Data Link Protocol, HDLC, PPP}
+		\begin{enumerate}
+			\item What is PPP? \hfill[2] (\texttt{73 Ch})
+		\end{enumerate}
 	\subsection{The Medium Access Sub-layer}
 		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item (Assumed) Through we have MAC address, why do we use IP address to represent the host in networks? Explain your answer. \hfill [3] (\bo{72 Ch})
@@ -288,11 +310,18 @@
 	\subsection{The channel allocation problem}
 		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item Why do you think that static channel assignment is not efficient? \hfill [2] (\bo{73 Ch}) 
+			\item Explain the channel allocation problem with example. \hfill[5] (\bo{72 Ka})
 		\end{enumerate}
 
 	\subsection{Multiple Access Protocols}
 		\begin{enumerate}[noitemsep, topsep=0pt]
-			\item What are multiple access protocols? \hfill [2] (\bo{76 Bh, 75 Ch})
+			\item What are multiple access protocols? \hfill [2] (\bo{76 Bh, 75 Ch, 71 Ch})
+
+			\item Explain how multiple access is acheived in IEEE 802.5. \hfill[6] (\bo{71 Ch})
+
+			\item What are multiple access protocols? What is its significance in data link layer? Explain why token bus is also called as the token ring. \hfill [2+2+4] (\bo{76 Bh, 75 Ch, 73 Sh})
+
+			\item What are hte functions of LLC and MAC sub-layer? \hfill [2+2] (70 Asa)
 		\end{enumerate}
 
 	\subsection{Ethernet}
@@ -303,8 +332,10 @@
 	\subsection{Networks: FDDI, ALOHA, VLAN, CSMA/CD, IEEE 802.3(Ethernet), 802.4(Token Bus), 802.5(Token Ring), and 802.1(Wireless LAN)}
 		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item What is ALOHA system? \hfill [2] (\bo{79 Ch})
-			\lb Explain different types of ALOHA. \hfill [4] (75 Ba)
-			
+			\lb Explain different types of ALOHA. \hfill [4] (75 Ba, 72 Ma)
+			\lb What is pure ALOHA and slotted ALOHA? Consider the delay of both at low load.Which one is less. \hfill [3+2] (\texttt{71 Bh})
+
+
 			\item How does CSMA-CD works? Explain. \hfill [4] (\bo{76 Ch}) [6] (\bo{79 Ch})
 			\lb with figure. \hfill [8] (76 Ash)
 
@@ -314,6 +345,8 @@
 
 			\item Why is CSMA-CD not suitable for wireless medium? Explain. \hfill [2] (\bo{76 Ch})
 			
+			\item Explain Carrier sense multiple access with collision detection (CSMA/CD) is better than CSMA? \hfill[5] (\texttt{71 Ma})
+
 			\item Explain about operation of Carrier Sense Multiple Access with Collision Detection. \hfill [6] (\bo{73 Ch})
 			
 			\item What is collission? How is it occured? \hfill [1+1] (\bo{76 Ch})
@@ -321,16 +354,24 @@
 			\item How the possibility of collision is reduced in IEEE 802.3 and IEEE 802.11? Explain. \hfill [6] (\bo{76 Ch})
 
 			\item Differentiate between Token Bus and Token Ring networks. \hfill [4] (75 Ba)
+
+			\item List the features of FDDI. \hfill [4] (72 Ch)
+
+			\item Explain fault tolerance mechanism of FDDI. \hfill [3] (73 Ch) 
+
+			\item Explain IEEE 802.4. \hfill [3] (\texttt{71 Ma})
 		\end{enumerate}
 			
 	\subsection{Numericals}
 		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item A frame having size of 1000 bits is transmitted through a channel having capacity of 200 KB/Sec. Calculate the percentage of idleness of the channel assuming the round trip time of the channel to be 20ms. Is the channel efficient? What is your recommendation further?
-			\enter\hfill [5+1+4] (\bo{73 Bh})
+			\enter\hfill [5+1+4] (\bo{73 Bh}) 
 
-			\item A bit string 0110111011111111011111110 needs to be transmitted with flag 7E at the data linnk layer. What is the string actually transmitted after bit stuffing? \hfill [6] (\texttt{80 Ba})
+			\item A bit string 0110111011111111011111110 needs to be transmitted with flag 7E at the data linnk layer. What is the string actually transmitted after bit stuffing? \hfill [6] (\texttt{80 Ba}) [3] (\bo{73 Ch})
 
 			\item A bit string 01111011111101111110 needs to be transmitted at the data link layer. What is the string actually transmitted after bit stuffing? \hfill [2] (75 Ash)
+
+			\item A bit string 01111011111011111110 needs to be transmitted at the data link layer what is string actually transmitted at the data  link layer what is string actually transmitted after bit stuffing, if flag patterns is 01111110. \hfill [3] (\bo{70 Ch})
 		\end{enumerate}
 
 	\pagebreak
