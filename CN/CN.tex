@@ -379,19 +379,112 @@
 \section{Network Layer}
 	\begin{center}(9 Hours/16 Marks)\end{center}
 	\subsection{Internet working and devices: Repeaters, Hubs, Bridges, Switches, Router, Gateway}
+		\begin{enumerate}
+			\item Write short notes on: HUB, Switch, Routers. \hfill [4] (75 ba)
+		\end{enumerate}
 	\subsection{Addressing: Internet address, classful address}
 		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item What are IPv4 address classes? \hfill [2] (\bo{79 Ch})
+
+			\item What is classful and classless address? \hfill [2] (74 Ash)
+
+			\item What is the Network address and broadcast address in IPv4 addressing? \hfill [2] (\texttt{81 Ba})
+
+			\item What is private IP address? \hfill [2] (\bo{\texttt{80 Bh}, 75 Bh})
+
+			\item What is the purpose of Time to live (TTL) and protocol field in header of IPv4 datagram.
+			\enter\hfill [4] (\bo{76 Ch})
 		\end{enumerate}
 
 	\subsection{Subnetting}
-		\begin{enumerate}[noitemsep, topsep=0pt]
-			\item How do you subnetwork a class C network block to following subnets of 41,14,102, and 21 computers respectively? Explain with example. \hfill [8] (\bo{79 Ch})
-		\end{enumerate}
 
 	\subsection{Routing: techniques, static vs. dynamic routing , routing table for classful address}
+		\begin{enumerate}
+			\item What is routing? \hfill [1] (\bo{77 Ch}, 76 Ba) [2] (76 Ash)
+
+			\item Why routing is essential in computer networking? \hfill [3] (75 Ash)
+			
+			\item What are the criteria for good routing? \hfill [2] (\bo{74 Ch}, \texttt{81 Ba})
+
+			\item What is static and dynamic routing? \hfill [3] (76 Ba)
+			
+			\item Why do we use dynamic routing? \hfill [2] (\bo{75 Bh})
+
+			\item What is the difference between routed and routing protocol? \hfill [2] (\bo{79 Ch})
+		\end{enumerate}
+
 	\subsection{Routing Protocols: RIP, OSPF, BGP, Unicast and multicast routing protocols}
+		\begin{enumerate}
+			\item Explain the general operation of RIP with timers. \hfill [6] (\texttt{81 Ba})
+
+			\item Explain RIP, OSPF, BGP, IGRP and EIGRP. \hfill [6] (\bo{74 Ch})
+
+			\item What do you mean by autonomous system? \hfill [2] (\bo{75 Ch})
+			
+			\item Why are different inter-AS and intra-AS protocols used in the internet? \hfill [2] (\texttt{80 Ba})
+
+			\item How does link state unicast routing work? Explain. \hfill [8] (\bo{79 Ch})
+
+			\item Explain the operation of Link State Routing Protocol. \hfill [5] (75 Ba)
+
+			\item Define unicast and multicast routing. \hfill [2] (\bo{\texttt{79 Bh}})
+
+			\item Which protocol is used in internet layer to provide feedback to hosts/routers about the problems in network environment? \hfill [1] (\bo{76 Ch})
+		\end{enumerate}
+
 	\subsection{Routing algorithms: shortest path algorithm, flooding, distance vector routing, link state routing; Protocols: ARP, RARP, IP, ICMP}
+		\begin{enumerate}
+			\item Describe flooding technique with its characteristics. \hfill [4] (\bo{77 Ch})
+
+			\item Explain algorithm with ways to minimize the duplication of packets. \hfill [4] (\bo{\texttt{80 Bh}})
+
+			\item Write down steps for Link State Routing Protocol. \hfill [4] (\bo{\texttt{80 Bh}})
+
+			\item Difference between link state and distance vector routing algorithms.
+			\enter\hfill [3] (\bo{77 Ch, 76 Bh}) [4] (76 Ba) [6] (\texttt{81 Ba}, 76 Ash, 74 Ash)
+			\lb with example. \hfill [6] (\bo{\texttt{79 Bh}})
+			\lb Compare working. \hfill [5] (75 Ash)
+
+			\item How routing loops are prevented in distance vector routing? Explain with examples. \hfill [5] (\bo{76 Bh}) [6] (\bo{75 Ch})
+			\lb Explain with example how distance vector routing is used to route the packet and why count-to-infinity problem arises and how does it get solved. \hfill [6] (\bo{75 Bh})
+
+			\item What is ARP and how does it work? \hfill [3] (\bo{76 Ch})
+		\end{enumerate}
+
+	\subsection{Numericals}
+		\begin{enumerate}
+			\item Company Allegro hired an IT expert. The expert was given task to perform logical design of the company with an IP block of 206.100.100.0/24. The company had 40,20,8,100 and 5 employees in its sales, admin, finance, support and HR departments respectively. Show how he was able to perform subnetting with minimum IP wastage. \hfill [6] (\bo{\texttt{80 Bh}})
+
+			\item Design a network for a company having 5 departments with 60, 42, 30, 10 and 12 hosts. Specifiy the network address, valid host range, broadcast address and subnet mask for each department from the given address 207.17.11.0/24. \hfill [10] (\texttt{80 Ba})
+			
+			\item How do you subnetwork a class C network block to following subnets of 41,14,102, and 21 computers respectively? Explain with example. \hfill [8] (\bo{79 Ch})
+
+			\item Suppose an ISP has 200, 250, 500 and 100 customers in the four different places say, A, B, C and D and need fourr point-to-point links. Provided an IP 10.0.48.0/21, you are required to perform subnetting with minimum waste of IP. Find out the subnet masks, network address, broadcast address, usable IP range and unusable IP range for each location. \hfill [10] (\bo{\texttt{79 Bh}})
+
+			\item Perform the subnetting of IP address block 194.53.0.0/24 for six different departments having 2, 62, 120, 5, 14 and 16 hosts. List out the subnet mask, network address, broadcast address, useable host ranges and wasted IP addresses in each subnet. \hfill [8] (\bo{77 Ch})
+
+			\item How do you assign the sub-net IP addresses to three LANs each 12, 5 and 29 computers respectively? (Assume 202.35.91.32/25) \hspace{9cm} [6] (\texttt{81 Ba})
+
+			\item Suppose your company has leased the IP address of 222.70.94.0/24 from your ISP. Divide it far five different departments containing 50, 30, 25, 12, 10 no of hosts. Therefore are also two points to point links far Interconnection between routers. List out the network address, broadcast address, usable IP address range and subnet mask for each subnet. Also mention the unused range of IP addresses. \hfill [8] (\bo{76 Ch})
+
+			\item IOE has six departments having 16, 32, 61, 8, 6 and 24 computers. Use 192.168.1.0/24 to distribute the network. Find the network address, broadcast address, usable IP range and subnet mask in each department. \hfill [8] (76 Ash)
+
+			\item  company has four departments having 20, 32, 60 and 24 computers in their respective departments. Assume an IPv4 class C public network address and design IP address blocks for each department from the assumed IP network using VLSM. Include network address, broadcast address, usable IP range and subnet mask for each of the subnet. \hfill [8] (\bo{76 Bh})
+
+			\item Suppose you are given the IP address block of 202.101.8.0/24 from your ISP. How can you divide this IP address for four different departments of your organization requiring 50, 10, 25, 100 number of hosts with minimal waste of IP address, in each department? List out the subnet mask, network address, broadcast address and usable host addresses for each subnet. \hfill [8] (76 Ba)
+
+			\item Suppose you are a private consultant hired by the large company to setup the network for their enterprise and you are given a large number of consecutive. UP address starting at 120.89.96.0/19. Suppose that four departments A, B, C and D request 100, 500, 800 and 400 address respectively, how the subnetting can be performed so, that adress wastage will be minimum? \hfill [8] (\bo{75 Ba})
+
+			\item Design a network for 5 departments containing 29, 14, 15, 23 and 5 computers. Take a network example IP 202.83.54.91/25. \hfill [8] (75 Ash)
+
+			\item You are given an IP address block of 201.40.58.0/24. Perform subnetting for four departments with equal hosts. \hfill [6] (\bo{75 Bh})
+
+			\item How can you dedicate 32, 65, 10, 21, 9 public IP address to the departments A, B, C, D and E respectively form the pool of class C IP addresses with minimum loss. Explain. \hfill [8] (\bo{74 Ch})
+
+			\item Suppose you are a private consultant hired by a company to setup the network for their enterprise and you are given a large number of consecutive IP address starting at 120.89.96.0/19. Suppose that four departments A, B, C and D request 100, 500, 800 and 400 addresses respectively, how the subnetting can be performed so that address wastage will be minimum? \hfill [8] (74 Ash)
+
+			\item IOM has 4 colleges. They need to be connected in same network. Allocate following numbers of IP address: 25, 68, 19 and 50 to those colleges by reducing the losses. The IP address provided to you to allocate is 202.61.77.0/24. List the range of IP addressses, their network address, broadcast address and corresponding subnet mask. \hfill [8] (\bo{74 Bh})
+		\end{enumerate}
 
 	\pagebreak
 \section{Transport Layer}
@@ -403,6 +496,9 @@
 	\subsection{Flow control and buffering}
 	\subsection{Multiplexing and de-multiplexing}
 	\subsection{Congestion control algorithm: Token Bucket and Leaky Bucket Transport Layer}
+		\begin{enumerate}
+			\item What are the factors affecting Congestion? \hfill [3] (75 Ba)
+		\end{enumerate}
 
 	\pagebreak
 
@@ -411,6 +507,9 @@
 	\subsection{Web: HTTP and HTTPS}
 	\subsection{File Transfer: FTP, PuTTY, WinSCP}
 	\subsection{Electronic Mail: SMTP, POP3, IMAP}
+		\begin{enumerate}
+			\item Compare IMAP and SMTP. \hfill [3] (75 Ba)
+		\end{enumerate}
 	\subsection{DNS}
 	\subsection{P2PApplications}
 	\subsection{Socket Programming}
