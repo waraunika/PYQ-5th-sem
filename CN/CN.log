@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.7.31)  5 AUG 2025 21:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.7.31)  5 AUG 2025 22:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -464,18 +464,24 @@ LaTeX Font Info:    Font shape `OT1/zi4/b/n' will be
 (Font)              scaled to size 12.0pt on input line 68.
  [4] [5] [6] [7] [8] [9] [10]
 [11] [12] [13]
-<cn_1.png, id=594, 515.526pt x 314.3745pt>
+<cn_1.png, id=593, 515.526pt x 314.3745pt>
 File: cn_1.png Graphic file (type png)
 <use cn_1.png>
-Package pdftex.def Info: cn_1.png  used on input line 571.
+Package pdftex.def Info: cn_1.png  used on input line 568.
 (pdftex.def)             Requested size: 289.07999pt x 176.29315pt.
  [14] [15 <./cn_1.png>] [16] [17] [18] [19] (./CN.aux)
-Package rerunfilecheck Info: File `CN.out' has not changed.
-(rerunfilecheck)             Checksum: B9AA2B1DD566D2B17904434E647010C4;16262.
+
+Package rerunfilecheck Warning: File `CN.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `CN.out':
+(rerunfilecheck)             Before: B9AA2B1DD566D2B17904434E647010C4;16262
+(rerunfilecheck)             After:  6FDBFEE84A9B767BB40C8703AB5988EF;16320.
  ) 
 Here is how much of TeX's memory you used:
- 11494 strings out of 477985
- 177274 string characters out of 5839380
+ 11493 strings out of 477985
+ 177266 string characters out of 5839380
  1868388 words of memory out of 6000000
  31239 multiletter control sequences out of 15000+600000
  522108 words of font info for 70 fonts, out of 8000000 for 9000
@@ -490,10 +496,10 @@ re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on CN.pdf (19 pages, 197458 bytes).
+Output written on CN.pdf (19 pages, 197397 bytes).
 PDF statistics:
- 745 PDF objects out of 1000 (max. 8388607)
- 697 compressed objects within 7 object streams
- 292 named destinations out of 1000 (max. 500000)
+ 744 PDF objects out of 1000 (max. 8388607)
+ 696 compressed objects within 7 object streams
+ 291 named destinations out of 1000 (max. 500000)
  534 words of extra memory for PDF output out of 10000 (max. 10000000)
 

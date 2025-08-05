@@ -12,7 +12,7 @@
 \contentsline {subsection}{\numberline {2.3}Circuit switching and Multiplexing}{6}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}ISDN: Architecture, Interface, and Signaling}{7}{subsection.2.4}%
 \contentsline {section}{\numberline {3}Data Link Layer}{8}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Functions of Data link layer}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.1}Data link layer: Functions and Services}{8}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Framing}{8}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Error Detection and Corrections}{8}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Flow Control}{8}{subsection.3.4}%
