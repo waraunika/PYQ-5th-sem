@@ -243,11 +243,7 @@
 	\subsection{Data link layer: Functions and Services}
 		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item What are the services provided by data link layer?
-			\enter\hfill [2] (\bo{\texttt{80 Bh, 79 Bh, 71 Sh}}) [3] (\bo{77 Ch, 72 Ka}) [4] (\bo{74 Ch}) 
-
-			\item What are the different sub-layers of data link layer? \hfill [2] (76 Ba)
-
-			\item Explain the functions of each sub-layer. \hfill [6] (76 Ba)
+			\enter\hfill [2] (\bo{\texttt{80 Bh, 79 Bh}, 71 Sh}) [3] (\bo{77 Ch, 72 Ka}) [4] (\bo{74 Ch}) 
 
 			\item State the various design issues for the data link layer? \hfill [3] (75 Ash)
 		\end{enumerate}
@@ -293,16 +289,24 @@
 		\end{enumerate}
 
 	\subsection{Examples of Data Link Protocol, HDLC, PPP}
-		\begin{enumerate}
-			\item What is PPP? \hfill[2] (\texttt{73 Ch})
+		\begin{enumerate}[noitemsep, topsep=0pt]
+			\item What is PPP? \hfill[2] (\bo{73 Ch})
 
 			\item Write short notes on: HDLC \hfill [4] (73 Shr)
 		\end{enumerate}
 	\subsection{The Medium Access Sub-layer}
 		\begin{enumerate}[noitemsep, topsep=0pt]
+			\item What are the different sub-layers of data link layer? \hfill [2] (76 Ba)
+
+			\item Explain the functions of each sub-layer. \hfill [6] (76 Ba)
+			\lb What are the functions of LLC and MAC sub-layer? \hfill [2+2] (70 Asa)
+
+			\item What is MAC's significance in data link layer? \hfill [2] (73 Shr)
+
 			\item (Assumed) Through we have MAC address, why do we use IP address to represent the host in networks? Explain your answer. \hfill [3] (\bo{72 Ch})
 
-			\item Why do you think that the issues of media access is very important in data link layer? \hfill [3] (\bo{74 Bh})
+			\item Why do you think that the issues of media access is very important in data link layer?
+			\enter\hfill [3] (\bo{74 Bh})
 		\end{enumerate}
 
 	\subsection{The channel allocation problem}
@@ -313,13 +317,7 @@
 
 	\subsection{Multiple Access Protocols}
 		\begin{enumerate}[noitemsep, topsep=0pt]
-			\item What are multiple access protocols? \hfill [2] (\bo{76 Bh, 75 Ch, 71 Ch})
-
-			\item Explain how multiple access is acheived in IEEE 802.5. \hfill[6] (\bo{71 Ch})
-
-			\item What are multiple access protocols? What is its significance in data link layer? Explain why token bus is also called as the token ring. \hfill [2+2+4] (\bo{76 Bh, 75 Ch, 73 Sh})
-
-			\item What are the functions of LLC and MAC sub-layer? \hfill [2+2] (70 Asa)
+			\item What are multiple access protocols? \hfill [2] (\bo{76 Bh, 75 Ch, 71 Ch}, 73 Shr)
 		\end{enumerate}
 
 	\subsection{Ethernet}
@@ -333,17 +331,17 @@
 			\lb Explain different types of ALOHA. \hfill [4] (75 Ba, 72 Ma)
 			\lb What is pure ALOHA and slotted ALOHA? Consider the delay of both at low load.Which one is less. \hfill [3+2] (\texttt{71 Bh})
 
-
-			\item How does CSMA-CD works? Explain. \hfill [4] (\bo{76 Ch}) [6] (\bo{79 Ch})
+			\item How does CSMA-CD works? Explain. \hfill [4] (\bo{76 Bh}) [6] (\bo{79 Ch})
 			\lb with figure. \hfill [8] (76 Ash)
 
 			\item Explain about the operation of CSMA/CD. \hfill [3] (\bo{74 Bh})
 
-			\item How can you make it more efficient? \hfill [5] (\bo{74 Bh})
+			\item How can you make CSMA/CD operation more efficient? \hfill [5] (\bo{74 Bh})
 
 			\item Why is CSMA-CD not suitable for wireless medium? Explain. \hfill [2] (\bo{76 Ch})
 			
-			\item Explain Carrier sense multiple access with collision detection (CSMA/CD) is better than CSMA? \hfill[5] (\texttt{71 Ma})
+			\item Explain Carrier sense multiple access with collision detection (CSMA/CD) is better than CSMA?
+			\enter \hfill[5] (71 Ma)
 
 			\item Explain about operation of Carrier Sense Multiple Access with Collision Detection. \hfill [6] (\bo{73 Ch})
 			
@@ -352,12 +350,16 @@
 			\item How the possibility of collision is reduced in IEEE 802.3 and IEEE 802.11? Explain. \hfill [6] (\bo{76 Ch})
 
 			\item Differentiate between Token Bus and Token Ring networks. \hfill [4] (75 Ba)
+			
+			\item Explain how multiple access is acheived in IEEE 802.5. \hfill[6] (\bo{71 Ch})
+			
+			\item Explain why token bus is also called as the token ring. \hfill [4] (73 Sh)
 
-			\item List the features of FDDI. \hfill [4] (72 Ch)
+			\item List the features of FDDI. \hfill [4] (\bo{72 Ch})
 
-			\item Explain fault tolerance mechanism of FDDI. \hfill [3] (73 Ch) 
+			\item Explain fault tolerance mechanism of FDDI. \hfill [3] (\bo{73 Ch}) 
 
-			\item Explain IEEE 802.4. \hfill [3] (\texttt{71 Ma})
+			\item Explain IEEE 802.4. \hfill [3] (71 Ma)
 		\end{enumerate}
 			
 	\subsection{Numericals}
