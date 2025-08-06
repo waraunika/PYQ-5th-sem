@@ -14,10 +14,10 @@
 \contentsline {section}{\numberline {3}Data Link Layer}{8}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Data link layer: Functions and Services}{8}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Framing}{8}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Error Detection and Corrections}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Error Control, Detection and Corrections}{8}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Flow Control}{8}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Examples of Data Link Protocol, HDLC, PPP}{8}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}The Medium Access Sub-layer}{9}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.6}The Medium Access Sub-layer}{8}{subsection.3.6}%
 \contentsline {subsection}{\numberline {3.7}The channel allocation problem}{9}{subsection.3.7}%
 \contentsline {subsection}{\numberline {3.8}Multiple Access Protocols}{9}{subsection.3.8}%
 \contentsline {subsection}{\numberline {3.9}Ethernet}{9}{subsection.3.9}%
