@@ -320,36 +320,33 @@
 			\item What are multiple access protocols? \hfill [2] (\bo{76 Bh, 75 Ch, 71 Ch}, 73 Shr)
 		\end{enumerate}
 
-	\subsection{Ethernet}
-		\begin{enumerate}
-			\item Explain Ethernet frame with function of each field. \hfill [5] (\bo{77 Ch})
-		\end{enumerate}
-
-	\subsection{Networks: FDDI, ALOHA, VLAN, CSMA/CD, IEEE 802.3(Ethernet), 802.4(Token Bus), 802.5(Token Ring), and 802.1(Wireless LAN)}
+	\subsection{Networks: ALOHA, VLAN, CSMA/CD, IEEE 802.3(Ethernet), 802.4(Token Bus), 802.5(Token Ring), and 802.11(Wireless LAN), FDDI}
 		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item What is ALOHA system? \hfill [2] (\bo{79 Ch})
-			\lb Explain different types of ALOHA. \hfill [4] (75 Ba, 72 Ma)
-			\lb What is pure ALOHA and slotted ALOHA? Consider the delay of both at low load.Which one is less. \hfill [3+2] (\texttt{71 Bh})
+			
+			\item Explain different types of ALOHA. \hfill [4] (75 Ba, 72 Ma)
+			\lb What is pure ALOHA and slotted ALOHA? Consider the delay of both at low load.Which one is less. \hfill [3+2] (\bo{71 Bh})
+			
+			\item What is collission? How is it occured? \hfill [1+1] (\bo{76 Ch})
 
-			\item How does CSMA-CD works? Explain. \hfill [4] (\bo{76 Bh}) [6] (\bo{79 Ch})
+			\item How does CSMA-CD works? Explain. \hfill [3] (\bo{74 Bh}) [4] (\bo{76 Bh}) [6] (\bo{79 Ch})
 			\lb with figure. \hfill [8] (76 Ash)
-
-			\item Explain about the operation of CSMA/CD. \hfill [3] (\bo{74 Bh})
 
 			\item How can you make CSMA/CD operation more efficient? \hfill [5] (\bo{74 Bh})
 
 			\item Why is CSMA-CD not suitable for wireless medium? Explain. \hfill [2] (\bo{76 Ch})
-			
-			\item Explain Carrier sense multiple access with collision detection (CSMA/CD) is better than CSMA?
-			\enter \hfill[5] (71 Ma)
 
-			\item Explain about operation of Carrier Sense Multiple Access with Collision Detection. \hfill [6] (\bo{73 Ch})
+			\item Explain about operation of CSMA/CD. \hfill [6] (\bo{73 Ch})
 			
-			\item What is collission? How is it occured? \hfill [1+1] (\bo{76 Ch})
+			\item Explain why CSMA/CD is better than CSMA? \hfill[5] (71 Ma)
+			
+			\item Explain Ethernet frame with function of each field. \hfill [5] (\bo{77 Ch})
 
-			\item How the possibility of collision is reduced in IEEE 802.3 and IEEE 802.11? Explain. \hfill [6] (\bo{76 Ch})
+			\item Explain IEEE 802.4. \hfill [3] (71 Ma)
 
 			\item Differentiate between Token Bus and Token Ring networks. \hfill [4] (75 Ba)
+
+			\item How the possibility of collision is reduced in IEEE 802.3 and IEEE 802.11? Explain. \hfill [6] (\bo{76 Ch})
 			
 			\item Explain how multiple access is acheived in IEEE 802.5. \hfill[6] (\bo{71 Ch})
 			
@@ -358,8 +355,6 @@
 			\item List the features of FDDI. \hfill [4] (\bo{72 Ch})
 
 			\item Explain fault tolerance mechanism of FDDI. \hfill [3] (\bo{73 Ch}) 
-
-			\item Explain IEEE 802.4. \hfill [3] (71 Ma)
 		\end{enumerate}
 			
 	\subsection{Numericals}
@@ -385,7 +380,7 @@
 		\item Network layer is one of the key layers in OSI reference model, why? \hfill [2] (72 Ka)
 	\end{enumerate}
 
-	\subsection{Internet working and devices: Repeaters, Hubs, Bridges, Switches, Router, Gateway}
+	\subsection{Internetworking and devices: Repeaters, Hubs, Bridges, Switches, Router, Gateway}
 		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item Write short notes on: HUB, Switch, Routers. \hfill [4] (75 ba)
 
@@ -396,19 +391,17 @@
 		\end{enumerate}
 	\subsection{Addressing: Internet address, classful address}
 		\begin{enumerate}[noitemsep, topsep=0pt]
-			\item What is phyiscal address? \hfill [2] (73 Ma)
-
 			\item Write short notes on IP. \hfill [4] (71 Shr)
 
-			\item What are the mechanisms adapted for optimization of uses of IP address. \hfill [4] (\bo{73 Bh})
+			\item What is phyiscal address? \hfill [2] (73 Ma)
 
 			\item What are IPv4 address classes? \hfill [2] (\bo{79 Ch})
 
 			\item What is classful and classless address? \hfill [2] (74 Ash)
 
-			\item Why do we think that there arised the need of classless IP address through class based IP address was in use? \hfill [4] (\bo{73 Ch})
-
 			\item Show the classless IP with an example. \hfill [4] (\bo{73 Ch})
+
+			\item Why do we think that there arised the need of classless IP address through class based IP address was in use? \hfill [4] (\bo{73 Ch})
 
 			\item What is the Network address and broadcast address in IPv4 addressing? \hfill [2] (\texttt{81 Ba})
 
@@ -417,12 +410,12 @@
 			\item What is the purpose of Time to live (TTL) and protocol field in header of IPv4 datagram.
 			\enter\hfill [4] (\bo{76 Ch})
 
-			\item Write short notes on ARP. \hfill [4] (71 Shr)
+			\item What are the mechanisms adapted for optimization of uses of IP address. \hfill [4] (\bo{73 Bh})
 		\end{enumerate}
 
 	\subsection{Subnetting}
 		\begin{enumerate}
-			\item Explain with exampele, the use of sub-netting showing network address, broadcast address and sub-net mask. \hfill [6] (\bo{73 Bh})
+			\item Explain with example, the use of sub-netting showing network address, broadcast address and sub-net mask. \hfill [6] (\bo{73 Bh})
 
 			\item What is subnet mask? \hfill [1] (71 Ma)
 		\end{enumerate}
@@ -505,13 +498,11 @@
 			\item Explain the following terminologies: Network Layer, Shortest Path Routing algorithm, link State Routing Protocol, Interior Gateway Routing protocol, ICMP. \hfill [8] (72 Ma)
 
 			\item Write short notes on ICMP. \hfill [4] (71 Shr)
-
-			\item A large number of consecutive IP addresses are available at 202.70.64.0/19. Suppose that four organization A, B, C and D request 100, 500, 800 and 400 addresses respectively, how the subnetting can be performed so, that address wastage will be minimum? \hfill [8] (70 Ma)
 		\end{enumerate}
 
 	\subsection{Numericals}
 		\begin{enumerate}
-			\item Company Allegro hired an IT expert. The expert was given task to perform logical design of the company with an IP block of 206.100.100.0/24. The company had 40,20,8,100 and 5 employees in its sales, admin, finance, support and HR departments respectively. Show how he was able to perform subnetting with minimum IP wastage. \hfill [6] (\bo{\texttt{80 Bh}})
+			\item Company Allegro hired an IT expert. The expert was given task to perform logical design of the company with an IP block of 206.100.100.0/24. The company had 40, 20, 8, 100 and 5 employees in its sales, admin, finance, support and HR departments respectively. Show how he was able to perform subnetting with minimum IP wastage. \hfill [6] (\bo{\texttt{80 Bh}})
 
 			\item Design a network for a company having 5 departments with 60, 42, 30, 10 and 12 hosts. Specifiy the network address, valid host range, broadcast address and subnet mask for each department from the given address 207.17.11.0/24. \hfill [10] (\texttt{80 Ba})
 			
@@ -567,6 +558,8 @@
 			\item How can you dedicate 10, 12, 8, 14 public IP address to department A, B, C and D respectively from the pool of class C with minimum losses of IP? Explain. \hfill [8] (\bo{70 Ch})
 
 			\item A large number of consecutive IP addresses are avialable starting at 193.122.2.1. Suppose that four organizations Pulchowk, Thapathali, WRC and ERC request 6000, 2000, 4000 and 2500 address respectively. Design the network and find the first valid IP address, last IP address and mask in w.x.y.z/s notation for each organization. \hfill [8] (\bo{70 Bh})
+
+			\item A large number of consecutive IP addresses are available at 202.70.64.0/19. Suppose that four organization A, B, C and D request 100, 500, 800 and 400 addresses respectively, how the subnetting can be performed so, that address wastage will be minimum? \hfill [8] (70 Ma)
 		\end{enumerate}
 
 	\pagebreak
