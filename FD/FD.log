@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.7.31)  9 AUG 2025 19:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.7.31)  9 AUG 2025 20:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -462,123 +462,123 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--61
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--73
+Underfull \hbox (badness 10000) in paragraph at lines 69--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--73
+Underfull \hbox (badness 10000) in paragraph at lines 69--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--76
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--96
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 96--98
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
 
  []
 
 <fd_5.png, id=373, 545.03625pt x 185.69376pt>
 File: fd_5.png Graphic file (type png)
 <use fd_5.png>
-Package pdftex.def Info: fd_5.png  used on input line 110.
+Package pdftex.def Info: fd_5.png  used on input line 106.
 (pdftex.def)             Requested size: 289.07999pt x 98.48805pt.
 [5 <./fd_5.png>]
 LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
-(Font)              scaled to size 10.95pt on input line 160.
+(Font)              scaled to size 10.95pt on input line 156.
  [6]
 LaTeX Font Info:    Font shape `OT1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 220.
+(Font)              scaled to size 10.0pt on input line 216.
 LaTeX Font Info:    Font shape `OT1/zi4/b/n' will be
-(Font)              scaled to size 10.0pt on input line 230.
+(Font)              scaled to size 10.0pt on input line 226.
  [7] [8]
 <fd_9.png, id=436, 336.25626pt x 171.64125pt>
 File: fd_9.png Graphic file (type png)
 <use fd_9.png>
-Package pdftex.def Info: fd_9.png  used on input line 272.
+Package pdftex.def Info: fd_9.png  used on input line 268.
 (pdftex.def)             Requested size: 289.07999pt x 147.56143pt.
 <fd_8.png, id=438, 642.4pt x 239.89626pt>
 File: fd_8.png Graphic file (type png)
 <use fd_8.png>
-Package pdftex.def Info: fd_8.png  used on input line 288.
+Package pdftex.def Info: fd_8.png  used on input line 284.
 (pdftex.def)             Requested size: 289.07999pt x 107.95596pt.
  [9 <./fd_9.png>]
 <fd_10.png, id=454, 444.66125pt x 135.50626pt>
 File: fd_10.png Graphic file (type png)
 <use fd_10.png>
-Package pdftex.def Info: fd_10.png  used on input line 291.
+Package pdftex.def Info: fd_10.png  used on input line 287.
 (pdftex.def)             Requested size: 289.07999pt x 88.09454pt.
 <fd_6.png, id=456, 556.0775pt x 185.69376pt>
 File: fd_6.png Graphic file (type png)
 <use fd_6.png>
-Package pdftex.def Info: fd_6.png  used on input line 302.
+Package pdftex.def Info: fd_6.png  used on input line 298.
 (pdftex.def)             Requested size: 289.07999pt x 96.5358pt.
 <fd_7.png, id=457, 467.7475pt x 172.645pt>
 File: fd_7.png Graphic file (type png)
 <use fd_7.png>
-Package pdftex.def Info: fd_7.png  used on input line 305.
+Package pdftex.def Info: fd_7.png  used on input line 301.
 (pdftex.def)             Requested size: 289.07999pt x 106.70421pt.
  [10 <./fd_8.png> <./fd_10.png> <./fd_6.png> <./fd_7.png>] [11] [12]
-Overfull \hbox (18.92009pt too wide) in paragraph at lines 409--413
+Overfull \hbox (18.92009pt too wide) in paragraph at lines 405--409
 \OML/cmm/m/it/12 Z[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 ) = []$ 
   $\OML/cmm/m/it/12 Z[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 ) = [
 ]$   $\OML/cmm/m/it/12 Z[]\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 s\OT1/cmr/m/n/12 ) 
 = []$ 
  []
 
-[13] [14] [15] [16] [17] [18] [19] [20]
-<fd_11.png, id=628, 456.70625pt x 157.58875pt>
+[13] [14] [15] [16] [17] [18] [19] [20] [21]
+<fd_11.png, id=641, 456.70625pt x 157.58875pt>
 File: fd_11.png Graphic file (type png)
 <use fd_11.png>
-Package pdftex.def Info: fd_11.png  used on input line 723.
+Package pdftex.def Info: fd_11.png  used on input line 737.
 (pdftex.def)             Requested size: 289.07999pt x 99.75032pt.
-<fd_4.png, id=631, 567.11874pt x 165.61874pt>
+<fd_4.png, id=644, 567.11874pt x 165.61874pt>
 File: fd_4.png Graphic file (type png)
 <use fd_4.png>
-Package pdftex.def Info: fd_4.png  used on input line 733.
+Package pdftex.def Info: fd_4.png  used on input line 747.
 (pdftex.def)             Requested size: 264.46837pt x 77.23683pt.
- [21 <./fd_11.png> <./fd_4.png>]
-<fd_1.png, id=648, 762.85pt x 316.18124pt>
+ [22 <./fd_11.png> <./fd_4.png>]
+<fd_1.png, id=660, 762.85pt x 316.18124pt>
 File: fd_1.png Graphic file (type png)
 <use fd_1.png>
-Package pdftex.def Info: fd_1.png  used on input line 767.
+Package pdftex.def Info: fd_1.png  used on input line 781.
 (pdftex.def)             Requested size: 264.46837pt x 109.61334pt.
-<fd_12.png, id=649, 507.8975pt x 210.7875pt>
+<fd_12.png, id=661, 507.8975pt x 210.7875pt>
 File: fd_12.png Graphic file (type png)
 <use fd_12.png>
-Package pdftex.def Info: fd_12.png  used on input line 770.
+Package pdftex.def Info: fd_12.png  used on input line 784.
 (pdftex.def)             Requested size: 289.07999pt x 119.97644pt.
 
-[22 <./fd_1.png> <./fd_12.png>] [23]
+[23 <./fd_1.png> <./fd_12.png>] [24]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 779.
+(hyperref)                than one, level fixed on input line 793.
 
-<fd_2.png, id=668, 716.6775pt x 544.0325pt>
+<fd_2.png, id=680, 716.6775pt x 544.0325pt>
 File: fd_2.png Graphic file (type png)
 <use fd_2.png>
-Package pdftex.def Info: fd_2.png  used on input line 780.
+Package pdftex.def Info: fd_2.png  used on input line 794.
 (pdftex.def)             Requested size: 289.07999pt x 219.44373pt.
-<fd_3.png, id=669, 759.83875pt x 212.795pt>
+<fd_3.png, id=681, 759.83875pt x 212.795pt>
 File: fd_3.png Graphic file (type png)
 <use fd_3.png>
-Package pdftex.def Info: fd_3.png  used on input line 783.
+Package pdftex.def Info: fd_3.png  used on input line 797.
 (pdftex.def)             Requested size: 289.07999pt x 80.95709pt.
-[24 <./fd_2.png> <./fd_3.png>] (./FD.aux)
+[25 <./fd_2.png> <./fd_3.png>] (./FD.aux)
 Package rerunfilecheck Info: File `FD.out' has not changed.
 (rerunfilecheck)             Checksum: E683222580E81D8A2B66F99C6E0622C9;19215.
  ) 
 Here is how much of TeX's memory you used:
- 11542 strings out of 477985
- 176968 string characters out of 5839380
+ 11551 strings out of 477985
+ 177039 string characters out of 5839380
  1869388 words of memory out of 6000000
  31294 multiletter control sequences out of 15000+600000
  526142 words of font info for 84 fonts, out of 8000000 for 9000
@@ -599,10 +599,10 @@ s/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1
 amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfr
 m1200.pfb>
-Output written on FD.pdf (24 pages, 957713 bytes).
+Output written on FD.pdf (25 pages, 959850 bytes).
 PDF statistics:
- 803 PDF objects out of 1000 (max. 8388607)
- 715 compressed objects within 8 object streams
- 282 named destinations out of 1000 (max. 500000)
+ 819 PDF objects out of 1000 (max. 8388607)
+ 730 compressed objects within 8 object streams
+ 291 named destinations out of 1000 (max. 500000)
  573 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -582,7 +582,10 @@
 
 			\item Differentiate active and passive filter.\hfill [2] (\bo{\texttt{80 Bh}}) [4] (76 Ash)
 			
-			\item What are the advantages of active filters over passive filters? \hfill [2] (81 Ba) [3] (\bo{76 Ch})
+			\item What are the advantages of active filters over passive filters? \hfill [2] (81 Ba) [3] (\bo{76 Ch}, 70 Asa)
+
+			\item What are the different techniques of designing higher order active filters? Discuss briefly.
+			\enter\hfill [4] (70 Asa)
 		\end{enumerate}
 		
 		\subsubsection{Ideal and real operational amplifiers, gain-bandwidth product}
@@ -592,17 +595,18 @@
 				\item Realize a system using non-inverting op-amp configuration with
 				\lb zero at -5 and pole at -3 and having high frequency gain of 2.\hfill[5] (\bo{\texttt{81 Bh}})
 				\lb zero at s = -4, pole at s = -8 and high frequency gain of 2. \hfill [5] (\bo{79 Bh})
+				\lb zero at s = -2, pole at s = -5 and high frequency gain of 2. \hfill [3] (\bo{71 Ch})
 				\lb zero at 1000, pole at 100 and dc gain of 5. \hfill [3] (\bo{76 Ch})
 				\lb zero at -1000 pole at -100 with DC gain of 10. \hfill [5] (80 Ba)
 
 				\item Realize the following transfer function using non-inverting op-amp configuration.
 				\lb T(s) = $\dfrac{4(s+2)}{s+1}$ \hfill [3] (\bo{\texttt{80 Bh}})
 				\lb T(s) = $\dfrac{4(s+200)}{s+100}$ \hfill [4] (\bo{80 Bh})
-				\lb T(s) = $\dfrac{s+8}{s+2}$ \hfill [3] (76 Ash) [4] (\texttt{81 Ba})
-				\lb T(s) = $\dfrac{s+8}{s+2}$ \hfill [4] (\bo{78 Bh})
+				\lb T(s) = $\dfrac{s+8}{s+2}$ \hfill [3] (76 Ash) [4] (\bo{78 Bh}, \texttt{81 Ba}, 72 Ka)
+				\lb T(s) = 7$\dfrac{s+400}{s+200}$ (no inductors in design) \hfill [4] (\bo{69 Ch})
 
 				\item Realize the following transfer function by cascading two first order sections using inverting op-amp configuration.\\
-				T(s) = $\dfrac{12}{s^2+8s+12}$ \hfill [6] (\bo{79 Bh})
+				T(s) = $\dfrac{12}{s^2+8s+12}$ \hfill [5] (\bo{72 Ch}) [6] (\bo{79 Bh})
 			\end{enumerate}
 
 	\subsection{Second order active sections (biquads)}
@@ -622,12 +626,20 @@
 				\lb Realize the following LPF transfer function using Tow-Thomas biquad circuit.\\
 				T(s) = $\dfrac{-2000}{s^2+500s+1000000}$ \hfill [5] (\bo{\texttt{79 Bh}})
 
+				\item Draw a neat and clean circuit diagram of Tow-Thomas LPF and derive its transfer function. Design a LPF using Tow-Thomas Biquad circuit which has poles at 1000 $\pm$ 8994.03 j and DC gain of 1.89. Use 0.01$\mu$F capacitor in your design. \hfill [9] (\bo{71 Ch})
+
+				\item Draw the circuit diagram and derive transfer function of Tow Thomas Biquad circuit. Design a low pass filter using Tow-Thomas Biquad circuit with poles at -500 $\pm$ j 2449.49 and dc gain of 2. The final circuit should consist capacitors of value 0.1$\mu$F. \hfill [3+5] (\bo{70 Ch})
+
+				\item Draw the circuit diagram of Tow-Thomas LPF and derive its transfer function. Design a second order LPF using Tow-Thomas biquad circuit having poles at -750 $\pm$ j 661.44 and dc gain of 2. Use capacitor of value 0.01$\mu$F in your design. \hfill [4+4] (\bo{69 Ch})
+
 				\item Derive the transfer function of Tow-Thomas LP biquad filter and design a lowpass filter having poles at -400 $\pm$ j 3979.95 and dc gain of 4 with practically realizable values. \hfill [4+4] (80 Ba)
 				\lb dc gain of 1.5, capcacitor value 0.001$\mu$F. \hfill [4+4] (76 Ash)
 
 				\item Derive the transfer function of Tow-Thomas low pass biquad. Design a lowpass filter having poles at -24000 $\pm$ j 32000 and dc gain of 2, with practically suitable elements. \hfill [4+4] (\bo{78 Bh})
 
 				\item Draw the circuit diagram of Tow-Thomas low pass biquad ckt and derive its transfer function. Design a low pass filter using Tow Thomas biquad ckt with poles at 577 $\pm$ j 816.8 and DC gain of 2. Use capacitor of value 0.01$\mu$F in your design. \hfill [4+4] (79 Ba)
+
+				\item Draw the circuit diagram of Tow-Thomas LPF and derive its transfer function. Design a second order Butterworth LPF having half power frequency of 5 kHz using Tow-Thomas biquad circuit. Your final ckt should have all capacitors of 0.001$\mu$F. \hfill [4+4] (71 Shr)
 
 				\item Design a second order low pass filter with poles at -10000 $\pm$ j 17320.51 and DC gain of 2.5 using Tow Thomas Biquad Circuit. Your final circuit should have capacitors of value 0.001$\mu$F.
 				\enter\hfill [6] (\texttt{80 Ba})
@@ -644,7 +656,7 @@
 				\item Why gain enhancement is needed in Sallen-Key biquad? Explain the gain enhancement in Sallen Key LP biquad. \hfill [2+4] (\bo{81 Bh})
 
 				\item How can gain enhancement be performed in Sallen-Key circuit? Explain with necessary diagram.
-				\enter\hfill [5] (73 Shr)
+				\enter\hfill [5] (73 Shr, 71 Shr)
 				
 				\item Design a 4\super{th} order Butterworth LPF using cascaded two Sallen-Key biquads having half power frequency of 1 kHz and largest capacitor of 0.1 $\mu$F in your final circuit. \hfill [8] (\bo{79 Bh})
 				
@@ -653,6 +665,10 @@
 				\item Derive the transfer function of low pass sallen-key biquad filter \textit{[\hyperref[sec:tables_81ba]{Refer Table]}}. The half power frequency should be 10KHz. Make the largest capacitance 0.01$\mu$F and overall gain be 1.
 				\enter \hfill [4+4] (\texttt{81 Ba})
 
+				\item Draw the circuit diagram of Sallen-Key LPF and derive its transfer function. Design second order butterworth LPF using half power frequency of 10Khz using Sallen Key biquad. In your final design the value of capacitor must be 0.01$\mu$F and feedback resistors should also be equal. \hfill [5+4] (72 Ka)
+
+				\item Draw the circuit diagram of Sallen-Key LPF and derive its transfer function. Design a second order Butterworth LPF having half power frequency of 4kHz using Sallen-Key circuit. Your final circuit should have all capacitors of 0.01$\mu$F. Perform gain compensation if necessary. \hfill [4+4] (70 Asa)
+
 				\item Derive the transfer function of Sallen-Key LPF. Uisng Sallen and Key ckt, design an LPF having \w$_0$ of 1000 rad/s, quality factor of 0.866 and gain of 2. \hfill [4+4] (\bo{73 Ch})
 
 				\item Derive transfer function of Sallen-Key LPF. Design ckt for transfer function T(s) = $\dfrac{1}{s^2+0.76s+1}$ using Sallen-Key LPF. In your final design the values of capacitors must be 0.01$\mu$F and feedback resistors should be equal. \hfill [4+4] (\bo{76 Ch, 75 Ch})
@@ -660,6 +676,8 @@
 				\item Derive transfer function of Sallen-Key LPF. Design a second order Butterworth LPF using Sallen-Key biquad. In your final design the values of capacitors must be 0.01 $\mu$F and feedback resistors should be equal.. \hfill [4+4] (\bo{75 Ash})
 
 				\item Realize the normalized transfer function of $\dfrac{1}{s^2+s+1}$ using Sallen-Key biquad circuit. In your final design, the half power frequency should be 1.8kHz and all capacitances of 10nF. \hfill [4] (81 Ba)
+
+				\item Design Sallen key LPF filter for fourth order Butter worth filter. The final circuit should have \w$_0$ = 10,000 rad/s and have practically realizable elements. \hfill [8] (\bo{72 Ch})
 
 				\item How is excess gain compensated in Sallen-Key circuit? Explain. \hfill [5] (\bo{74 Ch})
 				\lb explain with necessary derivations and diagrams.\hfill [5] (\texttt{80 Ba})
