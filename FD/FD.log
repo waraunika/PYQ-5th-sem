@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.7.31)  9 AUG 2025 20:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.7.31)  9 AUG 2025 21:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -534,56 +534,71 @@ Overfull \hbox (18.92009pt too wide) in paragraph at lines 405--409
 = []$ 
  []
 
-[13] [14] [15] [16] [17] [18] [19] [20] [21]
-<fd_11.png, id=641, 456.70625pt x 157.58875pt>
+[13] [14] [15] [16] [17]
+Underfull \hbox (badness 4060) in paragraph at lines 634--634
+[]\OT1/cmr/m/n/12 Realize LPF from given
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
+[]\OT1/cmr/m/n/12 Practically suit-able el-e-
+ []
+
+
+Overfull \hbox (20.94258pt too wide) in paragraph at lines 629--645
+ [][] 
+ []
+
+[18] [19] [20]
+<fd_11.png, id=629, 456.70625pt x 157.58875pt>
 File: fd_11.png Graphic file (type png)
 <use fd_11.png>
-Package pdftex.def Info: fd_11.png  used on input line 737.
+Package pdftex.def Info: fd_11.png  used on input line 739.
 (pdftex.def)             Requested size: 289.07999pt x 99.75032pt.
-<fd_4.png, id=644, 567.11874pt x 165.61874pt>
+<fd_4.png, id=632, 567.11874pt x 165.61874pt>
 File: fd_4.png Graphic file (type png)
 <use fd_4.png>
-Package pdftex.def Info: fd_4.png  used on input line 747.
+Package pdftex.def Info: fd_4.png  used on input line 749.
 (pdftex.def)             Requested size: 264.46837pt x 77.23683pt.
- [22 <./fd_11.png> <./fd_4.png>]
-<fd_1.png, id=660, 762.85pt x 316.18124pt>
+ [21 <./fd_11.png> <./fd_4.png>]
+<fd_1.png, id=649, 762.85pt x 316.18124pt>
 File: fd_1.png Graphic file (type png)
 <use fd_1.png>
-Package pdftex.def Info: fd_1.png  used on input line 781.
+Package pdftex.def Info: fd_1.png  used on input line 783.
 (pdftex.def)             Requested size: 264.46837pt x 109.61334pt.
-<fd_12.png, id=661, 507.8975pt x 210.7875pt>
+<fd_12.png, id=650, 507.8975pt x 210.7875pt>
 File: fd_12.png Graphic file (type png)
 <use fd_12.png>
-Package pdftex.def Info: fd_12.png  used on input line 784.
+Package pdftex.def Info: fd_12.png  used on input line 786.
 (pdftex.def)             Requested size: 289.07999pt x 119.97644pt.
-
-[23 <./fd_1.png> <./fd_12.png>] [24]
+ [22 <./fd_1.png> <./fd_12.png>]
+[23]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 793.
+(hyperref)                than one, level fixed on input line 795.
 
-<fd_2.png, id=680, 716.6775pt x 544.0325pt>
+<fd_2.png, id=669, 716.6775pt x 544.0325pt>
 File: fd_2.png Graphic file (type png)
 <use fd_2.png>
-Package pdftex.def Info: fd_2.png  used on input line 794.
+Package pdftex.def Info: fd_2.png  used on input line 796.
 (pdftex.def)             Requested size: 289.07999pt x 219.44373pt.
-<fd_3.png, id=681, 759.83875pt x 212.795pt>
+<fd_3.png, id=670, 759.83875pt x 212.795pt>
 File: fd_3.png Graphic file (type png)
 <use fd_3.png>
-Package pdftex.def Info: fd_3.png  used on input line 797.
+Package pdftex.def Info: fd_3.png  used on input line 799.
 (pdftex.def)             Requested size: 289.07999pt x 80.95709pt.
-[25 <./fd_2.png> <./fd_3.png>] (./FD.aux)
+[24 <./fd_2.png> <./fd_3.png>] (./FD.aux)
 Package rerunfilecheck Info: File `FD.out' has not changed.
 (rerunfilecheck)             Checksum: E683222580E81D8A2B66F99C6E0622C9;19215.
  ) 
 Here is how much of TeX's memory you used:
- 11551 strings out of 477985
- 177039 string characters out of 5839380
- 1869388 words of memory out of 6000000
+ 11543 strings out of 477985
+ 176976 string characters out of 5839380
+ 1871388 words of memory out of 6000000
  31294 multiletter control sequences out of 15000+600000
  526142 words of font info for 84 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,8n,76p,666b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,76p,666b,584s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4
 b.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/inconsolata/Inconsolata
 -zi4r.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.
@@ -599,10 +614,10 @@ s/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1
 amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfr
 m1200.pfb>
-Output written on FD.pdf (25 pages, 959850 bytes).
+Output written on FD.pdf (24 pages, 960184 bytes).
 PDF statistics:
- 819 PDF objects out of 1000 (max. 8388607)
- 730 compressed objects within 8 object streams
- 291 named destinations out of 1000 (max. 500000)
+ 805 PDF objects out of 1000 (max. 8388607)
+ 717 compressed objects within 8 object streams
+ 283 named destinations out of 1000 (max. 500000)
  573 words of extra memory for PDF output out of 10000 (max. 10000000)
 
