@@ -38,27 +38,27 @@
 \contentsline {subsubsection}{\numberline {6.1.4}First order passive sections and active sections using inverting and non-inverting op-amp configuration}{17}{subsubsection.6.1.4}%
 \contentsline {subsection}{\numberline {6.2}Second order active sections (biquads)}{17}{subsection.6.2}%
 \contentsline {subsubsection}{\numberline {6.2.1}Tow-Thomas biquad circuit, design of active filter using TowThomas biquad}{17}{subsubsection.6.2.1}%
-\contentsline {subsubsection}{\numberline {6.2.2}Sallen-Key biquad circuit and Muhiple-feedback biquad (MFB) circuit}{17}{subsubsection.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.3}Cain reduction and gain enhancement}{18}{subsubsection.6.2.3}%
-\contentsline {subsubsection}{\numberline {6.2.4}RC-CR transformation}{18}{subsubsection.6.2.4}%
-\contentsline {section}{\numberline {7}Sensitivity}{19}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Sensitivity and importance of sensitivity analysis}{19}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Definition of single parameter sensitivity}{19}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Centre frequency and Q-factor sensitivity}{19}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Sensitivity properties of biquads}{19}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}Sensitivity of passive circuits}{19}{subsection.7.5}%
-\contentsline {section}{\numberline {8}Design of High-Order Active Filters}{20}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Cascade of biquads}{20}{subsection.8.1}%
-\contentsline {subsubsection}{\numberline {8.1.1}Sequencing of filter blocks, center frequency, Q-factor and gain}{20}{subsubsection.8.1.1}%
-\contentsline {subsection}{\numberline {8.2}Active simulation of passive filters}{20}{subsection.8.2}%
-\contentsline {subsubsection}{\numberline {8.2.1}Ladder design with simulated inductors}{20}{subsubsection.8.2.1}%
-\contentsline {subsubsection}{\numberline {8.2.2}Ladder design with frequency dependent negative resistors (FDNR)}{20}{subsubsection.8.2.2}%
-\contentsline {subsubsection}{\numberline {8.2.3}Leapfrog simulation of ladders}{20}{subsubsection.8.2.3}%
-\contentsline {section}{\numberline {9}Switched-Capacitor Filters}{21}{section.9}%
-\contentsline {subsection}{\numberline {9.1}The MOS switch and switched capacitor}{21}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Simulation of resistor by switched capacitor}{21}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Switched-capacitor circuits for analog operations: addition, subtraction, multiplication and integration}{21}{subsection.9.3}%
-\contentsline {subsection}{\numberline {9.4}First-order and second-order switched-capacitor circuits}{22}{subsection.9.4}%
-\contentsline {section}{\numberline {10}Tables}{23}{section.10}%
-\contentsline {subsubsection}{\numberline {10.0.1}81 Bh/80 Bh}{23}{subsubsection.10.0.1}%
-\contentsline {subsubsection}{\numberline {10.0.2}81 Ba}{23}{subsubsection.10.0.2}%
+\contentsline {subsubsection}{\numberline {6.2.2}Sallen-Key biquad circuit and Multiple-feedback biquad (MFB) circuit}{18}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}Cain reduction and gain enhancement}{19}{subsubsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.4}RC-CR transformation}{19}{subsubsection.6.2.4}%
+\contentsline {section}{\numberline {7}Sensitivity}{20}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Sensitivity and importance of sensitivity analysis}{20}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Definition of single parameter sensitivity}{20}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Centre frequency and Q-factor sensitivity}{20}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Sensitivity properties of biquads}{20}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}Sensitivity of passive circuits}{20}{subsection.7.5}%
+\contentsline {section}{\numberline {8}Design of High-Order Active Filters}{21}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Cascade of biquads}{21}{subsection.8.1}%
+\contentsline {subsubsection}{\numberline {8.1.1}Sequencing of filter blocks, center frequency, Q-factor and gain}{21}{subsubsection.8.1.1}%
+\contentsline {subsection}{\numberline {8.2}Active simulation of passive filters}{21}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Ladder design with simulated inductors}{21}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Ladder design with frequency dependent negative resistors (FDNR)}{21}{subsubsection.8.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.3}Leapfrog simulation of ladders}{21}{subsubsection.8.2.3}%
+\contentsline {section}{\numberline {9}Switched-Capacitor Filters}{22}{section.9}%
+\contentsline {subsection}{\numberline {9.1}The MOS switch and switched capacitor}{22}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Simulation of resistor by switched capacitor}{22}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Switched-capacitor circuits for analog operations: addition, subtraction, multiplication and integration}{22}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}First-order and second-order switched-capacitor circuits}{23}{subsection.9.4}%
+\contentsline {section}{\numberline {10}Tables}{24}{section.10}%
+\contentsline {subsubsection}{\numberline {10.0.1}81 Bh/80 Bh}{24}{subsubsection.10.0.1}%
+\contentsline {subsubsection}{\numberline {10.0.2}81 Ba}{24}{subsubsection.10.0.2}%
