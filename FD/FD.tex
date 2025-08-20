@@ -1,10 +1,12 @@
 \documentclass[12pt]{article}
 \usepackage{hyperref}
 \usepackage{amsmath, amssymb, amsfonts}
-\usepackage[margin=1.5cm]{geometry}
+\usepackage[margin=1.2cm]{geometry}
 \usepackage{xcolor}
 \usepackage{graphicx}
 \usepackage{enumitem, inconsolata}
+% \usepackage{draftwatermark}
+\usepackage{fancyhdr}
 \parindent 0px
 \newcommand{\W}{\(\Omega\)}
 \newcommand{\w}{\(\omega\)}
@@ -38,14 +40,40 @@
 \author{Me lol}
 \date{\today}
 
+% \SetWatermarkText{{\fontsize{45}{0}\selectfont Creation of PUL079BEI008}}
+% \SetWatermarkScale{1.4}
+% \SetWatermarkColor{blue!25}
+
+% \pagestyle{fancy}
+% \fancyhf{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+% \fancyfoot[L]{For contact \& queries: waraunika2956@gmail.com, 079bei008.arun@pcampus.edu.np}
+% \fancyfoot[R]{\thepage}
+
 \begin{document}
 \maketitle
-\vspace{10cm}
+\vspace{8cm}
 \textbf{Notes}
 \begin{itemize}
-\item The question papers for 81 Bhadra, Baisakh, 80 Bhadra, Baisakh and 79 Bhadra may seem repeated but they are not.
-\item This is because 2 question papers are used: EX606 (our BEI) and EX704 (old BEX course).
-\item Our EX606 will be highlighted \texttt{with this font} for clarity. EX704 will be kept as is.
+	\item The question papers for 81 Bhadra, Baisakh, 80 Bhadra, Baisakh and 79 Bhadra may seem repeated but they are not.
+	\item This is because 2 question papers are used: EX606 (our BEI) and EX704 (old BEX course).
+	\item Our EX606 will be highlighted \texttt{with this font} for clarity. EX704 will be kept as is.
+	\item If a question was asked in Regular Exam, it is kept in \bo{boldened} form. If it was asked in back exam, it is in regular font.
+	\item Months are marked as: 
+	\begin{itemize}[noitemsep, topsep=0pt]
+		\item Ba: Baisakh
+		\item Jth: Jestha
+		\item Asa: Ashar
+		\item Shr: Shrawan
+		\item Bh: Bhadra
+		\item Ash: Ashwin
+		\item Ka: Kartik
+		\item Mng: Mangsir
+		\item Po: Poush
+		\item Ma: Magh
+		\item Ch: Chaitra
+	\end{itemize}
 \end{itemize}
 \pagebreak
 \tableofcontents
@@ -131,7 +159,7 @@
 				\lb derive for 5\textsuperscript{th}\hfill[4] (\bo{73 Ch})
 
 				\item Calculate the minm order of Butterworth filter with the following specifications:\hfill[3] (\bo{\texttt{81 Bh}})\\
-				\w$_p$/\w$_s$ = 1.5 \hspace{6.7cm}
+				\w$_p$/\w$_s$ = 1.5 \hspace{5.7cm}
 				$\alpha_{max}$ = 1dB, $\alpha_{min}$ = 25dB
 
 				\item Estimate the order of Butterworth filter, along with pole locations and transfer functions, having following specifications: \\
@@ -140,13 +168,13 @@
 				$\alpha_{max}$ = 0.5dB, $\alpha_{min}$ = 20dB\hfill[3+3] (\bo{\texttt{80 Bh}, 80 Bh})
 
 				\item Calculate the order of Butterworth filter with the following specifications:\\
-				a. \w$_p$ = 2000rad/s, \w$_s$ = 3000rad/s \hspace{3cm}
+				a. \w$_p$ = 2000rad/s, \w$_s$ = 3000rad/s \hspace{1.5cm}
 				$\alpha_{max}$ = 1dB, $\alpha_{min}$ = 12dB \hfill[3] (\bo{\texttt{79 Bh}})\\
-				b. \w$_p$ = 2000rad/s, \w$_s$ = 3000rad/s \hspace{3cm}
+				b. \w$_p$ = 2000rad/s, \w$_s$ = 3000rad/s \hspace{1.5cm}
 				$\alpha_{max}$ = 0.5dB, $\alpha_{min}$ = 22dB \hfill[3] (\bo{78 Bh})\\
-				c. \w$_p$ = 1000rad/s, \w$_s$ = 2000rad/s \hspace{3cm}
+				c. \w$_p$ = 1000rad/s, \w$_s$ = 2000rad/s \hspace{1.5cm}
 				$\alpha_{max}$ = 1dB, $\alpha_{min}$ = 20dB \hfill[3] (\bo{75 Ch})\\
-				d. \w$_p$ = 200rad/s, \w$_s$ = 2000rad/s \hspace{3.2cm}
+				d. \w$_p$ = 200rad/s, \w$_s$ = 2000rad/s \hspace{1.7cm}
 				$\alpha_{max}$ = 0.1dB, $\alpha_{min}$ = 30dB \hfill[3] (\bo{69 Ch})
 			\end{enumerate}
 		\subsection{Chebyshev and inverse Chebyshev characteristics, network functions and pole zero locations}
@@ -160,7 +188,8 @@
 				\enter\hfill[3] \begin{small}(\bo{81 Bh, 74 Ch})\end{small} [4] \begin{small}(\bo{76 Ch}, \texttt{80 Ba})\end{small} [5] \begin{small}(\bo{70 Ch}, 76 Ash, 71 Shr)\end{small} [6] \begin{small}(79 Ba)\end{small}
 				\lb  also derive for response.\hfill[7] (\bo{79 Bh})
 				\lb and then prove that locus of its pole is an ellipse centered at origin.\hfill[4] (\bo{81 Bh})
-				\lb\lb Show that the poles of chebyshev filter lie on an ellipse. Also show the major and minor axes.\hfill[7] (\bo{73 Ch})
+				\lb Show that the poles of chebyshev filter lie on an ellipse. Also show the major and minor axes.
+				\enter\hfill[7] (\bo{73 Ch})
 
 				\item Derive the expression to calculate the order of inverse Chebyshev low pass filter. \hfill [3] (\bo{\texttt{81 Bh}})
 				\enter \hfill[4] (74 Ash) [5] (\bo{72 Ch, 71 Ch}, \texttt{81 Ba}, 80 Ba, 70 Asa)
@@ -279,11 +308,10 @@
 			\enter \hfill [3] (\bo{70 Ch, 69 Ch}) [4] (74 Ash, 70 Asa) [5] (\texttt{81 Ba}, 81 Ba, 71 Shr)
 			\lb Derive the expression of RLC for FT from normalized LPF to BPF. \hfill [5] (\bo{79 Bh})
 			
-			\item Design a Band pass filter having center frequency at 1500 rad/sec and bandwidth 300 rad/sec from a 4\textsuperscript{th} order Butterworth low pass resistively terminated lossless filter. \textit{[\hyperref[sec:tables_81bh]{Refer Table]}}.
-			\enter \hfill [4] (\bo{\texttt{81 Bh}})
-			\lb  \w \textsubscript{0} = 1 Krad/s, BW = 100 rad/s. \hfill [5] (\bo{78 Bh})
+			\item Design a Band pass filter having center frequency at 1500 rad/sec and bandwidth 300 rad/sec from a 4\textsuperscript{th} order Butterworth low pass resistively terminated lossless filter. \textit{[\hyperref[sec:tables_81bh]{Refer Table]}}. \hfill [4] (\bo{\texttt{81 Bh}})
+			\lb \w \textsubscript{0} = 1 Krad/s, BW = 100 rad/s. \hfill [5] (\bo{78 Bh})
 			
-			\item Obtain the BPF from LPF given in figure 1 having center frequency 10\textsuperscript{4} rad/s and bandwidth of 9.9 x 10\textsuperscript{4} rad/s. \hfill[4] (\bo{73 Ch})
+			\item Obtain the BPF from LPF given in the table having center frequency 10\textsuperscript{4} rad/s and bandwidth of 9.9 x 10\textsuperscript{4} rad/s. \hfill[4] (\bo{73 Ch})
 			
 			\item Obtain a bandpass filter having \w\sub{1} = 100 rad/s and \w\sub{2} = 1000 rad/s from following LPF at normalized frequency. \hfill [4] (74 Ash)\\
 			\includegraphics[width=4in]{fd_8}
