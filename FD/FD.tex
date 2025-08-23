@@ -135,7 +135,7 @@
 			\item Following ckt is an LPF designed at normalization frequency of w\textsubscript{0} = 1rad/s. Apply frequency and magnitude scaling so that w\textsubscript{0} = 10\textsuperscript{5}rad/s and practically realizable elements.\hfill[4] (\textbf{73 Ch})\\
 			\textit{(and no circuit has been found in any source yet)}
 			\item The following is a pass filter with \w\textsubscript{p} = 1rad/s. Modify the circuit so that it becomes a low pass filter with a pass band of 1000rad/s and a load resistance of 75\W.\hfill[3] (\textbf{72 Ch})\\
-			\includegraphics[width=4in]{fd_5}
+			\includegraphics[width=4in]{./pics/fd_5}
 		\end{enumerate}
 
 	\pagebreak
@@ -299,7 +299,7 @@
 			\enter \hfill[4] (\bo{72 Ch}, \texttt{80 Ba}, 80 Ba)
 			
 			\item The following LPF has passband frequency \w\textsubscript{p} of 1 rad/s. Transform it into a highpass filter having passband frequency of 2KHz. \hfill [4] (73 Shr)\\
-			\includegraphics[width=4in]{fd_9}
+			\includegraphics[width=4in]{./pics/fd_9}
 		\end{enumerate}
 
 	\subsection{Lowpass to bandpass transformation}
@@ -311,10 +311,10 @@
 			\item Obtain the BPF from LPF given in the table having center frequency 10\textsuperscript{4} rad/s and bandwidth of 9.9 x 10\textsuperscript{4} rad/s. \hfill[4] (\bo{73 Ch})
 			
 			\item Obtain a bandpass filter having \w\sub{1} = 100 rad/s and \w\sub{2} = 1000 rad/s from following LPF at normalized frequency. \hfill [4] (74 Ash)\\
-			\includegraphics[width=4in]{fd_8}
+			\includegraphics[width=4in]{./pics/fd_8}
 			
 			\item The ckt given below is an LPF having passband frequency of 1 rad/s. Obtain a bandpass filter having \w\sub{0} = 2000 rad/s and B = 400 rad/s. \hfill [3] (\bo{71 Ch})\\
-			\includegraphics[width=4in]{fd_10}
+			\includegraphics[width=4in]{./pics/fd_10}
 		\end{enumerate}
 
 	\subsection{Lowpass to bandstop transformation}
@@ -325,10 +325,10 @@
 			\lb from fourth order. \hfill [4] (75 Ash)
 			
 			\item Following circuit is a low pass filter having $\alpha_p$ = 1dB and \w\sub{p} = 1 rad/s. Obtain a bandpass filter \w\sub{0} = 400 rad/s and bandwidth of 150 rad/s. \hfill [4] (\bo{80 Bh})\\
-			\includegraphics[width=4in]{fd_6}
+			\includegraphics[width=4in]{./pics/fd_6}
 			
 			\item Following filter has cutoff frequency at 1 rad/s. Transform it into a band pass filter having center frequency at 1000 rad/s and bandwidth of 1000 rad/s.\hfill [3] (76 Ash)\\
-			\includegraphics[width=4in]{fd_7}
+			\includegraphics[width=4in]{./pics/fd_7}
 		\end{enumerate}
 
 	\pagebreak
@@ -579,6 +579,7 @@
 		\end{enumerate}
 
 	\pagebreak
+	
 \section{Active Filter}
 	\begin{center}(7 Hours/12 Marks)\end{center}
 	\subsection{Fundamentals of Active Filter Circuits}
@@ -700,7 +701,10 @@
 			
 		\subsubsection{RC-CR transformation}
 			\begin{enumerate}[topsep=0pt]
-				\item Explain RC-CR transformation with suitable examples. \hfill [4] (\bo{73 Ch})
+				\item Explain RC-CR transformation. \hfill [1] (\bo{70 Ch}, 75 Ash)
+				\lb with suitable examples. \hfill [2] (79 Ba) [4] (\bo{73 Ch})
+
+				\item How can you convert Sallen Key low pass filter into Sallen Key high pass filter using RC-CR transformation. \hspace{11cm} [3] (\bo{70 Ch}, 79 Ba, 75 Ash)
 			\end{enumerate}
 
 	\pagebreak
@@ -753,84 +757,184 @@
 	\subsection{Sensitivity of passive circuits}
 
 	\pagebreak
+	
 \section{Design of High-Order Active Filters}
-\begin{center}(6 Hours/11 Marks)\end{center}
-\subsection{Cascade of biquads}
-\subsubsection{Sequencing of filter blocks, center frequency, Q-factor and gain}
-\subsection{Active simulation of passive filters}
-\subsubsection{Ladder design with simulated inductors}
+	\begin{center}(6 Hours/11 Marks)\end{center}
+
 	\begin{enumerate}[noitemsep, topsep=0pt]
-		\item What is a generalized impedance converter (GIC)? \hfill [1] (81 Ba)
-		
-		\item How can you simulate the grounded inductor using GIC? \hfill [3] (81 Ba)
-		
-		\item From the LC ladder given in figure below, design a highpass filter with a half power frequency of 5 kHz and the largest capacitance of 10nF using inductor simulation. \hfill [5] (81 Ba)\\
-		\includegraphics[width=4in]{fd_11}
+		\item (Assumed) What is Bruton Transformation? \hfill [2] (\bo{\texttt{81 Bh}}) [3] (\bo{\texttt{79 Bh}})
+
+		\item What is the importance of Bruton transformation? \hfill [2] (72 Ka)
+
+		\item What are the different techniques of designing higher order active filters? Discuss briefly. \hfill [4] (70 Asa)
 	\end{enumerate}
-\subsubsection{Ladder design with frequency dependent negative resistors (FDNR)}
-\begin{enumerate}
-\item What is FDNR? How can you use FDNR to avoid the inductor in filter design?\hfill[4] (80 Bh)
-\item What is FDNR? How can it be realized?\hfill [1+3] (80 Ba)
-\item What is Bruton Transformation? Design the 4\textsuperscript{th} order Butterworth low pass filter with half power frequency 2,000 rad/sec and practically realizable elements using FDNR. \textit{[\hyperref[sec:tables_81bh]{Refer Table]}}.
-\enter\hfill [2+4] (81 Bh)
-\item Design third order Butterworth low pass filter having half power frequeuncy 4000rad/s using FDNR. \textit{[\hyperref[sec:tables_81bh]{Refer Table]}}.\hfill [6] (80 Bh)
-\item Realize the following passive filter using FDNR, having \w\sub{0} = 25000rad/s and practical element values in your final circuit.\hfill[5] (80 Ba)\\
-\includegraphics[width=0.5\textwidth]{fd_4}
 
+	\subsection{Cascade of biquads}
+		\begin{enumerate}
+			\item Design a 4\super{th} order LPF using cascaded two Sallenkey biquad having half power frequency of 1kHz and largest capacitor of 0.1$\mu$F. \hfill [7] (\bo{79 Bh})\
+		\end{enumerate}
 
+	\subsection{Active simulation of passive filters}
+		\subsubsection{Ladder design with simulated inductors}
+			\begin{enumerate}[topsep=0pt]
+				\item What is GIC? \hfill [1] \begin{footnotesize} (\bo{\texttt{81 Bh}, 76 Ch, 70 Ch}, 81 Ba, 79 Ba, 75 Ash, 74 Ash, 73 Shr, 71 Shr) \end{footnotesize} [2] \begin{footnotesize} (\bo{79 Bh, 69 Ch}) \end{footnotesize}				 
+				\lb What is gyrator? \hfill [1] (\bo{75 Ch})
+				\lb What is Antonio's GIC? \hfill [1] (\bo{80 Bh})
+				\lb What is ideal gyrator? \hfill [1] (\bo{74 Ch})
 
-			\item What is GIC? How can it be used to avoid shunt inductors in LC ladder circuit? \hfill [5] (81 Bh)
+				\item Draw the ckt diagram of a GIC. \hfill [1] (\bo{72 Ch})
 
-			\item What is GIC? How Antonious' GIC can be used to simulate grounded inductor? Explain with necessary figures and derivations. \hfill [6] (71 Shr)
-\end{enumerate}
-\subsubsection{Leapfrog simulation of ladders}
-\begin{enumerate}
-\item Design the 4\textsuperscript{th} order Butterworth LPF in doubly-terminated network using Leapfrog simulation. The necessary information is listed in the given table below:\hspace*{20mm} [8] (81 Ba)\\
-\begin{tabular}{|c|c|c|c|c|c|c|}
-\hline
-Order(n)=4 and LPF & R\(_1$=1 & L$_1$=0.7654 & C$_2$=1.848 & L$_3$=1.848 & C$_4$ = 0.7654 & R$_2$=1\\ \hline
-\end{tabular}
+				\item Derive the relationship between i/p and o/p current of GIC. \hfill [2] (\bo{72 Ch})
 
-\end{enumerate}
+				\item How can gyrator be used to simulate the grounded inductor in the passive filter? \hfill [4] (\bo{75 Ch, 74 Ch})
+				\lb using GIC. \hfill [3] \begin{footnotesize} (\bo{79 Bh, 76 Ch}, 74 Ash) \end{footnotesize} [4] \begin{footnotesize} (\bo{81 Bh, 80 Bh, 70 Ch, 69 Ch}, 75 Ash, 73 Shr) \end{footnotesize} [5] \begin{footnotesize} (79 Ba, 71 Shr) \end{footnotesize}
 
-\pagebreak
+				\item How can GIC be used to avoid shunt inductors in LC ladder circuit? \hfill [4] (\bo{\texttt{81 Bh}})
+				
+				\item How can you simulate the grounded inductor using GIC? \hfill [3] (81 Ba)
+				
+				\item From the LC ladder given in figure below, design a highpass filter with a half power frequency of 5 kHz and the largest capacitance of 10nF using inductor simulation. \hfill [5] (81 Ba)\\
+				\includegraphics[width=4in]{./pics/fd_11}
+				\lb Simulate the following highpass filter by active simulation of grounded inductors such that \w\sub{0} is 4000 rad/s and practically realizable elements. \hfill [4] (74 Ash)
+				\includegraphics[width=4in]{./pics/fd_11}
+
+				\item Realize the following passive filter to be active simulation of grounded inductors. Use frequency scale of 2000 and also perform magnitude scaling to get practically realizable values in your final circuit.
+				\enter\hfill [5] (\bo{79 Bh})
+			\end{enumerate}
+	
+		\subsubsection{Ladder design with FDNR}
+			\begin{enumerate}
+				\item What is FDNR? \hfill [1] \begin{footnotesize} (\bo{\texttt{80 Bh}, 73 Ch, 71 Ch}, \texttt{80 Ba}, 80 Ba, 71 Shr, 70 Asa) \end{footnotesize} [2] \begin{footnotesize} (\bo{78 Bh}, 76 Ash) \end{footnotesize} 
+
+				\item How can FDNR be realized? \hfill [3] (\texttt{80 Ba})
+
+				\item How can GIC be used to simulate a grounded FDNR? \hfill [2] (\bo{72 Ch})
+				\lb ...to simulate GIC? Explain with example. \hfill [4] (72 Ka)
+				
+				\item How can you use FDNR to avoid the inductor in filter design? 
+				\enter\hfill [1] \begin{footnotesize} (71 Shr) \end{footnotesize} [2] \begin{footnotesize} (76 Ash, 70 Asa) \end{footnotesize} [3] \begin{footnotesize} (\bo{\texttt{80 Bh}}, 80 Ba) \end{footnotesize}
+				\lb and explain from the circuit given below. \hfill [4] (\bo{73 Ch})\\
+				\includegraphics[width=4in]{./pics/fd_20}
+				\lb How can FDNR be used to avoid bulky inductors in the design of your ckts? Explain with examples.
+				\enter\hfill [4] (\bo{71 Ch})
+
+				\item Draw the figure of RLC series circuit using FDNR. \hfill [2] (\bo{80 Bh})
+
+				\item Design the LPF having \w\sub{0} = 10\super{4} rad/s and practical elements using FDNR. \hfill [5] (\bo{73 Ch})
+
+				\item Design the 4\super{th} order Butterworth low pass filter with half power frequency 2,000 rad/sec and practically realizable elements using FDNR. \textit{[\hyperref[sec:tables_81bh]{Refer Table]}}. \hfill [4] (\bo{\texttt{81 Bh}})
+				\lb for 20,000 rad/s. \hfill [5] (\bo{\texttt{79 Bh}, 78 Bh})
+				\lb for 16,000 rad/s. \hfill [4] (\bo{76 Ch})
+				\lb for 4,000 rad/s. \hfill [6] (\bo{72 Ch})
+
+				\item Design third order Butterworth low pass filter having half power frequeuncy 4000rad/s using FDNR. \textit{[\hyperref[sec:tables_81bh]{Refer Table]}}.\hfill [6] (\bo{\texttt{80 Bh}})
+
+				\item Use 4\super{th} order Butterworth lowpass by FDNR with half power 1000Hz and capacitor in final design = 0.01$\mu$F. \hfill [4] (\bo{80 Bh})\\
+				\includegraphics[width=4in]{./pics/fd_13}
+
+				\item Realize the following passive filter using FDNR, having \w\sub{0} = 25000rad/s and practical element values in your final circuit.\hfill[5] (\texttt{80 Ba})\\
+				\includegraphics[width=0.5\textwidth]{./pics/fd_4}
+
+				\item Design an LPF having \w\sub{0} of 10\super{4} rad/s using FDNR from the circuit. In your final design, all the elements should be practically realizable. \hfill [4] (76 Ash)\\
+				\includegraphics[width=4in]{./pics/fd_7}
+
+				\item Simulate the Butterworth 4\super{th} order LPF in resistively-terminated lossless network using FDNR. \textit{[\hyperref[sec:tables_81bh]{Refer Table]}} \hfill [6] (75 Ash)
+				\lb for half power frequency 10,000 rad/s and practically realizable elements. \hfill [7] (\bo{74 Ch})
+
+				\item Following ckt is an LPF having half power frequency of 1 rad/s. Obtain an LPF having half power frequency of 5 kHz and largest capacitor of 0.01 $\mu$ using FDNR. \hfill [4] (71 Shr)\\
+				\includegraphics[width=4in]{./pics/fd_22}
+
+				\item Following ckt is an LPF having half power frequency of 1 rad/s. Obtain a lowpass filter having half power frequency of 4.5kHz and largest capacitor of 0.1$\mu$F using FDNR. \hfill [4] (70 Asa)\\
+				\includegraphics[width=4in]{./pics/fd_8}
+
+				\item Following ckt is an HPF having half power frequency of 1 rad/s. Design an HPF having half power frequency of 4.5kHz by active simulation of inductors. In your final ckt the largest capacitance should be 0.1$\mu$F. \hfill [6] (\bo{69 Ch})\\
+				\includegraphics[width=4in]{./pics/fd_24}
+
+				\item Simulate the Butterworth 5\super{th} order LPF using FDNR referring table below. Your final design should have \w\sub{0} = 10,000 rad/s and practically realizable elements. \hfill [5] (80 Ba)\\
+				\begin{tabular}{|c|c|c|c|c|c|c|}
+					\hline
+					Order(n)=5 & R$_1$ = R\sub{2} = 1 & L$_1$=0.6180 & C$_2$=1.618 & L$_3$=2 & C$_4$ = 1.618 & L$_5$=0.6180\\ \hline
+				\end{tabular}
+			\end{enumerate}
+
+		\subsubsection{Leapfrog simulation of ladders}
+			\begin{enumerate}
+				\item Following ckt is a third-order Chebyshev LPF. Simulate it using the Leapfrog method. The final design should have \w\sub{0} = 4000 rad/s and practically realizable element values. \hfill [8] (73 Shr)\\
+				\includegraphics[width=4in]{./pics/fd_21}
+
+				\item Realize third order Butterworth LPF using Leapfrog simulation. \textit{[\hyperref[sec:tables_81bh]{Refer Table]}} \hfill [6] (\bo{70 Ch}, 79 Ba)
+				\lb Design should have half power frequency of 4KHz and practically realizable elements. \hfill [6] (72 Ka)
+
+				\item Design a 4\super{th} order Butterworth LPF having half power frequency of 4000 rad/s using Leapfrog simulation. \textit{[\hyperref[sec:tables_81bh]{Refer Table]}} \hspace{12.3cm} [6] (\bo{75 Ch})
+
+				\item Simulate the Butterworth 4\super{th} order LPF in resistively terminated lossless network using Leapfrog active simulation referring information given in table below for LPF: \hfill [7] (\bo{81 Bh}) [8] (\texttt{81 Ba})\\
+				\begin{tabular}{|c|c|c|c|c|c|c|}
+					\hline
+					Order(n)=4 and LPF & R$_1$ =1 & L$_1$=0.7654 & C$_2$=1.848 & L$_3$=1.848 & C$_4$ = 0.7654 & R$_2$=1\\ \hline
+				\end{tabular}
+
+				\item Using Leapfrog method to simulate the LC ladder ckt given below to obtain an LPF filter having passband of 6KHz and suitable element values. \hfill [6] (\bo{71 Ch})\\
+				\includegraphics[width=4in]{./pics/fd_10}
+			\end{enumerate}
+
+	\pagebreak
+	
 \section{Switched-Capacitor Filters}
-\begin{center}(4 Hours/7 Marks)\end{center}
-\subsection{The MOS switch and switched capacitor}
-\begin{enumerate}
-	\item What is the importance of switched capacitor filters? \hfill [2] (81 Ba)
+	\begin{center}(4 Hours/7 Marks)\end{center}
+	\subsection{The MOS switch and switched capacitor}
+		\begin{enumerate}[topsep=0pt, noitemsep]
+			\item What is switched capacitor filter? 
+			\enter\hfill [1] \begin{tiny} (\bo{\texttt{79 Bh}, 76 Ch, 72 Ch, 71 Ch, 70 Ch, 69 Ch}, \texttt{81 Ba}, 79 Ba, 76 Ash, 75 Ash, 74 Ash, 71 Shr) \end{tiny} [2] \begin{tiny} (\bo{80 Bh}) \end{tiny}
 
-\item Why do we need switched capacitor to simulate resistor in MOS technology?\hfill[2] (80 Ba)
-\end{enumerate}
-\subsection{Simulation of resistor by switched capacitor}
-\begin{enumerate}
-\item What is Switch capacitor filter? Design a switched capacitor filter to realize the transfer function.\hfill [6] (81 Ba)\\
-$T(s) = \dfrac{(s+200)(s+800}{(s+400)^2}$
-\item Why are resistors are replaced by switched capacitors in modern IC technology?\hfill[1] (81 Bh)
-\enter\hfill [2] (80 Bh)
-\item How can you simulate a resistor using switched capacitor? Explain w/ necessary derivations.
-\enter \hfill[4] (80 Ba)
+			\item What is the importance of switched capacitor filters? \hfill [2] (81 Ba)
+			\lb What are its applications. \hfill [1] \begin{footnotesize} (\bo{\texttt{79 Bh}, 74 Ch, 70 Ch}, 79 Ba, 76 Ash) \end{footnotesize} [2] \begin{footnotesize} (\bo{73 Ch, 69 Ch}, 74 Ash, 71 Shr) \end{footnotesize}
 
-\end{enumerate}
-\subsection{Switched-capacitor circuits for analog operations: addition, subtraction, multiplication and integration}
-\begin{enumerate}
-\item Design a switched capacitor filter to realize the magnitude response given by the plot below:
-\includegraphics[width=0.5\textwidth]{fd_1} \hfill [6] (81 Bh)
+			\item Design a switched capacitor filter to realize the magnitude response given by the plot below:
+			\lb\includegraphics[width=0.5\textwidth]{./pics/fd_1} \hfill [6] (\bo{\texttt{81 Bh}})	[7] (\bo{81 Bh})
+			\lb \includegraphics[width=3.5in]{./pics/fd_17} \hfill	[5] (\bo{75 Ch})
+			\lb \includegraphics[width=3in]{./pics/fd_14} \hfill [5] (\bo{\texttt{79 Bh}}) [6] (\bo{78 Bh})
 
-	\item What is the importance of switched capacitor filters? Design a switched capacitor filter to realize the magnitude response specified by the following Bode Plot. \hfill [5] (81 Ba)\\
-	\includegraphics[width=4in]{fd_12}
+			\item Design a switched-capacitor filter to realize the magnitude response specified by the Bode Plot
+			\lb\includegraphics[width=3in]{./pics/fd_12} \hfill [5] (81 Ba)
+			\lb \includegraphics[width=3.5in]{./pics/fd_16} \hfill [5] (79 Ba) [6] (\bo{79 Bh})
+			\lb \includegraphics[width=3.5in]{./pics/fd_18} \hfill [5] (\bo{74 Ch, 73 Ch, 70 Ch}) [6] (\bo{72 Ch})
+			\lb \includegraphics[width=3.5in]{./pics/fd_19} \hfill [5] (74 Ash)
+			\lb \includegraphics[width=3.5in]{./pics/fd_23} \hfill [7] (70 Asa)
+		\end{enumerate}
 
-\item How summer, inverting integrator and non-inverting integrator can be realized using switched capacitor? Explain with necessary diagrams and expressions.\hfill [4] (80 Bh)
-\end{enumerate}
-\subsection{First-order and second-order switched-capacitor circuits}
+	\subsection{Simulation of resistor by switched capacitor}
+		\begin{enumerate}[topsep=0pt, noitemsep]
+			\item Why do we need switched capacitor to simulate resistor in MOS technology? \hfill[2] (\texttt{80 Ba})
+			\lb Why are resistors are replaced by switched capacitors in modern IC technology?
+			\enter\hfill [1] (\bo{\texttt{81 Bh}, 75 Ch}, 73 Shr) [2] (\bo{\texttt{80 Bh}})
 
-\pagebreak
+			\item How can you simulate a resistor using switched capacitor? Explain w/ necessary derivations.
+			\enter \hfill [3] (\bo{69 Ch}) [4] (\texttt{80 Ba}, 73 Shr)
+		\end{enumerate}
+
+	\subsection{Switched-capacitor circuits for analog operations: addition, subtraction, multiplication and integration}
+		\begin{enumerate}[topsep=0pt, noitemsep]
+			\item How summer, inverting integrator and non-inverting integrator can be realized using switched capacitor? Explain with necessary diagrams and expressions. [4] \begin{footnotesize} (\bo{\texttt{80 Bh}}) \end{footnotesize} [5] \begin{footnotesize} (\bo{76 Ch}, 76 Ash, 75 Ash) \end{footnotesize}			 
+
+			\item Draw the switched capacitor equivalent ckt for inverting summer, lossy integration and non inverting integrator. \hfill [3] (73 Shr, 71 Shr)
+
+			\item How inverting lossy integrator, integrator and non-inverting integrator can be realized usnig switched capacitor? Explain with necessary diagrams and transfer functions. \hfill [6] (\bo{71 Ch})
+		\end{enumerate}
+
+	\subsection{First-order and second-order switched-capacitor circuits}
+		\begin{enumerate}[topsep=0pt, noitemsep]
+			\item Design a switched capacitor filter to realize the transfer function: \hfill [5] (\bo{80 Bh}) [6] (\texttt{81 Ba}) [3+5] (72 Ka)\\
+			T(s) = $\dfrac{(s+200)(s+800)}{(s+400)^2}$
+		\end{enumerate}
+
+	\pagebreak
+
 \section{Tables}
 \label{sec:tables_81bh}
 \subsubsection{81 Bh/80 Bh}
-\includegraphics[width=4in]{fd_2}
+\includegraphics[width=4in]{./pics/fd_2}
 \label{sec:tables_81ba}
 \subsubsection{81 Ba}
-\includegraphics[width=4in]{fd_3}
+\includegraphics[width=4in]{./pics/fd_3}
 \label{sec:tables_80bh}
 \end{document}
