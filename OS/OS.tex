@@ -43,12 +43,27 @@
 
 \begin{document}
 \maketitle
-\vspace{13cm}
+\vspace{7cm}
 \begin{large}\textbf{Notes}\end{large}
 \begin{itemize}
-\item PYQs of BEI's CT612, BCT's CT656, BCT's EX652 and BCT's EG682CT are combined.
-\item BEI's CT612 questions' markings are \texttt{stylized with this font for clarity}.
-\item The marking of questions of 66 Magh is \bo{not} \bo{given}. All marking given in this collection are \bo{assumed} marks based on other pyq's. 
+	\item PYQs of BEI's CT612, BCT's CT656, BCT's EX652 and BCT's EG682CT are combined.
+	\item BEI's CT612 questions' markings are \texttt{stylized with this font for clarity}.
+	\item The marking of questions of 66 Magh is \bo{not} \bo{given}. All marking given in this collection are \bo{assumed} marks based on other pyq's. 
+	\item If a question was asked in Regular Exam, it is kept in \bo{boldened} form. If it was asked in back exam, it is in regular font.
+	\item Months are marked as: 
+	\begin{itemize}[noitemsep, topsep=0pt]
+		\item Ba: Baisakh
+		\item Jth: Jestha
+		\item Asa: Ashar
+		\item Shr: Shrawan
+		\item Bh: Bhadra
+		\item Ash: Ashwin
+		\item Ka: Kartik
+		\item Mng: Mangsir
+		\item Po: Poush
+		\item Ma: Magh
+		\item Ch: Chaitra
+	\end{itemize}
 \end{itemize}
 \pagebreak
 \tableofcontents
@@ -349,7 +364,8 @@
 			
 			\item Why do we need pipe() function? \hfill [3] (71 Ma)
 			
-			\item Why is it important for a thread to execute a critical section as quickly as possible? \hfill [3] (\bo{73 Bh})
+			\item Why is it important for a thread to execute a critical section as quickly as possible?
+			\enter\hfill [3] (\bo{73 Bh})
 		\end{enumerate}
 		
 	\subsection{Race Condition}	
@@ -469,14 +485,14 @@
 \section{Memory Management}
 	\begin{center}(6 Hours/10 Marks)\end{center}
 	
-	\begin{enumerate}
+	\begin{enumerate}[noitemsep, topsep=0pt]
 		\item What are the strategies for memory management? \hfill [1] (\bo{79 Ch})
 
 		\item (Assumed) What are the requirements of long term information storage? \hfill [2] (\bo{67 Mng})
 	\end{enumerate}
 
 	\subsection{Memory address, Swapping and Managing Free Memory Space}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item Explain free space management techniques. \hfill [6] (70 Ma) [7] (\texttt{80 Ba})
 			\lb Explain free disk space management with example. \hfill [4] (\bo{71 Bh})
 
@@ -484,18 +500,18 @@
 		\end{enumerate}
 
 	\subsection{Resident Monitor}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item What is resident monitor? \hfill [5] (71 Ma)
 		\end{enumerate}
 
 	\subsection{Multiprogramming with Fixed \& Variable Partition}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item What are the differences of fixed and variable partitioning system of memory for multiprogramming? \hfill [3] (\bo{75 Bh})
 		\end{enumerate}
 		
 	\subsection{Multiple Base Register}
 	\subsection{Virtual Memory Management}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item How is virtual memory management done? \hfill [2] (\bo{\texttt{81 Bh}})
 
 			\item Compare Real Memory and virtual memory. \hfill [2.5] (70 Ma)
@@ -508,7 +524,7 @@
 		\end{enumerate}
 	
 	\subsection{Memory Allocation Techniques}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item Explain first fit, Next fit memory allocation algorithm with an example. \hfill [5] (\texttt{81 Ba})
 
 			\item Explain Best fit and Worst fit memory allocation algorithm with an example. \hfill [5] (\bo{\texttt{80 Bh}})
@@ -527,12 +543,12 @@
 		\end{enumerate}
 
 		\subsubsection{Contiguous: Fixed and Variable Paritition Allocation}
-			\begin{enumerate}
+			\begin{enumerate}[noitemsep, topsep=0pt]
 				\item What are the differences between fixed partitioning and variable partitioning system of memory for multiprogramming. \hfill [3] (\texttt{81 Ba})
 			\end{enumerate}
 
 		\subsubsection{Non-Contiguous: Paging/Segmentation}
-			\begin{enumerate}
+			\begin{enumerate}[noitemsep, topsep=0pt]
 				\item What is paging? \hfill [1] (70 Ma) [2] (\bo{67 Mng})
 
 				\item How does paging work? \hfill [2] (70 Ma)
@@ -542,18 +558,18 @@
 				\item What is segmentation? \hfill [3] (\bo{68 Bh})
 				
 				\item Explain how a logical address is mapped to a physical address in paging. \hfill [4] (\bo{\texttt{81 Bh}, 71 Bh})
-				\lb with example. [3] (\bo{73 Bh})
+				\lb with example. \hfill [3] (\bo{73 Bh})
 
 				\item Why multilevel paging is required? \hfill [2] (\texttt{80 Ba})
 			\end{enumerate}
 
 	\subsection{Demand Paging}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item What is Demand paging? \hfill [1] (\bo{80 Ch, 77 Ch, 72 Ash}) [2] (\bo{78 Ch, 76 Bh})
 		\end{enumerate}
 	\subsection{Performance}
 	\subsection{Page Replacement Algorithms}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item Write short notes on: Belady's anomaly. \hfill [3] (\bo{\texttt{81 Bh}, 80 Ch})
 			\lb What is Belady's anomaly in FIFO? \hfill [1] (\bo{\texttt{80 Bh}})
 			\lb With example, show that FIFO page replacement algorithm suffers from Belady's anomaly. \hfill [3] (\bo{73 Bh})
@@ -566,12 +582,12 @@
 
 			\item What are the limitation of optimal page replacement. \hfill [4] (\bo{68 Bh})
 
-			\item What is LRU algorith? \hfill [2] (68 ma)
+			\item What is LRU algorithm? \hfill [2] (68 Ma)
 		\end{enumerate}
 
 	\subsection{Allocation of Frames}
 	\subsection{Thrashing}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item What is thrashing? \hfill [1] (\bo{77 Ch}, 75 Ba) [2] (\bo{74 Bh, 73 Bh})
 
 			\item Write short notes on: Thrashing. \hfill [3] (\bo{\texttt{81 Bh, 80 Bh}}) [4] (\bo{75 Bh})
@@ -653,7 +669,7 @@
 \section{File Systems}
 	\begin{center}(6 Hours/10 Marks)\end{center}
 	\subsection{File: Name, Structure, Types, Access, Attribute, Operations}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item Describe File System for operating system. \hfill [2] (\bo{76 Bh}) [4] (\bo{80 Ch})
 
 			\item Define file system and list out some attributes of file. \hfill [3] (\bo{77 Ch})
@@ -669,15 +685,16 @@
 
 			\item What is the role of each layer in file system? \hfill [4] (72 Ma)
 
-			\item What is file system layout? \hfill [3] (\bo{72 Ash, 68 Bh}) [5] (68 Ma
+			\item What is file system layout? \hfill [3] (\bo{72 Ash, 68 Bh}) [5] (68 Ma)
 			\lb Explain file system layout in detail. \hfill [6] (\bo{70 Bh})
 
 			\item What are the major operations required in any file? \hfill [2] (\bo{76 Bh})
 
-			\item What are the major differences between file system interfaces and file system implementation? \hfill [4] (\bo{70 Bh})
+			\item What are the major differences between file system interfaces and file system implementation?
+			\enter\hfill [4] (\bo{70 Bh})
 		\end{enumerate}
 	\subsection{Directory and File Paths}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item Define directory and file path. \hfill [2] (76 Ba)
 			
 			\item What is directory organization in files? Explain its types. \hfill [8] (\bo{\texttt{80 Bh}})
@@ -690,12 +707,12 @@
 	\subsection{File System Implementation}
 		\subsubsection{Selecting Block Size}
 		\subsubsection{Impact of Block Size Selection}
-			\begin{enumerate}
+			\begin{enumerate}[noitemsep, topsep=0pt]
 				\item Explain impact of block size selection on data rate and disk space utilization with necessary diagram and illustration. \hfill [6] (\bo{69 Bh})
 			\end{enumerate}
 
 		\subsubsection{Implementing File: Contiguous Allocation, Link List Allocation, Link List Allocation with Table, Inode}
-			\begin{enumerate}
+			\begin{enumerate}[noitemsep, topsep=0pt]
 				\item Explain various ways of implementing file system. \hfill [6] (\bo{\texttt{79 Bh}}, 75 Ba)
 
 				\item Suggest which implementation of file system is better and why? \hfill [1] (75 Ba)
@@ -705,7 +722,8 @@
 
 				\item Discuss various file allocation and access methods with adv and disadv. \hfill [4+6] (\bo{74 Bh})
 
-				\item Explain I-node approach of file implementation with its adv and disadv. \hfill [5] (\bo{\texttt{81 Bh}}) [6] (76 Ba) [8] (75 Bh)
+				\item Explain I-node approach of file implementation with its adv and disadv.
+				\enter\hfill [5] (\bo{\texttt{81 Bh}}) [6] (76 Ba) [8] (75 Bh)
 
 				\item What is I-node? \hfill [3] (\bo{67 Mng})
 
@@ -714,10 +732,12 @@
 				\item (Assumed) Write short ntoes on: Compaction. \hfill [3] (\bo{\texttt{81 Bh}})
 				
 				\item Write short notes on: Compaction and Coalescing. \hfill [3] (\bo{80 Ch})
-				\lb Differentiate Compaction and Coalescing. \hfill [2] (\bo{77 Ch, 73 Bh}) [2.5] (70 Ma) [4] (\bo{\texttt{79 Bh}, 71 Bh})
+				\lb Differentiate Compaction and Coalescing.
+				\enter\hfill [2] (\bo{77 Ch, 73 Bh}) [2.5] (70 Ma) [4] (\bo{\texttt{79 Bh}, 71 Bh})
 				\lb Difference with example. \hfill [4] (75 Ba)
 
-				\item Suggest which file organization technique is most appropriate for "tape storage". \hfill [1] (\bo{79 Ch})
+				\item Suggest which file organization technique is most appropriate for "tape storage".
+				\enter\hfill [1] (\bo{79 Ch})
 
 				\item List any three of them with advantages and disadvantages of each. \hfill [6] (\bo{78 Ch})
 
@@ -729,27 +749,30 @@
 			\end{enumerate}
 
 		\subsubsection{Implementing Directory}
-			\begin{enumerate}
-				\item Write the difference between Single level directory system and Hierarchial directory system. \hfill [3] (73 Ma)
+			\begin{enumerate}[noitemsep, topsep=0pt]
+				\item Write the difference between Single level directory system and Hierarchial directory system.
+				\enter\hfill [3] (73 Ma)
 			\end{enumerate}
 
 	\subsection{Impact of Allocation Policy on Fragmentation}
 	\subsection{Mapping File Blocks on The Disk Platter}
-		\begin{enumerate}
-			\item (Assumed) Why are output files for the printer normally spooled on disk before being printed? \hfill [2] (\bo{80 Ch})
+		\begin{enumerate}[noitemsep, topsep=0pt]
+			\item (Assumed) Why are output files for the printer normally spooled on disk before being printed?
+			\enter\hfill [2] (\bo{80 Ch})
 
-			\item (Assumed) Prepare a comparative note on: Spooling versus Deadline Scheduling. \hfill [4] (\bo{76 Bh})
+			\item (Assumed) Prepare a comparative note on: Spooling versus Deadline Scheduling.
+			\enter\hfill [4] (\bo{76 Bh})
 		\end{enumerate}
 		
 	\subsection{File System Performance}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item List the File System Performance indicator. \hfill [2] (\bo{79 Ch})
 
 			\item How do you measure the file system performance and how can it be improved? \hfill [4] (\bo{\texttt{79 Bh}})
 		\end{enumerate}
 
 	\subsection{Example File Systems: CD ROM file system, MS-DOS file system, Unix File system}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item Write short notes on: UNIX File System. \hfill [3.5] (\bo{73 Bh}) [5] (\bo{77 Ch})
 
 			\item What are the advantages of UNIX? \hfill [2] (68 Ma)
@@ -764,14 +787,14 @@
 \section{I/O Management and Disk Scheduling}
 	\begin{center}(4 Hours/7 Marks)\end{center}
 	\subsection{Principles of I/O Hardware}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item (Assumed) Write short notes: USB Storage. \hfill [4] (\bo{76 Bh})
 
 			\item (Assumed) What is interleaving? \hfill [2] (\bo{68 Bh})
 		\end{enumerate}
 
 	\subsection{Principles of I/O software}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item What are the principles of IO software? Explain its types. \hfill [8] (\bo{\texttt{80 Bh}})
 			\lb Short notes on principles of IO software. \hfill [3.5] (\bo{73 Bh})
 
@@ -779,7 +802,8 @@
 
 			\item Explain about the device independent IO Software with example. \hfill [6] (\bo{72 Ash})
 
-			\item What are the functions of device independent IO software? \hfill [2] (\bo{67 Mng}, \texttt{80 Ba}) [4] (\bo{70 Bh})
+			\item What are the functions of device independent IO software?
+			\enter\hfill [2] (\bo{67 Mng}, \texttt{80 Ba}) [4] (\bo{70 Bh})
 
 			\item Briefly mention the structured IO software with suitable diagram. \hfill [3] (\bo{73 Bh})
 
@@ -792,11 +816,11 @@
 
 	\subsection{I/O software Layer}
 	\subsection{Disk}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item What are the different methods for allocating disk space for file? \hfill [2] (70 Ma) [3] (\texttt{80 Ba})
 		\end{enumerate}
 		\subsubsection{Hardware}
-			\begin{enumerate}
+			\begin{enumerate}[noitemsep, topsep=0pt]
 				\item What do you mean by RAID? \hfill [2] \bo{\texttt{79 Bh}}
 				
 				\item Why do we organize disk as RAID? \hfill [2] (\texttt{81 Ba})
@@ -809,7 +833,7 @@
 			\end{enumerate}
 		\subsubsection{Formatting}
 		\subsubsection{Arm scheduling}
-			\begin{enumerate}
+			\begin{enumerate}[noitemsep, topsep=0pt]
 				\item Compare the the throughput (overall performance) of SCAN with SSTF. \hfill [3] (\bo{73 Bh})
 
 				\item Write short notes on SSTF algorithm with example. \hfill [4] (72 Ma)
@@ -824,11 +848,11 @@
 			\item A disk drive has 50 cylinders, numbered 0 to 49. The drive is currently serving a request at cylinder 15, and the queue of pending requests, in FIFO order is 4, 40, 11, 35, 7, 14. What is the total distance that the disk moves for the following algorithms: \hfill [10] (\bo{74 Bh})\\
 			FCFS, SSTF, SCAN, LOOK, C-SCAN.
 			
-			\item Consider a disk drive having 100 cylinders. The head is currently serving request at cylinder 43 and the previous request was at 56. The queue of pending request is 86, 70, 13, 74, 48, 9, 22, 50, 30. Starting from current head position, what is total head movement (in cylinders) to service the pending requests of each of following disk arm scheduling algorithms. \hfill [6] (\bo{\texttt{81 Bh}})\\
+			\item Consider a disk drive having 100 cylinders. The head is currently serving request at cylinder 43 and the previous request was at 56. The queue of pending request is 86, 70, 13, 74, 48, 9, 22, 50, 30. Starting from current head position, what is total head movement (in cylinders) to service the pending requests of each of following disk arm scheduling algorithms.\\
 			a. FCFS\\
 			b. SSTF\\
 			c. SCAN\\
-			d. LOOK
+			d. LOOK \hfill [6] (\bo{\texttt{81 Bh}})
 			\lb Only FCFS and C-SCAN. \hfill [6] (\bo{\texttt{80 Bh}})
 			\lb FCFS, C-SCAN, and SSTF \hfill [6] (\bo{78 Ch})
 			\lb FCFS, SSTF, LOOK, C-SCAN, SCAN. \hfill [10] (70 Ma)
@@ -840,7 +864,7 @@
 			\lb for FCFS, SSF and SCAN disk algorithms. \hfill [8] (\bo{{75 Bh}})
 
 			\item Suppose the head of a moving head disk with 200 traks, 0 to 199, is currently serving a request at track 143 and has finished a request at track 125. The queue it requests is kept in FIFO order: 25, 17, 119, 197, 194, 15, 182, 115, 183. What is the total movement needed to satisfy these requestsfor the following disk-scheduling algorithms? \hfill [6] (\bo{79 Ch})\\
-			\textit{no algorithm is listed}
+			(\textit{no algorithm is listed})
 
 			\item Suppose a disk with 200 cylinders numbered from 0-199. The drive is currently serving a request was at 125. The queue of pending request is 105, 178, 23, 67, 43, 78, 167, 56 and 98. Starting from current head position, calculate the total head movement (in cylinder) that the disk arm moves to satisfy all pending request for SSTF, SCAN, LOOK and C-SCAN disk scheduling algorithm. \hfill [8] (\bo{\texttt{79 Bh}})
 
@@ -848,7 +872,8 @@
 			86, 147, 91, 177, 94, 160, 102, 175, 130\\
 			Suppose seek takes 10ms per cylinder moved. Starting from the current head position, what is the total distance that the disk arm moves to satisfy all the pending request, for FCFS, SSTF, C-SCAN and C-LOOK algorithm? Also calculate seek time needed to serve these request for each algorithm. \hfill [8] (\bo{77 Ch})
 
-			\item Suppose a disk drive with 200 cylinders numbered from 0 to 199. The drive is currently at 53. The queue of pending request is 98, 183, 37, 122, 14, 124, 65, 67. Starting from the current head position, calculate total head movement that the disk arm moves to satisfy all the pending request for FCFS, SSTF and SCAN disk scheduling algorithm. \hfill [6] (\bo{69 Bh}, 73 Ma)
+			\item Suppose a disk drive with 200 cylinders numbered from 0 to 199. The drive is currently at 53. The queue of pending request is 98, 183, 37, 122, 14, 124, 65, 67. Starting from the current head position, calculate total head movement that the disk arm moves to satisfy all the pending request for FCFS, SSTF and SCAN disk scheduling algorithm.
+			\enter\hfill [6] (\bo{69 Bh}, 73 Ma)
 			\lb for FCFS, SSTF, SCAN, LOOK, C-SCAN. \hfill [11] (71 Ma)
 
 			\item A disk with 1000 cylinders, numbered 0 to 999, compute the number of tracks the disk arm must move to satisfy all the requests in the disk queue. Assume the last request serviced was at track 345 and the head is moving towards track 0. The queue in FIFO order contains request for the following tracks: \hfill [10] (\bo{71 Bh})\\
@@ -868,12 +893,13 @@
 \section{Deadlock}
 	\begin{center}(5 Hours/10 Marks)\end{center}
 	\subsection{Principles of deadlock}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item Define deadlock. \hfill [1] (\bo{74 Bh}, 76 B) [2] (\bo{72 Ash, 70 Bh}, 70 Ma)
 			
 			\item Explain the resource allocation graph with an example. \hfill [2] (\bo{\texttt{81 Bh}, 78 Ch})
 
-			\item Explain necessary conditions for deadlock. \hfill [2] (\bo{80 Ch}, \texttt{81 Ba}, 75 Ba) [3] (\bo{74 Bh}) [4] (\bo{72 Ash, 69 Bh}, 71 Ma)
+			\item Explain necessary conditions for deadlock.
+			\enter\hfill [2] (\bo{80 Ch}, \texttt{81 Ba}, 75 Ba) [3] (\bo{74 Bh}) [4] (\bo{72 Ash, 69 Bh}, 71 Ma)
 			\lb Explain Coffman conditions for deadlock. \hfill [3] (\texttt{80 Ba})
 			\lb What are the conditions for resource deadlock? \hfill [2] (76 Ba)
 			\lb Explain each condition of deadlock. \hfill [4] (73 Ma)
@@ -891,7 +917,7 @@
 		\end{enumerate}
 
 	\subsection{Deadlock Prevention}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item What is deadlock prevention? Explain deadlock prevention techniques? \hfill [5] (\bo{79 Ch})
 			\lb Explain all possible deadlock prevention techniques. \hfill [6] (72 Ma)
 
@@ -903,7 +929,7 @@
 		\end{enumerate}
 
 	\subsection{Deadlock Avoidance}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item Write short notes on: Ostritch algorithm. \hfill [3] (\texttt{81 Ba})
 
 			\item Explain various deadlock avoidance methods with examples. \hfill [6] (70 Ma)
@@ -912,7 +938,7 @@
 		\end{enumerate}
 
 	\subsection{Deadlock Detection}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item Explain in deatil how can detect deadlock in operating system. \hfill [3] (\bo{79 Ch})
 
 			\item What is deadlock detection? \hfill [1] (72 Ma)
@@ -922,18 +948,17 @@
 
 			\item Explain the algorithm for detecting deadlock for one resource of each type. \hfill [4] (\bo{67 Mng})
 
-			\item Consider the system consists of m resources of same type being shared by n process of which need at most two resource. Explain whether the system is deadlock free or not? \hfill [4] (\bo{67 Mng})
+			\item Consider the system consists of m resources of same type being shared by n process of which need at most two resource. Explain whether the system is deadlock free or not?
+			\enter\hfill [4] (\bo{67 Mng})
 		\end{enumerate}
 
 	\subsection{Recovery from deadlock}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item Explain some methods for recovering from deadlocks? \hfill [5] (76 Ba)
 
 			\item How deadlock is recovered? \hfill [3] (73 Ma)
 		\end{enumerate}
 
-	\subsection{An Integrated Deadlock Strategies}
-	\subsection{Other Issues: Two phase locking, Communication Deadlock, Livelock, Starvation}
 	\subsection{Numericals}
 		\begin{enumerate}
 			\item A system has 2 process and 3 resources. Each process needs maximum of two resources, is deadlock possible? Explain. \hfill [2] (\bo{74 Bh})
@@ -991,7 +1016,7 @@
 			\end{tabular}\\
 			The available resources are A: 3, B: 2, and C: 2. Is the state safe? If so, show the safe execution of processes. \hfill [6] (\bo{78 Ch}) [7] (\texttt{80 Ba}) [8] (75 Ba)
 
-			\item Consider a system with 5 processes P0 through P4 and three resources type A, B and C. Resources A has 7 instances, B has 2 and C has 6 instances. Suppose at time t0 we have following state. \hfill [7] (\bo{77 Ch})
+			\item Consider a system with 5 processes P0 through P4 and three resources type A, B and C. Resources A has 7 instances, B has 2 and C has 6 instances. Suppose at time t0 we have following state. \hfill [7] (\bo{77 Ch})\\
 			\begin{tabular}{|p{17mm}|p{7mm}|p{7mm}|p{7mm}|p{7mm}|p{7mm}|p{7mm}|}
 				\hline
 				\multirow{2}{*}{Processes} & \multicolumn{3}{|c|}{Allocation} & \multicolumn{3}{|c|}{Request} \\ \cline{2-7}
@@ -1005,7 +1030,7 @@
 			a. Is the state safe? If so, show the safe execution of the process.\\
 			b. Suppose P2 makes additional request of (1, 0, 1, 0), what will be the effect of this request to the system?
 
-			\item Consider a system with 5 processes and three resources. Resources A has 7, B has 2 and C has 6 instances. Suppose at t0 time we have following state with 0 available A, B and C left: \hfill [10] (\bo{71 Bh})\\
+			\item Consider a system with 5 processes and three resources. Resources A has 7, B has 2 and C has 6 instances. Suppose at t0 time we have following state with 0 available A, B and C left:\\
 			\begin{tabular}{|p{17mm}|p{7mm}|p{7mm}|p{7mm}|p{7mm}|p{7mm}|p{7mm}|}
 				\hline
 				\multirow{2}{*}{Processes} & \multicolumn{3}{|c|}{Allocation} & \multicolumn{3}{|c|}{Request} \\ \cline{2-7}
@@ -1015,11 +1040,11 @@
 				P2 & 3 & 0 & 3 & 0 & 0 & 0 \\ \hline
 				P3 & 2 & 1 & 1 & 1 & 0 & 0 \\ \hline
 				P4 & 0 & 0 & 2 & 0 & 0 & 2 \\ \hline
-			\end{tabular}\\
+			\end{tabular} \hfill [10] (\bo{71 Bh})\\
 			a. Is the given system in deadlock state?\\\
 			b. Suppose P2 makes an additional request (0, 0, 1) what will be the effect of this request to this system?
 
-			\item A system has four processes and three resources with existing resource E = (15 9 5). After following allocation, resource available becomes A = (3 2 0). Use Banker's Algorithm to test whether the given state is safe or not. If it is safe state, show the sequence of execution of processes. \hfill [8] (\bo{69 Ch})
+			\item A system has four processes and three resources with existing resource E = (15 9 5). After following allocation, resource available becomes A = (3 2 0). Use Banker's Algorithm to test whether the given state is safe or not. If it is safe state, show the sequence of execution of processes. \hfill [8] (\bo{69 Ch})\\
 			\begin{tabular}{|p{17mm}|p{7mm}|p{7mm}|p{7mm}|p{7mm}|p{7mm}|p{7mm}|p{7mm}|p{7mm}|p{7mm}|}
 				\hline
 				\multirow{2}{*}{Processes} & \multicolumn{3}{|c|}{Allocation} & \multicolumn{3}{|c|}{Maximum} & \multicolumn{3}{|c|}{Need} \\ \cline{2-10}
@@ -1030,18 +1055,18 @@
 				P4 & 2 & 1 & 3 & 4 & 2 & 3 & 2 & 1 & 0 \\ \hline
 			\end{tabular}
 
-			\item Consider a system with 5 concurrent processes (P0, P1, P2, P3, P4) and 4 resource types (R0, R1, R2, R3). The number of instances of each resource type in the system are 6, 4, 4, 2 respectively. Allocation table and maximum claim table are as follows: \hfill [7] (\bo{73 Bh}) [8] (\bo{\texttt{80 Bh}, 76 Bh})
+			\item Consider a system with 5 concurrent processes (P0, P1, P2, P3, P4) and 4 resource types (R0, R1, R2, R3). The number of instances of each resource type in the system are 6, 4, 4, 2 respectively. Allocation table and maximum claim table are as follows: \\
 			\begin{tabular}{|p{17mm}|p{7mm}|p{7mm}|p{7mm}|p{7mm}||p{7mm}|p{7mm}|p{7mm}|p{7mm}|}
 				\hline
-				\multirow{2}{*}{Processes} & \multicolumn{4}{|c||}{Allocation} & \multicolumn{4}{|c|}{Maximum Claim} \\ \cline{2-7}
+				\multirow{2}{*}{Processes} & \multicolumn{4}{|c||}{Allocation} & \multicolumn{4}{|c|}{Maximum Claim} \\ \cline{2-9}
 				& R0 & R1 & R2 & R3 & R0 & R1 & R2 & R3 \\ \hline
 				P0 & 2 & 0 & 1 & 1 & 3 & 2 & 1 & 1 \\ \hline
 				P1 & 1 & 1 & 0 & 0 & 1 & 2 & 0 & 2 \\ \hline
 				P2 & 1 & 1 & 0 & 0 & 1 & 1 & 2 & 0 \\ \hline
 				P3 & 1 & 0 & 1 & 0 & 3 & 2 & 1 & 0 \\ \hline
 				P4 & 0 & 1 & 0 & 1 & 2 & 1 & 0 & 1 \\ \hline
-			\end{tabular}\\
-			a. Calculate Need matrix as per Banker's Algorithm.\\
+			\end{tabular} \\
+			a. Calculate Need matrix as per Banker's Algorithm. \hfill [7] (\bo{73 Bh}) [8] (\bo{\texttt{80 Bh}, 76 Bh})\\
 			b. Is the state safe? If so, show the safe execution of the processes.
 			\lb For P3's R3 Allocation, its 1, rest is same question. \hfill [8] (\bo{76 Bh})
 
@@ -1051,7 +1076,7 @@
 			\item Consider the following system with resources A, B, C, D and process P0 to P4. Is the state safe? If so, show the safe execution of process. \hfill [7] (\bo{79 Ch})\\
 			\begin{tabular}{|p{17mm}|p{7mm}|p{7mm}|p{7mm}|p{7mm}||p{7mm}|p{7mm}|p{7mm}|p{7mm}|}
 				\hline
-				\multirow{2}{*}{Processes} & \multicolumn{4}{|c||}{Max} & \multicolumn{4}{|c|}{Allocation} \\ \cline{2-7}
+				\multirow{2}{*}{Processes} & \multicolumn{4}{|c||}{Max} & \multicolumn{4}{|c|}{Allocation} \\ \cline{2-9}
 				& A & B & C & D & A & B & C & D \\ \hline
 				P0 & 6 & 0 & 1 & 2 & 4 & 0 & 0 & 1 \\ \hline
 				P1 & 1 & 7 & 5 & 0 & 1 & 1 & 0 & 0 \\ \hline
@@ -1062,16 +1087,16 @@
 			Available resources are A: 3, B: 2, C: 1, D:1.
 
 			\item A system that uses Banker's Algorithm deadlock avoidance has five processes (1, 2, 3, 4, 5) and four types of resources (A, B, C, D). There are multiple resources of each type. Is the following state safe or not? If it is, show how the processes can complete. If not, show how they can deadlock? \hfill [8] (\bo{68 Bh})
-			\begin{tabular}{|p{17mm}|p{7mm}|p{7mm}|p{7mm}|p{7mm}||p{7mm}|p{7mm}|p{7mm}|p{7mm}|p{7mm}|p{7mm}|p{7mm}|p{7mm}|}
+			\begin{tabular}{|p{17mm}|p{7mm}|p{7mm}|p{7mm}|p{7mm}||p{7mm}|p{7mm}|p{7mm}|p{7mm}||p{7mm}|p{7mm}|p{7mm}|p{7mm}|}
 				\hline
-				\multirow{2}{*}{Processes} & \multicolumn{4}{|c||}{Current Loan} & \multicolumn{4}{|c|}{Max Need} &  \multicolumn{4}{|c||}{Current Claim} \\ \cline{2-7}
+				\multirow{2}{*}{Processes} & \multicolumn{4}{|c||}{Current Loan} & \multicolumn{4}{|c||}{Max Need} &  \multicolumn{4}{|c|}{Current Claim} \\ \cline{2-13}
 				& A & B & C & D & A & B & C & D & A & B & C & D \\ \hline
 				1 & 1 & 0 & 2 & 0 & 3 & 2 & 4 & 2 & 2 & 2 & 2 & 2\\ \hline
 				2 & 0 & 3 & 1 & 2 & 3 & 5 & 1 & 2 & 3 & 2 & 0 & 0\\ \hline
 				3 & 2 & 4 & 5 & 1 & 2 & 7 & 7 & 5 & 0 & 3 & 2 & 4\\ \hline
 				4 & 3 & 0 & 0 & 6 & 5 & 5 & 0 & 8 & 2 & 5 & 0 & 2\\ \hline
 				5 & 4 & 2 & 1 & 3 & 6 & 2 & 1 & 4 & 2 & 0 & 0 & 1\\ \hline
-			\end{tabular}
+			\end{tabular}\\
 			Available resources are A: 3, B: 4, C: 0, D:1\\
 			Total Resources are: A: 13, B: 13, C: 9, D: 13			
 		\end{enumerate}
@@ -1081,7 +1106,7 @@
 \section{Security}
 	\begin{center}(4 Hours/7 Marks)\end{center}
 	\subsection{Security breaches}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item Write the type of security breach in following attack case? Also suggest a solution in each to prevent the attack. \hfill [2+2+2] (\texttt{81 Ba})\\
 			``Ramesh found that Nirma's facebook was login in Computer Lab. He then changed the personal information and login credentials of Nirmal's account."
 
@@ -1091,7 +1116,7 @@
 		\end{enumerate}
 
 	\subsection{Types of Attacks}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item What are the types of Network Attacks? \hfill [2] (\bo{\texttt{80 Bh}, 79 Ch, 77 Ch})
 			\lb Write short notes on: Types of network security attack. \hfill [5] (\bo{71 Bh})
 
@@ -1107,14 +1132,14 @@
 		\end{enumerate}
 
 	\subsection{Security Policy and Access Control}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item Write Short notes on: Security Policy. \hfill [3] (71 Ma)
 
 			\item (Assumed) What is trap door? \hfill [2] (\bo{68 Bh})
 		\end{enumerate}
 
 	\subsection{Basics of Cryptography}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item How does Caesar Cipher convert plain text to ciphertext? \hfill [4] (\bo{\texttt{81 Bh}})
 
 			\item Write short notes on Caesar Cipher. \hfill [3] (\bo{\texttt{79 Bh}, 74 Bh})
@@ -1127,7 +1152,7 @@
 		\end{enumerate}
 
 	\subsection{Protection Mechanisms}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item (Assumed) Write short notes: Protection Domain \hfill [3] (\bo{80 Ch}, 75 Ba) [3.5] (73 Ma)
 			\lb Explain protection domain. \hfill [2.5] (\bo{69 Ch})
 			\lb (Assumed) Explain domain-object. \hfill [2] (\bo{70 Bh})
@@ -1136,11 +1161,14 @@
 
 			\item Write short notes on: Protection matrix. \hfill [2] (\bo{76 Bh})
 
-			\item (Assumed) Why 'HASH' function is called Message Digestor? \hfill [1] (\bo{79 Ch}) [2] (\bo{\texttt{80 Bh}, 77 Ch})
+			\item (Assumed) Why 'HASH' function is called Message Digestor?
+			\enter\hfill [1] (\bo{79 Ch}) [2] (\bo{\texttt{80 Bh}, 77 Ch})
 
-			\item (Assumed) What are the roles of system administrator for change management? \hfill [4] (\bo{78 Ch})
+			\item (Assumed) What are the roles of system administrator for change management?
+			\enter\hfill [4] (\bo{78 Ch})
 
-			\item Explain how you can implement security and protection on all components of a system. \hfill [6] (\bo{72 Ash})
+			\item Explain how you can implement security and protection on all components of a system.
+			\enter\hfill [6] (\bo{72 Ash})
 
 			\item (Assumed) Write short notes on: Information security model. \hfill [4] (70 Ma)
 
@@ -1150,14 +1178,16 @@
 		\end{enumerate}
 
 	\subsection{Authentication}
-		\begin{enumerate}
-			\item How authentication is an essential mechanism for maintaining security? Explain. \hfill [4] (\bo{74 Bh})
+		\begin{enumerate}[noitemsep, topsep=0pt]
+			\item How authentication is an essential mechanism for maintaining security? Explain.
+			\enter\hfill [4] (\bo{74 Bh})
 		\end{enumerate}
 
 	\subsection{OS Design Considerations For Security}
 	\subsection{Access Control Lists And OS Support}
-		\begin{enumerate}
-			\item What is ACL? \hfill [2] (\bo{\texttt{81 Bh, 80 Bh}, 79 Ch, 77 Ch, 70 Bh}, \texttt{81 Ba}) [2.5] (\bo{69 Ch}, \texttt{80 Ba}) [3] (\bo{68 Bh})
+		\begin{enumerate}[noitemsep, topsep=0pt]
+			\item What is ACL?
+			\enter\hfill [2] (\bo{\texttt{81 Bh, 80 Bh}, 79 Ch, 77 Ch, 70 Bh}, \texttt{81 Ba}) [2.5] (\bo{69 Ch}, \texttt{80 Ba}) [3] (\bo{68 Bh})
 
 			\item Write short notes on: Access Control Lists. \hfill [3] (\bo{\texttt{79 Bh}})
 
@@ -1181,16 +1211,18 @@
 	\end{enumerate}
 
 	\subsection{Administration Tasks}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item Write short notes on: Administration tasks. \hfill [3] (\bo{74 Bh})
 
-			\item What are the roles of a system administrator? \hfill [2.5] (\texttt{81 Ba}) [3.5] (\bo{73 Bh}) [4] (\bo{\texttt{81 Bh}, 76 Bh, 70 Bh}, 75 Ba, 72 Ma, 70 Ma) [5] (\bo{80 Ch, 71 Bh}) [6] (\bo{\texttt{80 Bh}})
+			\item What are the roles of a system administrator?
+			\enter\hfill [2.5] \begin{tiny} (\texttt{81 Ba}) \end{tiny} [3.5] \begin{tiny} (\bo{73 Bh}) \end{tiny} [4] \begin{tiny} (\bo{\texttt{81 Bh}, 76 Bh, 70 Bh}, 75 Ba, 72 Ma, 70 Ma) \end{tiny} [5] \begin{tiny} (\bo{80 Ch, 71 Bh}) \end{tiny} [6] \begin{tiny} (\bo{\texttt{80 Bh}}) \end{tiny}
 			\lb Describe the role and responsibilities of a system adminstrator to keep the system updated and efficient. Explain with examples. \hfill [6] (\texttt{81 Ba}, 76 Ba)
 			
 			\item What is the significance of system administration? Describe the roles and responsibilities of system administrator of Insurance Company. \hfill  [4] (\bo{\texttt{79 Bh}})
-			\lb ... adminstrator to keep system updated and efficient. Explain with example. [3+5] (\bo{75 Bh})
+			\lb ... adminstrator to keep system updated and efficient. Explain with example.
+			\enter\hfill [3+5] (\bo{75 Bh})
 
-			\item How can you increase operating system performance if you are selected as a system adminstrator? \hfill [4] (70 Ma)
+			\item How can you increase operating system performance if you are selected as a system adminstrator? \hspace{12.6cm} [4] (70 Ma)
 
 			\item List out some system administration tasks in OS. \hfill [2] (76 Ash)
 
@@ -1198,7 +1230,7 @@
 		\end{enumerate}
 
 	\subsection{User Account Management}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item How is a special user different from a general user? Explain. \hfill [2] (\bo{\texttt{81 Bh}}) [3] (\bo{72 Ash})
 
 			\item (Assumed) What is group policy? \hfill [2] (\bo{79 Ch})
@@ -1207,7 +1239,7 @@
 	\subsection{Start And Shutdown Procedures}
 	\subsection{Setting up Operational Environment for a New User}
 	\subsection{AWK tool, Search, Sort tools, Shell scripts, Make tool}
-		\begin{enumerate}
+		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item Write short notes on: AWK Tool. \hfill [2.5] (\texttt{81 Ba})
 
 			\item What can we do with AWK? Epxlain. \hfill [3] (\bo{79 Ch})
