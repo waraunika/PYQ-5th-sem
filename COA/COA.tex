@@ -39,7 +39,30 @@
 
 \begin{document}
 \maketitle
+
+\vspace{13cm}
+\begin{large}\textbf{Notes}\end{large}
+\begin{itemize}
+\item PYQs of BEX/BEI/BCT's CT603 are combined.
+\item BEX's and BCT's are kept with normal font.\item BEI's are kept with \texttt{this styling to differentiate}.
+\item Regular exam's questions are kept as \bo{bold} while back exam are kept as normal font.
+\item Months are marked as: 
+\begin{itemize}[noitemsep]
+	\item Ba: Baisakh
+	\item Jth: Jestha
+	\item Asa: Ashar
+	\item Shr: Shrawan
+	\item Bh: Bhadra
+	\item Ash: Ashwin
+	\item Ka: Kartik
+	\item Mng: Mangsir
+	\item Po: Poush
+	\item Ma: Magh
+	\item Ch: Chaitra
+\end{itemize}
+\end{itemize}
 \pagebreak
+
 \tableofcontents
 \pagebreak
 
@@ -181,7 +204,7 @@
 	\end{enumerate}
 	\subsection{RISC and CISC}
 	\begin{enumerate}[noitemsep, topsep = 0pt]
-		\item Comparison between RISC and CISC architecture. \hfill [6] (\bo{\texttt{78 Bh}, 72 Ch}, 75 Ash)
+		\item Comparison between RISC and CISC architecture. \hfill [4] (71 Shr) [6] (\bo{\texttt{78 Bh}, 72 Ch}, 75 Ash)
 	\end{enumerate}
 	\subsection{64 – Bit Processor}
 
@@ -279,17 +302,87 @@
 		\end{enumerate}
 
 	\pagebreak
+
 \section{Pipeline and Vector processing}
 	\begin{center}(5 Hours/10 Marks)\end{center}
 	\subsection{Pipelining}
+		\begin{enumerate}
+			\item What is Pipelining? \hfill [1] (\bo{\texttt{81 Bh}})
+			\lb Define pipeline. \hfill [1] (72 Ka)
+
+			\item Explain types of pipelining. \hfill [3] (72 Ka)
+
+			\item Explain about the different types of conflicts that can be seen in a pipeline. \hfill [6] (\bo{\texttt{80 Bh}})
+
+			\item How can we prove that pipelining improves the performance of a computer? \hfill [4] (\texttt{81 Ba})
+
+			\item Derive the expression showing speed up ratio equals number of segments in pipeline. \hfill [3] (\bo{75 Ch})
+
+			\item What is meant by hazard in pipelining? \hfill [2] (76 Ash) [4] (\bo{\texttt{78 Bh}})
+
+			\item Describe different types of pipeline hazards. \hfill [4] (76 Ash)
+			\lb with example. \hfill [6] (\bo{\texttt{79 Bh}}, 72 Ka)
+
+			\item How can you overcome hazards? \hfill [2] (76 Ash)
+
+			\item Explain with example data and control hazards in pipeline conflict. \hfill [6] (\bo{\texttt{78 Bh}})
+
+			\item Explain control pipeline hazard and its solutions. \hfill [6] (\bo{72 Ch})
+
+			\item What is instruction hazard in pipeline? \hfill [2] (70 Asa)
+
+			\item Discuss in detail about data dependency problem that arises in pipelining along with its solution.
+			\enter\hfill [5] (\bo{75 Ch})
+		\end{enumerate}
+
 	\subsection{Parallel Processing}
+		\begin{enumerate}
+			\item Explain the Flynn's classification of computer system. \hfill [4] (\bo{\texttt{81 Bh}, 72 Ch})
+
+			\item Discuss about parallel processing. \hfill [4] (71 Shr)
+
+			\item How parallel processing can be achieved in pipelining, explain it with time-space diagram for four segments pipeline having six tasks. \hfill [6] (71 Shr)
+		\end{enumerate}
+
 	\subsection{Arithmetic Pipeline}
+		\begin{enumerate}
+			\item Explain the instruction pipeline with example. \hfill [4] (\bo{\texttt{79 Bh}}) [5] (\bo{71 Ch, 70 Ch})
+			\lb Explain in detail how the arithmetic pipeline increases the performance of a system.
+			\enter\hfill [7] (73 Shr)
+
+			\item Explain arithmetic pipeline for solving floating-point addition/subtraction. \hfill [5] (\texttt{81 Ba})
+			
+		\end{enumerate}
+
 	\subsection{Instruction Pipeline}
+		\begin{enumerate}
+			\item Explain the instruction pipeline with example. \hfill [5] (\bo{71 Ch, 70 Ch})
+
+			\item Describe four stage instruction pipeline. \hfill [4] (\bo{\texttt{81 Bh}}) [5] (\bo{76 Ch}, 78 Ka)
+			\lb Explain with example. \hfill [8] (70 Asa)
+			
+			\item How pipeline processing is done in an instruction pipeline? \hfill [3] (78 Ka)
+
+			\item Construct time-space diagram for four instructions with four-stage pipeline and show how pipelining reduces the execution time? \hfill [5] (\texttt{81 Ba})
+			\lb Explain the operation of instruction pipeline for processing four segment instruction cycle with the help of space-time diagram. \hfill [6] (\texttt{81 Ba})
+
+			\item Show that the speedup factor for a pipelined processor is equal to the number of stages in a pipeline. \hfill [4] (\bo{\texttt{80 Bh}})
+
+			\item Draw a time-space diagram for four segments having six tasks. \hfill [6] (\bo{76 Ch})
+
+			\item Explain six stage instruction pipeline with example. \hfill [10] (75 Ash)
+		\end{enumerate}
+
 	\subsection{RISC Pipeline}
+		\begin{enumerate}
+			\item RISC has the ability to use efficient instruction pipeline. Justify. \hfill [3] (73 Shr)
+		\end{enumerate}
+
 	\subsection{Vector Processing}
 	\subsection{Array Processing}
 
 	\pagebreak
+
 \section{Computer Arithmetic}
 	\begin{center}(8 Hours/14 Marks)\end{center}
 	\subsection{Addition Algorithm}
@@ -363,37 +456,222 @@
 	\subsection{Logical Operation}
 
 	\pagebreak
+	
 \section{Memory System}
-\begin{center}(5 Hours/8 Marks)\end{center}
-\subsection{Microcomputer Memory}
-\subsection{Characteristics of memory systems}
-\subsection{The Memory Hierarchy}
-\subsection{Internal and External memory}
-\subsection{Cache memory principles}
-\subsection{Elements of Cache design}
-\subsubsection{Cache size}
-\subsubsection{Mapping function}
-\subsubsection{Replacement algorithm}
-\subsubsection{Write policy}
-\subsubsection{Number of caches}
+	\begin{center}(5 Hours/8 Marks)\end{center}
+	\subsection{Microcomputer Memory}
+	\subsection{Characteristics of memory systems}
+		\begin{enumerate}
+			\item Explain in briefly the characteristics of a memory system. \hfill [3] (\texttt{81 Ba})
+			\lb Write characteristics of memory system. \hfill [3] (\bo{73 Ch}) [4] (\bo{75 Ch}, 75 Ash) [8] (\bo{68 Ba})
+		\end{enumerate}
+
+	\subsection{The Memory Hierarchy}
+		\begin{enumerate}
+			\item What is memory hierarchy and why it is formed in computer system? \hfill [2] (71 Shr)
+			
+			\item Draw the memory hierarchy. \hfill [2] (\bo{72 Ch}, 72 Ka)
+		\end{enumerate}
+
+	\subsection{Internal and External memory}
+	\subsection{Cache memory principles}
+		\begin{enumerate}
+			\item Describe the cache memory principles. \hfill [3] (\bo{\texttt{81 Bh}})
+
+			\item Describe cache operation briefly. \hfill [2] (76 Ash)
+
+			\item Describe cache organization. \hfill [4] (\bo{71 Ch})
+		\end{enumerate}
+
+	\subsection{Elements of Cache design}
+		\begin{enumerate}
+			\item Explain the various types of elements of cache design. \hfill [4] (75 Ash)
+		\end{enumerate}
+
+	\subsubsection{Cache size}
+	\subsubsection{Mapping function}
+		\begin{enumerate}
+			\item Define cache mapping techniques. \hfill [2] (\bo{76 Ch, 68 Ba})
+
+			\item Why cache management is necessary in mapping process? \hfill [2] (\bo{67 Asa})
+
+			\item Explain various mapping methods used in cashe memory organization and compare each of them with example. \hfill [6] (\bo{71 Ch}) [10] (78 Ka)
+			\lb only explain. \hfill [6] (75 Ash)
+
+			\item Differentiate between direct mapping and set associative mapping. \hfill [5] (\bo{\texttt{81 Bh}}) [7] (\texttt{81 Ba})
+
+			\item Differentiate between direct and associative mapping address structure. \hfill [6] (\bo{67 Asa})
+
+			\item Differentiate between associative and set associative mapping with example. \hfill [5] (\bo{70 Ch})
+
+			\item What are the major differences between different cache mapping techniques? \hfill [2] (70 Asa)
+			\lb DIfferentiate among direct, associative and set associative mapping. \hfill [8] (\bo{68 Ba})
+
+			\item Explain direct cache mapping technique with example. \hfill [7] (\bo{\texttt{80 Bh}})
+			\lb with diagram. \hfill [4] (\bo{76 Ch})
+			\lb with organization diagram and example. \hfill [6] (71 Shr)
+			\lb with merits and demerits. \hfill [6] (\bo{72 Ch})
+
+			\item Suppose main memory has 64 blocks and cache memory has 8 blocks when 10 blocks of main memory are used, show how mapping is performed in direct mapping technique. \hfill [6] (\bo{75 Ch})
+			\lb main memory is 32 blocks, rest is same. \hfill [6] (70 Asa)
+			\lb main memory is 32 blocks, cache has 8 blocks when 12 blocks are used. \hfill [6] (\bo{74 Ch})
+
+			\item What is set associative mapping? \hfill [2] (\texttt{81 Ba}) [3] (\bo{\texttt{79 Bh}})
+
+			\item Explain how set associative mapping technique combines the feature of direct and associative mapping technique. \hfill [3] (\texttt{81 Ba}) [5] (73 Shr)
+
+			\item Explain about associative mapping technique. \hfill [6] (76 Ash)
+			\lb with example. \hfill [6] (72 Ka)
+		\end{enumerate}
+
+	\subsubsection{Replacement algorithm}
+		\begin{enumerate}
+			\item Explain different replacement algorithm technique used in cache memory. \hfill [3] (\texttt{81 Ba}) [5] (\bo{\texttt{79 Bh}})
+
+			\item Explain LRU replacement algorithm in case of hit and miss with suitable example. \hfill [8] (\bo{\texttt{78 Bh}})
+
+			\item Why replacement algorithm is necessary in associative mapping? \hfill [4] (\bo{76 Ch})
+			\lb Why replacement algorithm is used when designing cache? Explain with example.
+			\enter\hfill [8] (\bo{67 Asa})
+		\end{enumerate}
+
+	\subsubsection{Write policy}
+		\begin{enumerate}
+			\item Explain different write policy techniques in cache memory. \hfill [3] (\bo{\texttt{80 Bh}}, 73 Shr)
+		\end{enumerate}
+
+	\subsubsection{Number of caches}
 
 \pagebreak
 \section{Input-Output organization}
-\begin{center}(6 Hours/10 Marks)\end{center}
-\subsection{Peripheral devices}
-\subsection{I/O modules}
-\subsection{Input-Output interface}
-\subsection{Modes of transfer}
-\subsubsection{Programmed I/O}
-\subsubsection{Interrupt-driven I/O}
-\subsubsection{Direct Memory access}
-\subsection{I/O Processors}
-\subsection{Data Communication Processor}
+	\begin{center}(6 Hours/10 Marks)\end{center}
+	\subsection{Peripheral devices}
+	\subsection{I/O modules}
+		\begin{enumerate}
+			\item What are the functions of IO Modules? \hfill [3] (71 Shr)
+		\end{enumerate}
+
+	\subsection{Input-Output interface}
+		\begin{enumerate}
+			\item Elaborate the roles of IO interface in a computer system. \hfill [4] (\bo{\texttt{79 Bh}, 71 Ch})
+
+			\item Explain three reasons behind the requirement of IO interfaces. \hfill [3] (\bo{75 Ch})
+
+			\item Explain IO interface. \hfill [2] (\bo{74 Ch})
+			\lb with example. \hfill [6] (\bo{68 Ba})
+
+			\item What are the four types of IO commands that an interface receive during the communication link between the processor and peripherals? \hfill [4] (\bo{67 Asa})
+
+			\item Explain the IO bus and interface modules. \hfill [4] (\bo{67 Asa})
+		\end{enumerate}
+
+	\subsection{Modes of transfer}
+		\begin{enumerate}
+			\item Explain three IO techniques for input of a block of data. \hfill [6] (\bo{\texttt{80 Bh}})
+
+			\item Differentiate between isolated and memory mapped IO. \hfill [4] (\bo{\texttt{78 Bh}, 72 Ch})
+
+			\item Why memory address spaces are reduced memory mapped IO? \hfill [2] (\bo{75 Ch})
+		\end{enumerate}
+
+	\subsubsection{Programmed I/O}
+		\begin{enumerate}
+			\item Explain how data transfer is performed with programmed IO technique with necessary diagram.
+			\enter\hfill [6] (\bo{\texttt{79 Bh}})
+		\end{enumerate}
+
+	\subsubsection{Interrupt-driven I/O}
+		\begin{enumerate}
+			\item Differentiate between programmed I/O and iterrupt driven I/O. \hfill [5] (\bo{\texttt{81 Bh}})
+
+			\item How does a computer know which device issued the interrupt; if multiple devices, how does the selection take place? \hfill [5] (73 Shr)
+			
+			\item What are the different types of priority interrupt? \hfill [4] (72 Ka)
+			
+			\item What is the purpose of priority interrupt; explain priority interrupt types with key characteristics. 
+			\enter\hfill [7] (71 Shr)
+		\end{enumerate}
+
+	\subsubsection{Direct Memory access}
+		\begin{enumerate}
+			\item With the help of a neat diagram, explain how DMA technique is used to transfer data in a computer system. \hfill [6] (\bo{\texttt{78 Bh}}) [7] (\texttt{81 Ba})
+			\lb Explain DMA controller with suitable block diagram.
+			\enter\hfill [5] (\bo{75 Ch}, \texttt{81 Ba}) [6] (\bo{72 Ch}, 78 Ka) [8] (76 Ash)
+
+			\item How does DMA have request over the CPU when both request a memory transfer? \hfill [2] (76 Ash)
+
+			\item How DMA technique is different from programmed IO? \hfill [4] (78 Ka)
+
+			\item Compare among program IO, interrupt drive IO and DMA.
+			\enter\hfill [8] (\bo{76 Ch, 74 Ch, 68 Ba}) [10] (70 Asa)
+
+			\item Mention three possible configurations of DMA and compare them. \hfill [8] (\bo{67 Asa})
+				
+			\item Describe the drawbacks of programmed IO and interrupt driven IO and explain how DMA overcomes their drawbacks. \hfill [6] (\bo{71 Ch})
+			\lb How does DMA overcome the problems of programmed IO and interrupt driven IO techniques?
+			\enter\hfill [5] (\bo{70 Ch})
+		\end{enumerate}
+
+	\subsection{I/O Processors}
+		\begin{enumerate}
+			\item Explain the CPU and IOP communication channel using diagram. \hfill [5] (\bo{\texttt{81 Bh}})
+
+			\item Why IOP is used in IO organization? \hfill [3] (\texttt{81 Ba}, 75 Ash) [5] (\bo{70 Ch}, 73 Shr)
+
+			\item Show the role of IO processor to assist the operation of the CPU. \hfill [4] (\bo{\texttt{80 Bh}})
+		\end{enumerate}
+
+	\subsection{Data Communication Processor}
+		\begin{enumerate}
+			\item Why data communication processor is required in IO ogranization? \hfill [2] (\bo{76 Ch})
+
+			\item Explain the CPU-IOP communication with diagram. \hfill [6] (72 Ka) [7] (75 Ash)
+
+			\item Explain CPU-IOP Communication with diagram. \hfill [5] (\texttt{81 Ba})
+		\end{enumerate}
+
 
 \pagebreak
 \section{Multiprocessors}
-\begin{center}(2 Hours/4 Marks)\end{center}
-\subsection{Characteristics of multiprocessors}
-\subsection{Interconnection Structures}
-\subsection{Interprocessor Communication and Synchronization}
+	\begin{center}(2 Hours/4 Marks)\end{center}
+	\subsection{Characteristics of multiprocessors}
+		\begin{enumerate}
+			\item List out the characteristics of a multiprocessor. \hfill [4] (\bo{\texttt{80 Bh}, 70 Ch})
+
+			\item Describe how the multiprocessor systems increase the performance level and reliability.
+			\enter\hfill [4] (73 Shr)
+
+			\item Explain about multiprocessor and multiprocessing in brief. \hfill [4] (72 Ka)
+
+			\item How can multiprocessor be classified according to their memory organization? Explain.
+			\enter\hfill [4] (\bo{71 Ch})
+		\end{enumerate}
+
+	\subsection{Interconnection Structures}
+		\begin{enumerate}
+			\item Discuss about loosely-coupled and tightly-cuopled architecture. \hfill [4] (\texttt{81 Ba})
+			\lb Difference between them. \hfill [4] (78 Ka)
+
+			\item Discuss about tightly-coupled multiprocessor with block diagram. \hfill [4] (76 Ash)
+
+			\item Explain the crossbar switch interconnection structure with block diagram. \hfill [4] (\texttt{81 Ba})
+
+			\item Differentiate Crossbar switch and Multistage switching network. \hfill [4] (71 Shr)
+
+			\item Explain hypercube interconnection network with example. \hfill [4] (\bo{76 Ch})
+
+			\item Compare and contrast the interconnection structures used in multiprocessing environment.
+			\enter\hfill [4] (\bo{\texttt{79 Bh, 78 Bh}}) 
+		\end{enumerate}
+
+	\subsection{Interprocessor Communication and Synchronization}
+		\begin{enumerate}
+			\item Briefly discuss on inter-process communication and synchronization. \hfill [5] (\bo{\texttt{81 Bh}})
+
+			\item Explain inter-process synchronization with example. \hfill [4] (\bo{74 Ch}, 70 Asa)
+			\lb with suitable mechanism. \hfill [4] (\bo{72 Ch})
+
+			\item Explain various configurations of OS in multiprocessor system. \hfill [4] (\bo{74 Ch})
+		\end{enumerate}
+
 \end{document}
