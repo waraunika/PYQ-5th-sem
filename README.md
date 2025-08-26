@@ -12,4 +12,4 @@ The subjects being worked on are based on Electronics Department's 5th Semester.
 
 Various subjects are at various stages, with atleast one chapter of each subject being completed.
 
-The project is aimed to be complete by July of 2025
+The project is aimed to be complete by August 28 of 2025

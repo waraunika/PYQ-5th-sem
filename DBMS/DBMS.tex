@@ -43,12 +43,11 @@
 
 \begin{document}
 \maketitle
-\vspace{8cm}
+\vspace{9cm}
 \begin{large}\textbf{Notes}\end{large}
 \begin{itemize}
 \item PYQs of BEI's CT610, BCT's CT652 are combined.
 \item PYQs of BEI's CT610's are styled as \texttt{this font in order to say that these are our syllabus' pyq's}.
-\item PYQ of BCT with no subject code mentioned in the question paper, starting from 2068 Magh and earlier, will be \textit{stylized as italic to differentiate them}
 \item Months are marked as: 
 \begin{itemize}[noitemsep]
 	\item Ba: Baisakh
@@ -1077,8 +1076,8 @@
         		\enter\hfill [4] (\bo{\texttt{79 Bh}}) [5] (\texttt{80 Ba})
         		
             \item Optimize the given tree. \\
-            a. \includegraphics[width=4in]{dbms_1} \hfill [5] (\texttt{81 Ba})\\
-            b. \includegraphics[width=4in]{dbms_2} \hfill [2] (68 Ma)
+            a. \includegraphics[width=4in]{./pics/dbms_1} \hfill [5] (\texttt{81 Ba})\\
+            b. \includegraphics[width=4in]{./pics/dbms_2} \hfill [2] (68 Ma)
             
             \item How can you optimize the following query? \hfill [5] (\bo{71 Bh})\\
             $\Pi_{\text{name, title}}\left(\sigma_{\text{dept\_name=``Music"}}(\text{instructor} \bowtie \Pi_{\text{course\_id, title}} (\text{teaches} \bowtie \text{course}))\right)$
@@ -1298,17 +1297,142 @@
 \section{Crash Recovery}
     \begin{center}(4 Hours/6 Marks)\end{center}
     \subsection{Failure Classification}
+        \begin{enumerate}
+            \item What are the different types of failure in DBMS? \hfill [3] (\bo{\texttt{80 Bh}, 79 Ch, 75 Bh, 73 Bh})
+        \end{enumerate}
+
     \subsection{Recovery and Atomicity}
-    \subsection{Log‐based Recovery}
+        \begin{enumerate}
+            \item Define term Recovery and Atomocity in database. \hfill [2] (76 Ba)
+
+            \item (Assumed) What is stable storage? \hfill [2] (73 Ma)
+            \lb Briefly explain the idea of stable storage. \hfill [3] (\bo{71 Bh})
+        \end{enumerate}
+
+    \subsection{Log-based Recovery}
+        \begin{enumerate}
+            \item Define a log based recovery method. \hfill [2] (\bo{\texttt{81 Bh}})
+
+            \item Explain the idea of log-based recovery. \hfill [4] (73 Ma) [6] (\bo{72 Ash}, 75 Ba)
+
+            \item How does log based recovery method work? \hfill [2] (\bo{80 Ch})
+
+            \item Explain the conditions of using redo and undo operations during recovery process.
+            \enter\hfill [4] (\bo{80 Ch}) [5] (\bo{\texttt{81 Bh}})
+
+            \item Explain redo and undo phase of log based failure recovery mechanism. \hfill [6] (\bo{69 Bh}, 72 Ma)
+            \lb How REDO and UNDO operations performed in log based based recovery mechanism?
+            \enter\hfill [5] (\bo{\texttt{79 Bh}})
+
+            \item Explain the functions of Undo and Redo operations in a log-based recovery of database.
+            \enter\hfill [6] (70 Ma)
+
+            \item What is deferred-database modification technique in context to log based recovery approach? Explain. \hfill [3] (\bo{76 Bh}) [4] (\texttt{81 Ba})
+
+            \item Explain about immediate-database modification techniques with example.
+            \enter\hfill [4] (\bo{77 Ch}) [5] (\texttt{81 Ba})
+
+            \item Distinguish between immediate and deferred modification. \hfill [4] (71 Ma)
+
+            \item Explain about checkpoints with example. \hfill [3] (\bo{\texttt{79 Bh}}, \texttt{81 Ba})
+
+            \item How does the check point recovery take place in case of transaction failure? \hfill [4] (\bo{78 Ch})
+
+            \item Explain the purpose of the checkpoint mechanism. \hfill [2] (\bo{74 Bh}, \texttt{81 Ba})
+            \lb What is the significance of checkpoints in a log? \hfill [2] (71 Ma)
+
+            \item How often should checkpoints be performed? \hfill [2] (\texttt{81 Ba})
+
+            \item Consider the following log contents when a crash occurs. Explain how recovery would be done for each state. \hfill [4] (76 Ba)\\
+            \includegraphics[width=4in]{./pics/dbms_3}
+
+            \item What are the recovery actions performed if failure arises at the end of the given transaction states?\\
+            \includegraphics[width=4.5in]{./pics/dbms_4} \hfill [4] (\bo{74 Bh})
+
+            \item Suppose following contents are present in log when a crash occurs. Explain what happens for a log-based recovery. \hfill [6] (\bo{70 Bh})\\
+            \includegraphics[width=1.5in]{./pics/dbms_5}
+        \end{enumerate}
+
     \subsection{Shadow paging}
+        \begin{enumerate}
+            \item Explain shadow page recovery technique with example. \hfill [4] (\bo{78 Ch}) [5] (\bo{\texttt{80 Bh}})
+
+            \item Differentiate between shadow paging and log-based recovery. \hfill [3] (\bo{75 Bh, 73 Bh})
+        \end{enumerate}
+
     \subsection{Advanced Recovery Techniques}
+        \begin{enumerate}
+            \item Explain remote backup system. \hfill [3] (\bo{79 Ch, 74 Bh}, 76 Ba)
+
+            \item Explain the architecture of remote backup system. \hfill [3] (\bo{77 Ch, 76 Bh, 71 Bh})
+        \end{enumerate}
 
     \pagebreak
+
 \section{Advanced database Concepts}
     \begin{center}(4 Hours/6 Marks)\end{center}
-    \subsection{Concept of Objet‐Oriented and Distributed Database Model}
-    \subsection{Properties of Parallel and Distributed Databases}
+    \subsection{Concept of Objet-Oriented}
+        \begin{enumerate}
+            \item Describe briefly about object oriented database. \hfill [3] (\bo{69 Bh}, 73 Ma)
+
+            \item What are differences between object oriented and relational database management system.
+            \enter\hfill [3] (\texttt{81 Ba})
+
+            \item Write short notes on: Features of Object Oriented Database. \hfill [3] (\bo{79 Ch})
+            \lb Write short notes on: Advantages of Object Oriented Database model. \hfill [3] (\bo{\texttt{79 Bh}})
+            \lb What is the significance of object-oriented databases? \hfill [3] (72 Ma)
+
+            \item Write short notes on: Object Relational Mapping (ORM). \hfill [3] (\bo{77 Ch}, 71 Ma)
+        \end{enumerate}
+
+    \subsection{Distributed Database Model}
+        \begin{enumerate}
+            \item Write short notes on: Distributed Database System. \hfill [3] (\bo{\texttt{81 Bh}, 73 Bh}, 76 Ba)
+
+            \item Explain Distributed Database System with its type. \hfill [3] (\bo{71 Bh}) [4] (\bo{\texttt{80 Bh}})
+
+            \item Explain properites of distributed databases. \hfill [4] (\bo{70 Bh})
+
+            \item Explain homogeneous and heterogeneous distributed database. \hfill [3] (73 Ma) [4] (75 Ba)
+
+            \item What are different data fragmentation techniques? \hfill [2] (\bo{\texttt{80 Bh}})
+            \lb What are the types of data fragmentation in distributed databases? \hfill [3] (\texttt{81 Ba})
+            \lb Write short notes on: Fragmentation in distributed databases. \hfill [3] (\bo{77 Ch})
+
+            \item Explain horizontal and vertical fragmentation in distributed databases. \hfill [3] (70 Ma)
+
+            \item Write any four advantages of distributed database. \hfill [3] (\texttt{81 Ba})
+        \end{enumerate}
+
+    \subsection{Parallel Databases}
+        \begin{enumerate}
+            \item Write short notes on: Parallel databases \hfill [3] (\bo{\texttt{79 Bh}, 80 Ch, 79 Ch})
+            \lb Write short notes on: Parallel database architecture. \hfill [3] (\bo{76 Bh}, 72 Ma, 71 Ma)
+
+            \item Explain the benefit of parallel database. \hfill [3] (\bo{69 Bh})
+        \end{enumerate}
+        
     \subsection{Concept of Data warehouse Database}
+        \begin{enumerate}
+            \item Write short notes: Data warehouse. \hfill [3] (\bo{\texttt{81 Bh, 79 Bh}, 80 Ch, 76 Bh, 71 Bh})
+            \lb Write short notes on data warehouse with its components. \hfill [4] (\bo{75 Bh})
+
+            \item Write short notes on: Importance of Data warehouses. \hfill [3] (\bo{72 Ash}) [4] (\bo{78 Ch})
+
+            \item Write short notes on Data warehouse and associated applications. \hfill [3] (70 Ma)
+
+            \item Differentiate between data warehousing and data mining with an example. \hfill [3] (\texttt{81 Ba})
+        \end{enumerate}
+
     \subsection{Concept of Spatial Database}
+        \begin{enumerate}
+            \item What is spatial data? \hfill [1] (\texttt{81 Ba}) [2] (75 Ba)
+
+            \item Write short notes on: Spatial database. \hfill [2] (\bo{75 Bh}) [3] (\bo{74 Bh, 73 Bh}) [4] (\bo{78 Ch})
+
+            \item Write the application areas of spatial database. \hfill [3] (\bo{72 Ash})
+
+            \item How do you store spatial data in a database? \hfill [2] (\texttt{81 Ba})
+        \end{enumerate}
 
 \end{document}
