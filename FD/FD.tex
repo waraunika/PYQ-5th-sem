@@ -5,7 +5,7 @@
 \usepackage{xcolor}
 \usepackage{graphicx}
 \usepackage{enumitem, inconsolata}
-% \usepackage{draftwatermark}
+\usepackage{draftwatermark}
 \usepackage{fancyhdr}
 \parindent 0px
 \newcommand{\W}{\(\Omega\)}
@@ -40,9 +40,9 @@
 \author{by PUL079BEI008}
 \date{\today}
 
-% \SetWatermarkText{{\fontsize{45}{0}\selectfont Creation of PUL079BEI008}}
-% \SetWatermarkScale{1.4}
-% \SetWatermarkColor{blue!25}
+\SetWatermarkText{{\fontsize{45}{0}\selectfont Creation of PUL079BEI008}}
+\SetWatermarkScale{1.4}
+\SetWatermarkColor{blue!25}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -345,13 +345,6 @@
 				\item Write the properties of lossless one port network. \hfill [2] (\bo{81 Bh}, 76 Ash, 74 Ash) [3] (\bo{78 Bh, 76 Ch})
 				
 				\item How can you determine whether the given function is a valid lossless function or not? \hfill [3] (81 Ba)
-				
-				\item Determine whether the following are lossless function or not? State with reason. 
-				\enter\hfill [3+3+3] (\bo{78 Bh})\\
-				$Z(s) = \dfrac{s^4+9s^2+8}{s^3+4s}2$ \hspace{1cm}
-				$Z(s) = \dfrac{s^3+s}{s^4+12s^2+32}$ \hspace{1cm}
-				$Z(s) = \dfrac{s^3+4s}{s^4+4s^2+3}$\\
-				Realize one of the valid lossless function using Foster Series and Cauer I methods.
 			\end{enumerate}
 
 		\subsubsection{Synthesis of LC one-port circuits, Foster and Cauer circuits}
@@ -362,10 +355,15 @@
 				$Z(s) = \dfrac{8s^3+10s}{s^4+6s^2+5}$, \hspace{1cm} $Z(s) = \dfrac{s^4+5s^2+4}{s^3+9s}$
 
 				\item Which of the following function is lossless and why? Find the Cauer-I and Foster-I expansion for the corresponding lossless function. \hfill [2+3+3] (\bo{\texttt{81 Bh}})
-				\begin{align*}
-					Z(S) &= \frac{S^2+10S+24}{S^2+8S+15}\\
-					Z(S) &= \frac{S^5+10S^3+24S}{S^4+6S^2+5}
-				\end{align*}
+				
+					Z(S) = $\dfrac{S^2+10S+24}{S^2+8S+15}$\hspace{2cm}
+					Z(S) = $\dfrac{S^5+10S^3+24S}{S^4+6S^2+5}$
+
+				\item Which of the following is valid lossless function? State with reason. \\
+				$Z(s) = \dfrac{(s^2+4)(s^2+5)}{(s^2+s^2)(s^2+10)}$, \hspace{1cm} $Z(s)= \dfrac{s^4+4s^2+3}{s(s^2+2)}$, \hspace{1cm} $Z(s) = \dfrac{s^6+4s^4+8s^2}{s^3+3s}$\\
+				Pick one of the valid LC lossless functions and synthesize it using
+				\lb Foster II and Cauer II methods. \hfill [3+3+3] (\bo{\texttt{80 Bh}})
+				\lb Foster series and cauer I methods. \hfill [2+3+3] (\bo{80 Bh})
 
 				\item Synthesize the given LC function in Foster I and Foster II networks: \hfill [6] (\bo{81 Bh})\\
 				$F(s) = \dfrac{s(s^2+2)(s^2+4)}{(s^2+1)(s^2+3)}$
@@ -373,45 +371,17 @@
 				\item Synthesize the given LC impedance in Foster II and Caer I networks: \hfill [3+3] (\bo{79 Bh})\\
 				$Z(s) = \dfrac{(s^2+1)(s^2+3)}{s(s^2+2)}$
 				
-				\item Realize the fllowing function using Cauer I and Foster II method. \hfill [3+3] (74 Ash)\\
-				$Z(s) = \dfrac{s(s^2+4)}{(s^2+2)(s^2+6)}$
-				
-				\item Realize the given function using Cauer-I and Cauer-II method. \hfill [6] (72 Ka)\\
-				$Z(s) = \dfrac{4s^4+40s^2+36}{s^3+4s}$
-				
-				\item Realize the following LC function using Cauer II method. $Z(s) = \dfrac{s(s^2+3)}{(s^2+1)(s^2+4)}$ \hfill [4] (70 Asa)
-				
-				
-				\item Which of the following function is valid LC driving point impedance function? State with reason.
-				$Z(s) = \dfrac{8s^3+10s}{s^4+6s^2+5}$,\hspace*{1cm}    $Z(s) = \dfrac{(s^2+4)(s^2+9)}{(s^2+16)(s^2+25)}$ \hfill [3+3] (\texttt{81 Ba})\\
-				Find the Cauer second from of valid driving point impedance function.
-				
-				\item Which of the following functions are the valid LC impedance function? State with reason.\\
-				$Z(s) = \dfrac{(s^2+2)(s^2+4)}{s(s^2+1)(s^2+3)}$, \hspace{1cm} $Z(s) = \dfrac{(s^1+1)(s^2+3)}{(s^2)(s^2+4)}$, \hspace{1cm} $Z(s) = \dfrac{(s^2+1)(s^2+3)}{s(s^2+2)(s^2+4)}$\\
-				Pick one valid LC impedance function and realize it in Foster I and Cauer II form. \hfill [3+3+3] (81 Ba)
-				
-				\item Which of the following is valid lossless function? State with reason. \\
-				$Z(s) = \dfrac{(s^2+4)(s^2+5)}{(s^2+s^2)(s^2+10)}$, \hspace{1cm} $Z(s)= \dfrac{s^4+4s^2+3}{s(s^2+2)}$, \hspace{1cm} $Z(s) = \dfrac{s^6+4s^4+8s^2}{s^3+3s}$\\
-				Pick one of the valid LC lossless functions and synthesize it using
-				\lb Foster II and Cauer II methods. \hfill [3+3+3] (\bo{\texttt{80 Bh}})
-				\lb Foster series and cauer I methods. \hfill [2+3+3] (\bo{80 Bh})
-				
-				\item Which of the following functions are LC driving point impedance function and why?\\
-				$Z_1 (s)=\dfrac{(s^2+1)(s^2+5)}{(s^2+2)(s^2+10)}$ \hspace{2cm}
-				$Z_2 (s)=\dfrac{5s(s^2+5)}{(s^2+1)(s^2+2)}$\\[2pt]
-				$Z_3 (s)=\dfrac{2(s^2+1)(s^2+9)}{s(s^2+4)}$ \hspace{2cm}
-				$Z_4 (s)=\dfrac{4(s+2)(s+5)}{(s+1)(s+4)}$\\
-				Pick one of the valid LC driving point impedance and synthesize it in Foster-I and Cauer-I form.
-				\enter\hfill [2+3+3] (79 Ba)
+				\item Determine whether the following are lossless function or not? State with reason. 
+				\enter\hfill [3+3+3] (\bo{78 Bh})\\
+				$Z(s) = \dfrac{s^4+9s^2+8}{s^3+4s}2$ \hspace{1cm}
+				$Z(s) = \dfrac{s^3+s}{s^4+12s^2+32}$ \hspace{1cm}
+				$Z(s) = \dfrac{s^3+4s}{s^4+4s^2+3}$\\
+				Realize one of the valid lossless function using Foster Series and Cauer I methods.
 				
 				\item Which of the following function is LC one port driving point impedance function? Explain with suitable reason. \hfill [2+3+3] (\bo{76 Ch})\\
-				$Z(s) = \dfrac{(s^2+1)(s^2+9)}{s(s^2+4}$, \hspace{2cm}
+				$Z(s) = \dfrac{(s^2+1)(s^2+9)}{s(s^2+4)}$, \hspace{2cm}
 				$Z(s) = \dfrac{s(s^2+4)(s^2+5)}{(s^2+3)(s^2+6)}$\\
 				Realize a valid lossless one part function using Foster II and Cauer II methods.
-				
-				\item Which of the following are valid LC function? State with reason. Realize one LC function using Cauer-I and Cauer-II method. \hfill [2+3+3] (76 Ash)\\
-				$Z(s) = \dfrac{(s^2+1)(s^2+3)}{s(s^2+2)}$ \hspace{2cm}
-				$Z(s) = \dfrac{s(s^2+2)}{(s^2+3)(s^2+4)}$
 				
 				\item Determine whether the following functions are lossless function or not? State with reason. \\
 				$Z(s) = 2\dfrac{s^4+9s^2+8}{s^3+4s}$ \hspace{2cm}
@@ -419,26 +389,6 @@
 				$Z(s) = \dfrac{s^4+4s}{s^4+4s+3}$\\
 				Realize one of the valid lossless function using Foster Series method and Cauer II method.
 				\enter\hfill [3+3+3] (\bo{75 Ch})
-				
-				\item Which of the following is LC lossless functions and why? Pick one of the valid LC lossless functions and realize it using Foster-I and Cauer-I form. \hfill [3+3] (75 Ash)\\
-				$Z_1(s) = \dfrac{s(s^2+4)(s^2+6)}{(s^2+3)(s^2+9)}$ \hspace{2cm}
-				$Z_2(s) = \dfrac{(s^2+3)(s^2+6)}{s(s^2+4)(s^2+9)}$ \\
-				$Z_3(s) = \dfrac{(s^2+4)(s^2+6)}{s(s^2+3)(s^2+9)}$ \hspace{2cm}
-				$Z_4(s) = \dfrac{(s^2+3)(s^2+6)}{(s^2+4)(s^2+9)}$
-				
-				\item Which of the following functions are LC driving point impedance function and why?\\
-				$Z(s) = \dfrac{s^4+10s^2+9}{s^4+4s}$ \hspace{2cm}
-				$Z(s) = \dfrac{s^3+4s}{s^4+5s^2+6}$\hfill [2+3+3] (73 Shr)\\
-				Also find the Foster parallel and Cauer I form of the valid LC driving point impedance function.
-				
-				\item Which of the following is LC lossless function and why? Pick one of the valid LC lossless functions and synthesize it using Foster and Cauer methods. \hfill [2+3+3] (\bo{72 Ch})\\
-				$Z_1(s)=\dfrac{s(s^2+4)(s^2+9}{(s^2+2)(s^2+10}$ \hspace{2cm}
-				$Z_2(s)=\dfrac{(s^2+2)(s^2+10)}{s(s^2+5)}$ \hspace{2cm}
-				$Z_3(s)=\dfrac{s^2+25}{s(s^2+5)(s^2+50)}$
-				
-				\item Which of the following functions are LC driving point impedance function and why? Also find the Foster series and Cauer II Realization of the valid LC driving point impedance function.\\
-				$Z(s) = 2\dfrac{(s^2+4)(s^2+16}{(s^2+1)(s^2+9}$ \hspace{2cm}
-				$Z(s) = 4\dfrac{(s+2)(s+5)}{(s+1)(s+4)}$ \hfill [2+3+3] (\bo{71 Ch})
 				
 				\item Which of the following functions are lossless impedance function? State with reason. 
 				\enter\hfill [2+3+3] (\bo{73 Ch})\\
@@ -448,8 +398,17 @@
 				$\dfrac{s^5+4s^3+5s}{s^4+5s^2+6}$\\
 				Synthesize one of the valid lossless impedance function using Foster I and Cauer I forms.	
 				
+				\item Which of the following is LC lossless function and why? Pick one of the valid LC lossless functions and synthesize it using Foster and Cauer methods. \hfill [2+3+3] (\bo{72 Ch})\\
+				$Z_1(s)=\dfrac{s(s^2+4)(s^2+9)}{(s^2+2)(s^2+10)}$ \hspace{2cm}
+				$Z_2(s)=\dfrac{(s^2+2)(s^2+10)}{s(s^2+5)}$ \hspace{2cm}
+				$Z_3(s)=\dfrac{s^2+25}{s(s^2+5)(s^2+50)}$
+				
+				\item Which of the following functions are LC driving point impedance function and why? Also find the Foster series and Cauer II Realization of the valid LC driving point impedance function.\\
+				$Z(s) = 2\dfrac{(s^2+4)(s^2+16}{(s^2+1)(s^2+9}$ \hspace{2cm}
+				$Z(s) = 4\dfrac{(s+2)(s+5)}{(s+1)(s+4)}$ \hfill [2+3+3] (\bo{71 Ch})
+								
 				\item Which of the following functions are LC driving point impedance function and why? Pick one of the valid LC driving point impedance and synthesize it in Foster-I and Cauer-I form:\\
-				$Z_1(s) = \dfrac{(s^2+1)(s^2+5}{(s^2+2)(s^2+10)}$ \hspace{2cm}
+				$Z_1(s) = \dfrac{(s^2+1)(s^2+5)}{(s^2+2)(s^2+10)}$ \hspace{2cm}
 				$Z_2(s) = \dfrac{5s(s^4+4)}{(s^2+1)(s^2+3)}$ \hfill [2+3+3] (\bo{70 Ch})\\
 				$Z_3(s) = \dfrac{2(s^2+1)(s^2+9)}{s(s^2+4)}$ \hspace{2cm}
 				$Z_4(s) = 4\dfrac{(s+2)(s+5)}{(s+1)(s+4)}$
@@ -461,7 +420,45 @@
 				$Z(s) = \dfrac{2(s+1)(s+3)}{(s+2)(s+4)}$\\
 				Also find the Cauer II realization of the valid LC driving point impedance function.
 				
-				\item Synthesize a two port LC ladder to satisfy the following open circuit impedance parameters:\\ $z_{21}(s) = \dfrac{k(s^2+9}{s(s^2+4}$; \hspace{3.5cm} $z_{22}(s) = \dfrac{(s^2+1)}{s(s^2+4)}$ \hfill [7] (72 Ka)
+				
+				\item Which of the following function is valid LC driving point impedance function? State with reason.
+				$Z(s) = \dfrac{8s^3+10s}{s^4+6s^2+5}$,\hspace*{1cm}    $Z(s) = \dfrac{(s^2+4)(s^2+9)}{(s^2+16)(s^2+25)}$ \hfill [3+3] (\texttt{81 Ba})\\
+				Find the Cauer second from of valid driving point impedance function.
+				
+				\item Which of the following functions are the valid LC impedance function? State with reason.\\
+				$Z(s) = \dfrac{(s^2+2)(s^2+4)}{s(s^2+1)(s^2+3)}$, \hspace{1cm} $Z(s) = \dfrac{(s^1+1)(s^2+3)}{(s^2)(s^2+4)}$, \hspace{1cm} $Z(s) = \dfrac{(s^2+1)(s^2+3)}{s(s^2+2)(s^2+4)}$\\
+				Pick one valid LC impedance function and realize it in Foster I and Cauer II form. \hfill [3+3+3] (81 Ba)
+				
+				\item Which of the following functions are LC driving point impedance function and why?\\
+				$Z_1 (s)=\dfrac{(s^2+1)(s^2+5)}{(s^2+2)(s^2+10)}$ \hspace{2cm}
+				$Z_2 (s)=\dfrac{5s(s^2+5)}{(s^2+1)(s^2+2)}$\\[2pt]
+				$Z_3 (s)=\dfrac{2(s^2+1)(s^2+9)}{s(s^2+4)}$ \hspace{2cm}
+				$Z_4 (s)=\dfrac{4(s+2)(s+5)}{(s+1)(s+4)}$\\
+				Pick one of the valid LC driving point impedance and synthesize it in Foster-I and Cauer-I form.
+				\enter\hfill [2+3+3] (79 Ba)
+				
+				\item Which of the following are valid LC function? State with reason. Realize one LC function using Cauer-I and Cauer-II method. \hfill [2+3+3] (76 Ash)\\
+				$Z(s) = \dfrac{(s^2+1)(s^2+3)}{s(s^2+2)}$ \hspace{2cm}
+				$Z(s) = \dfrac{s(s^2+2)}{(s^2+3)(s^2+4)}$
+				
+				\item Which of the following is LC lossless functions and why? Pick one of the valid LC lossless functions and realize it using Foster-I and Cauer-I form. \hfill [3+3] (75 Ash)\\
+				$Z_1(s) = \dfrac{s(s^2+4)(s^2+6)}{(s^2+3)(s^2+9)}$ \hspace{2cm}
+				$Z_2(s) = \dfrac{(s^2+3)(s^2+6)}{s(s^2+4)(s^2+9)}$ \\
+				$Z_3(s) = \dfrac{(s^2+4)(s^2+6)}{s(s^2+3)(s^2+9)}$ \hspace{2cm}
+				$Z_4(s) = \dfrac{(s^2+3)(s^2+6)}{(s^2+4)(s^2+9)}$
+				
+				\item Realize the fllowing function using Cauer I and Foster II method. \hfill [3+3] (74 Ash)\\
+				$Z(s) = \dfrac{s(s^2+4)}{(s^2+2)(s^2+6)}$
+				
+				\item Which of the following functions are LC driving point impedance function and why?\\
+				$Z(s) = \dfrac{s^4+10s^2+9}{s^4+4s}$ \hspace{2cm}
+				$Z(s) = \dfrac{s^3+4s}{s^4+5s^2+6}$\hfill [2+3+3] (73 Shr)\\
+				Also find the Foster parallel and Cauer I form of the valid LC driving point impedance function.
+				
+				\item Realize the given function using Cauer-I and Cauer-II method. \hfill [6] (72 Ka)\\
+				$Z(s) = \dfrac{4s^4+40s^2+36}{s^3+4s}$
+				
+				\item Realize the following LC function using Cauer II method. $Z(s) = \dfrac{s(s^2+3)}{(s^2+1)(s^2+4)}$ \hfill [4] (70 Asa)
 			\end{enumerate}
 
 		\subsubsection{Properties and synthesis of RC one-port circuits}
@@ -474,7 +471,7 @@
 				
 				\item Which of the following are valid RC driving point impedance function and why? \hfill [5] (80 Ba)\\
 				$Z(s) = \dfrac{\text{(s+3)(s+6)}}{\text{(s+1)(s+5)}}$, \hspace{1cm} $Z(s) = \dfrac{\text{2(s+1)(s+3)}}{\text{(s+2)(s+4)}}$\\
-				Find Foster form of valid RC driing point impedance function.
+				Find Foster form of valid RC driving point impedance function.
 				
 				\item Which of the following is valid RC impedance function? State with reason. Pick a valid RC impedance function and realize it using Foster I and Cauer I method. \hfill [2+3+3] (\bo{74 Ch})\\
 				$z(s) = \dfrac{s(s^2+2)}{(s^2+1)}$ \hspace{2.8cm}
@@ -513,6 +510,8 @@
 				\item Explain the conversion of Z parameters in terms of Y parameters with necessary derivation for a two port passive network. \hfill [5] (\bo{81 Bh})	
 				
 				\item Explain the series connection of two 2 port networks with figure and derivation. \hfill [4] (\bo{\texttt{81 Bh}})
+				
+				\item Synthesize a two port LC ladder to satisfy the following open circuit impedance parameters:\\ $z_{21}(s) = \dfrac{k(s^2+9)}{s(s^2+4)}$; \hspace{3.5cm} $z_{22}(s) = \dfrac{(s^2+1)}{s(s^2+4)}$ \hfill [7] (72 Ka)
 			\end{enumerate}
 
 		\subsubsection{Synthesis of two-port LC and RC ladder circuits based on zero-shifting by partial pole removal}
@@ -532,7 +531,7 @@
 			\end{enumerate}
 
 	\pagebreak
-\section{Design of Resistivety-Terminated Lossless Fitter}
+\section{Design of Resistively-Terminated Lossless Fitter}
 	\begin{center}(4 Hours/7 Marks)\end{center}
 	\subsection{Properties of resistively-terminated lossless ladder circuits, transmission and reflection coefficients}
 		\begin{enumerate}
