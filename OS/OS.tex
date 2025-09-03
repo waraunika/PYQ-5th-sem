@@ -608,6 +608,11 @@
 			a. If pages are 4KB, how many entries in the page table?\\
 			b. Suppose the same system has a TLB with 32 entries. Furthermore suppose that a program contains instruction that fit into one page and it sequentially reads long integer elements from an array that spans thousands of pages. How effective will the TLB for this case?
 		\end{enumerate}
+		
+	\subsection{Miscellaneous}
+		\begin{enumerate}[topsep=0pt]
+			\item (Assumed) What is associative memory\hfill [1] (\bo{77 Ch})
+		\end{enumerate}
 
 	\pagebreak
 
@@ -694,16 +699,6 @@
 			\begin{enumerate}[noitemsep, topsep=0pt]
 				\item Explain impact of block size selection on data rate and disk space utilization with necessary diagram and illustration. \hfill [6] (\bo{69 Bh})
 			\end{enumerate}
-
-	\subsection{Impact of Allocation Policy on Fragmentation}
-	\subsection{Mapping File Blocks on The Disk Platter}
-		\begin{enumerate}[noitemsep, topsep=0pt]
-			\item (Assumed) Why are output files for the printer normally spooled on disk before being printed?
-			\enter\hfill [2] (\bo{80 Ch})
-
-			\item (Assumed) Prepare a comparative note on: Spooling versus Deadline Scheduling.
-			\enter\hfill [4] (\bo{76 Bh})
-		\end{enumerate}
 		
 	\subsection{File System Performance}
 		\begin{enumerate}[noitemsep, topsep=0pt]
@@ -713,6 +708,15 @@
 			\item How do you measure the file system performance? \hfill [2] (\bo{\texttt{79 Bh}})
 			
 			\item How can file system performance be increased? \hfill [2] (\bo{\texttt{79 Bh}}, \texttt{82 Ba})
+		\end{enumerate}
+		
+	\subsection{Mapping File Blocks on The Disk Platter}
+		\begin{enumerate}[noitemsep, topsep=0pt]
+			\item (Assumed) Why are output files for the printer normally spooled on disk before being printed?
+			\enter\hfill [2] (\bo{80 Ch})
+
+			\item (Assumed) Prepare a comparative note on: Spooling versus Deadline Scheduling.
+			\enter\hfill [4] (\bo{76 Bh})
 		\end{enumerate}
 
 	\subsection{Example File Systems: CD ROM file system, MS-DOS file system, Unix File system}
@@ -733,17 +737,13 @@
 	\subsection{Principles of I/O Hardware}
 		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item Write short notes on: USB Storage. \hfill [4] (\bo{76 Bh})
-
-			\item (Assumed) What is interleaving? \hfill [2] (\bo{68 Bh})
 			
 			\item Define/Explain DMA? \hfill [2] (\bo{79 Ch, 70 Bh}) [4] (\bo{67 Mng}) [5] (68 Ma)
 
 			\item How DMA increases the system consistency? \hfill [2] (\bo{76 Bh})
-
-			\item (Assumed) What is associative memory\hfill [1] (\bo{77 Ch})
 		\end{enumerate}
 
-	\subsection{Principles of I/O software}
+	\subsection{Principles of I/O Software}
 		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item What are the principles of I/O software? Explain its types. \hfill [2] (\bo{78 Ch}) [8] (\bo{\texttt{80 Bh}})
 			\lb Short notes on principles of I/O software. \hfill [3] (\texttt{82 Ba}) [3.5] (\bo{73 Bh})
@@ -762,11 +762,8 @@
 			\item Explain how I/O takes place through DMA? \hfill [2] (\bo{79 Ch})
 
 			\item Briefly mention the structured I/O software with suitable diagram. \hfill [3] (\bo{73 Bh})
-
-			\item (Assumed) State the advantages and disadvantages of placing the functionality in a device controller than in kernel. \hfill [3] (68 Ma)
 		\end{enumerate}
-
-	\subsection{I/O software Layer}
+		
 	\subsection{Disk}
 		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item What are the different methods for allocating disk space for file? \hfill [2] (70 Ma) [3] (\texttt{80 Ba})
@@ -841,6 +838,13 @@
 			\lb Queue's head is 56, algorithms: FCFS, SCAN, LOOK, CSCAN, SSTF. \hfill [10] (72 Ma)
 
 			\item Consider a Winchester-style hard disc with 100 cylinders, four double-sided platters and 25 sectors per track. The following is time ordered sequence of requests for disc sectors: {3518, 1846, 8924, 6672, 1590, 4126, 107, 9750, 158, 6621, 446, 11}. The disc arm is currently at cylinder 10, moving to 100. FOr each of SSTF, SCAN, and C-SCAN, give the order in which the above requests would be served? \hfill [6] (\bo{68 Bh})
+		\end{enumerate}
+		
+	\subsection{Miscellaneous}
+		\begin{enumerate}[noitemsep, topsep=0pt]
+			\item (Assumed) State the advantages and disadvantages of placing the functionality in a device controller than in kernel. \hfill [3] (68 Ma)
+
+			\item (Assumed) What is interleaving? \hfill [2] (\bo{68 Bh})
 		\end{enumerate}
 
 \pagebreak
