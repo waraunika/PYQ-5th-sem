@@ -469,10 +469,22 @@
 
 		\item (Assumed) What are the requirements of long term information storage? \hfill [2] (\bo{67 Mng})
 	\end{enumerate}
+		
+	\subsection{Managing Free Memory Space}
+		\begin{enumerate}[noitemsep, topsep=0pt]
+			\item Explain free space management techniques for disks.
+			\enter\hfill [4] (\bo{71 Bh}) [6] (\bo{72 Ash}, 73 Ma, 70 Ma) [7] (\texttt{80 Ba})
+		\end{enumerate}
 
-	\subsection{Resident Monitor}
+	\subsection{Resident Monitor, Virtual Memory Management \& Performance}
 		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item What is resident monitor? \hfill [5] (71 Ma)
+			
+			\item How is virtual memory management done? \hfill [2] (\bo{\texttt{81 Bh}})
+
+			\item Compare Real Memory and virtual memory. \hfill [2.5] (70 Ma)
+
+			\item What is the impact of size of page in virtual memory management performance? \hfill [2] (75 Ba)
 		\end{enumerate}
 	
 	\subsection{Memory Allocation Techniques}
@@ -482,7 +494,7 @@
 
 				\item Define internal and external fragmentation. \hfill [2] (75 Ba)
 
-				\item (Assumed) Differentiate between internal and external fragmentation? \hfill [2] (\bo{79 Ch})
+				\item Differentiate between internal and external fragmentation? \hfill [2] (\bo{79 Ch})
 		
 				\item Explain first fit, Next fit memory allocation algorithm with an example. \hfill [5] (\texttt{81 Ba})
 
@@ -490,16 +502,14 @@
 			\end{enumerate}
 			
 			\subsubsection{Non-Contiguous: Paging/Segmentation}
-				\begin{enumerate}[noitemsep, topsep=0pt]
+				\begin{enumerate}[topsep=0pt]
 					\item What is paging? \hfill [1] (70 Ma) [2] (\bo{67 Mng})
-
-					\item How does paging work? \hfill [2] (70 Ma)
+					\lb How does paging work? \hfill [2] (70 Ma)
 					
 					\item What is TLB? \hfill [1] (75 Ba)
-			
-					\item What is the role of TLB? \hfill [2] (\bo{71 Bh})
+					\lb What is the role of TLB? \hfill [2] (\bo{71 Bh})
 
-					\item Prepare a comparative note on the followings: a. Virtual memory management using Paging versus Segmentation. \hfill [4] (\bo{76 Bh})
+					\item Prepare a comparative note on: Virtual memory management using Paging versus using Segmentation. \hfill [4] (\bo{76 Bh})
 				
 					\item Explain how a logical address is mapped to a physical address in paging. \hfill [4] (\bo{\texttt{81 Bh}, 71 Bh})
 				\lb with example. \hfill [3] (\bo{73 Bh})
@@ -507,43 +517,23 @@
 					\item What is segmentation? \hfill [3] (\bo{68 Bh})
 				
 					\item What is Demand paging? \hfill [1] (\bo{80 Ch, 77 Ch, 72 Ash}) [2] (\bo{78 Ch, 76 Bh})
+					
+					\item Define page fault. \hfill [2] (\bo{78 Ch, 72 Ash, 79 Bh}, 72 Ma, 70 Ma)
+					\lb Under what condition do page fault occur? \hfill [4] (73 Ma)
 
 					\item Why multilevel paging is required? \hfill [2] (\texttt{80 Ba})
 					
 					\item What is thrashing? \hfill [1] (\bo{77 Ch}, 75 Ba) [2] (\bo{74 Bh, 73 Bh})
-
-					\item Write short notes on: Thrashing. \hfill [3] (\bo{\texttt{81 Bh, 80 Bh}}) [4] (\bo{75 Bh})
+					\lb Write short notes on: Thrashing. \hfill [3] (\bo{\texttt{81 Bh, 80 Bh}}) [4] (\bo{75 Bh})
 				\end{enumerate}
 		
-	\subsection{Memory address, Swapping and Managing Free Memory Space}
-		\begin{enumerate}[noitemsep, topsep=0pt]
-			\item Explain free space management techniques. \hfill [6] (70 Ma) [7] (\texttt{80 Ba})
-			\lb Explain free disk space management with example. \hfill [4] (\bo{71 Bh})
-
-			\item Explain how operating system manages free blocks of Secondary Storage.
-			\enter\hfill [6] (\bo{72 Ash}, 73 Ma)
-		\end{enumerate}
-		
-	\subsection{Multiple Base Register}
-	\subsection{Virtual Memory Management}
-		\begin{enumerate}[noitemsep, topsep=0pt]
-			\item How is virtual memory management done? \hfill [2] (\bo{\texttt{81 Bh}})
-
-			\item Compare Real Memory and virtual memory. \hfill [2.5] (70 Ma)
-
-			\item What is the impact of size of page in virtual memory management performance? \hfill [2] (75 Ba)
-		\end{enumerate}
-		
-	\subsection{Performance}
 	\subsection{Page Replacement Algorithms}
 		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item Write short notes on: Belady's anomaly. \hfill [3] (\bo{\texttt{81 Bh}, 80 Ch})
 			\lb What is Belady's anomaly in FIFO? \hfill [1] (\bo{\texttt{80 Bh}})
-			\lb With example, show that FIFO page replacement algorithm suffers from Belady's anomaly. \hfill [3] (\bo{73 Bh})
+			\lb With example, show that FIFO algorithm suffers from Belady's anomaly. \hfill [3] (\bo{73 Bh})
 
-			\item Define page fault. \hfill [2] (\bo{78 Ch, 72 Ash, 79 Bh}, 72 Ma, 70 Ma)
 
-			\item Under what condition do page fault occur? \hfill [4] (73 Ma)
 
 			\item What is optimal page replacement algorithm? \hfill [2] (68 Ma)
 
@@ -564,7 +554,7 @@
 			
 			\item Consider the following page reference strings: 2, 3, 4, 2, 1, 3, 5, 4, 3, 1, 5, 3, 4, 5, 0, 1, 4, 2. Find how many page fault occur according to Optimal, LRU and LFU page replacement algorithm assuming 3 page frames. \hfill [7] (\bo{\texttt{80 Bh}})
 
-			\item Consider the following page reference string: 5, 0, 2, 1, 0, 3, 2, 4, 3, 0, 3, 2, 1, 3, 0, 1, 5. \hfill [8] (\texttt{80 Ba})\\
+			\item Consider the following page reference string: 5, 0, 2, 1, 0, 3, 2, 4, 3, 0, 3, 2, 1, 3, 0, 1, 5.\\
 			Calculate page hit percentage. How many page faults would occur for the FIFO, Optimal, LFU and LRU replacement algorithms having four frames? Remember all frames are initially empty, so your first unique page will cost one fault each. \hfill [8] (\texttt{80 ba})
 
 			\item Consider the following page-reference string 1, 2, 3, 4, 2, 1, 5, 6, 2, 1, 2, 3, 7, 6, 3, 2, 1, 2, 3, 6. How many page faults would occur for LRU and FIFO replacement algorithm assuming 4 frames. \hfill [4] (\bo{79 Ch})
@@ -583,7 +573,7 @@
 			\item How many page faults would occur for the following reference string for page frames using LRU algorithm. \hfill [6] (69 Ma)\\
 			1, 2, 3, 4, 5, ,5 3, 4, 1, 6, 7, 8, 7, 8, 9, 5, 4, 5, 4, 2
 
-			\item Consider a swapping system in which memory consists of the following hole sizes in memory order: 10 MB, 4 MB, 20 MB, 18 MB, 7 MB, 9 MB, 12 MB and 15 MB. Which hole is taken for successive segment requests of: \hfill [6] (\bo{\texttt{79 Bh}})
+			\item Consider a swapping system in which memory consists of the following hole sizes in memory order: 10 MB, 4 MB, 20 MB, 18 MB, 7 MB, 9 MB, 12 MB and 15 MB. Which hole is taken for successive segment requests of: \hfill [6] (\bo{\texttt{79 Bh}})\\
 			a. 12 MB\\
 			b. 10 MB\\
 			c. 9 MB\\
