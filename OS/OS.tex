@@ -741,7 +741,7 @@
 			\item How DMA increases the system consistency? \hfill [2] (\bo{76 Bh})
 		\end{enumerate}
 
-	\subsection{Principles of I/O Software}
+	\subsection{Principles of I/O Software \& I/O Software Layers}
 		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item What are the principles of I/O software? Explain its types. \hfill [2] (\bo{78 Ch}) [8] (\bo{\texttt{80 Bh}})
 			\lb Short notes on principles of I/O software. \hfill [3] (\texttt{82 Ba}) [3.5] (\bo{73 Bh})
@@ -760,6 +760,10 @@
 			\item Explain how I/O takes place through DMA? \hfill [2] (\bo{79 Ch})
 
 			\item Briefly mention the structured I/O software with suitable diagram. \hfill [3] (\bo{73 Bh})
+
+			\item Explain about device driver structure. \hfill [5] (\bo{67 Mng})
+
+			\item Explain the working of device driver. \hfill [4] (\bo{69 Ch})
 		\end{enumerate}
 		
 	\subsection{Disk}
@@ -770,10 +774,6 @@
 				\item Why do we organize disk as RAID? \hfill [2] (\texttt{81 Ba})
 
 				\item Explain how RAID level 1 differs from RAID level 0? \hfill [2] (\bo{80 Ch})
-
-				\item (Assumemd) Explain the working of device driver. \hfill [4] (\bo{69 Ch})
-
-				\item Explain about device driver structure. \hfill [5] (\bo{67 Mng})
 			\end{enumerate}
 		\subsubsection{Formatting}
 		\subsubsection{Arm scheduling}
@@ -845,14 +845,14 @@
 \pagebreak
 \section{Deadlock}
 	\begin{center}(5 Hours/10 Marks)\end{center}
-	\subsection{Principles of deadlock}
+	\subsection{Principles of deadlock \& Other Issues}
 		\begin{enumerate}[noitemsep, topsep=0pt]
-			\item Define deadlock. \hfill [1] (\bo{74 Bh}, 76 B) [2] (\bo{72 Ash, 70 Bh}, 70 Ma)
+			\item Define deadlock. \hfill [1] (\bo{74 Bh}, 76 Ba) [2] (\bo{72 Ash, 70 Bh}, 70 Ma)
 			
 			\item Explain the resource allocation graph with an example. \hfill [2] (\bo{\texttt{81 Bh}, 78 Ch})
 
 			\item Explain necessary conditions for deadlock.
-			\enter\hfill [2] (\bo{80 Ch}, \texttt{81 Ba}, 75 Ba) [3] (\bo{74 Bh}) [4] (\bo{72 Ash, 69 Bh}, \texttt{82 Ba}, 71 Ma)
+			\enter\hfill [2] {\footnotesize (\bo{80 Ch}, \texttt{81 Ba}, 75 Ba)} [3] {\footnotesize (\bo{74 Bh})} [4] {\footnotesize (\bo{72 Ash, 69 Bh}, \texttt{82 Ba}, 71 Ma)}
 			\lb Explain Coffman conditions for deadlock. \hfill [3] (\texttt{80 Ba})
 			\lb What are the conditions for resource deadlock? \hfill [2] (76 Ba)
 			\lb Explain each condition of deadlock. \hfill [4] (73 Ma)
@@ -866,7 +866,35 @@
 			\item What is indefinite postponement? \hfill [1] (\bo{76 Bh, 74 Bh})
 			
 			\item Is indefinite postponement different than deadlock? \hfill [3] (\bo{76 Bh, 73 Bh})
+		\end{enumerate}
+
+	\subsection{Deadlock Ignorance \& Detection}
+		\begin{enumerate}[noitemsep, topsep=0pt]
+			\item Write short notes on: Ostritch algorithm. \hfill [3] (\texttt{81 Ba})
 			
+			\item Explain in deatil how can detect deadlock in operating system. \hfill [3] (\bo{79 Ch})
+
+			\item What is deadlock detection? \hfill [1] (72 Ma)
+
+			\item How do you detect deadlock? Explain with example. \hfill [4] (\bo{72 Ash})
+			\lb How can a system detect deadlock and what does it do after detection? \hfill [6] (71 Ma)
+
+			\item Explain the algorithm for detecting deadlock for one resource of each type. \hfill [4] (\bo{67 Mng})
+		\end{enumerate}
+
+	\subsection{Recovery from deadlock}
+		\begin{enumerate}[noitemsep, topsep=0pt]
+			\item Explain some methods for recovering from deadlocks? \hfill [5] (76 Ba)
+
+			\item How deadlock is recovered? \hfill [3] (\texttt{82 Ba}, 73 Ma)
+		\end{enumerate}
+
+	\subsection{Deadlock Avoidance}
+		\begin{enumerate}[noitemsep, topsep=0pt]
+
+			\item Explain various deadlock avoidance methods with examples. \hfill [6] (70 Ma)
+
+			\item What is deadlock avoidance? \hfill [1] (72 Ma)
 		\end{enumerate}
 
 	\subsection{Deadlock Prevention}
@@ -881,40 +909,12 @@
 			\item  What would be necessary to prevent deadlock? \hfill [3] (73 Ma) 
 		\end{enumerate}
 
-	\subsection{Deadlock Avoidance}
-		\begin{enumerate}[noitemsep, topsep=0pt]
-			\item Write short notes on: Ostritch algorithm. \hfill [3] (\texttt{81 Ba})
-
-			\item Explain various deadlock avoidance methods with examples. \hfill [6] (70 Ma)
-
-			\item What is deadlock avoidance? \hfill [1] (72 Ma)
-		\end{enumerate}
-
-	\subsection{Deadlock Detection}
-		\begin{enumerate}[noitemsep, topsep=0pt]
-			\item Explain in deatil how can detect deadlock in operating system. \hfill [3] (\bo{79 Ch})
-
-			\item What is deadlock detection? \hfill [1] (72 Ma)
-
-			\item How do you detect deadlock? Explain with example. \hfill [4] (\bo{72 Ash})
-			\lb How can a system detect deadlock and what does it do after detection? \hfill [6] (71 Ma)
-
-			\item Explain the algorithm for detecting deadlock for one resource of each type. \hfill [4] (\bo{67 Mng})
-
-			\item Consider the system consists of m resources of same type being shared by n process of which need at most two resource. Explain whether the system is deadlock free or not?
-			\enter\hfill [4] (\bo{67 Mng})
-		\end{enumerate}
-
-	\subsection{Recovery from deadlock}
-		\begin{enumerate}[noitemsep, topsep=0pt]
-			\item Explain some methods for recovering from deadlocks? \hfill [5] (76 Ba)
-
-			\item How deadlock is recovered? \hfill [3] (\texttt{82 Ba}, 73 Ma)
-		\end{enumerate}
-
 	\subsection{Numericals}
 		\begin{enumerate}
 			\item A system has 2 process and 3 resources. Each process needs maximum of two resources, is deadlock possible? Explain. \hfill [2] (\bo{74 Bh}) [3] (\texttt{82 Ba})
+
+			\item Consider the system consists of m resources of same type being shared by n process of which need at most two resource. Explain whether the system is deadlock free or not?
+			\enter\hfill [4] (\bo{67 Mng})
 
 			\item Consider the following initial state and identify whether requested resource is granted or denied for given cases. \hfill [4] (\bo{79 Ch})\\
 			\begin{tabular}{|c|c|c|}
