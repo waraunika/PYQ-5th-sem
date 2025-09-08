@@ -228,7 +228,7 @@
 
 	\subsection{Numericals}
 		\begin{enumerate}
-			\item Schedule the following processes acco	rding to SRTN and priority preemptive algorithm to calculate average TAT and WT. Here, the process with the lowest value has the highest priority. \hfill [8] (\texttt{82 Ba})\\
+			\item Schedule the following processes according to SRTN and priority preemptive algorithm to calculate average TAT and WT. Here, the process with the lowest value has the highest priority. \hfill [8] (\texttt{82 Ba})\\
 			\includegraphics[width=3.5in]{./pics/os_26}
 		
 			\item Consider the following set of processes, with length of the CPU burst time given in milliseconds. \hfill [8] (\bo{\texttt{81 Bh}, 77 Ch})\\
@@ -1079,37 +1079,43 @@
 			\item What are the attacks from inside? \hfill [4] (68 Ma)
 
 			\item Explain about Malware and Spyware. \hfill [4] (68 Ma)
+
+			\item What is trap door? \hfill [2] (\bo{68 Bh})
 		\end{enumerate}
 
 	\subsection{Security Policy and Access Control}
 		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item Write Short notes on: Security Policy. \hfill [3] (71 Ma)
-
-			\item (Assumed) What is trap door? \hfill [2] (\bo{68 Bh})
-		\end{enumerate}
-
-	\subsection{Basics of Cryptography}
-		\begin{enumerate}[noitemsep, topsep=0pt]
-			\item How does Caesar Cipher convert plain text to ciphertext? \hfill [4] (\bo{\texttt{81 Bh}})
-
-			\item Write short notes on Caesar Cipher. \hfill [3] (\bo{\texttt{79 Bh}, 74 Bh}, \texttt{82 Ba})
-
-			\item Write short notes on: Cryptography. \hfill [2.5] (\texttt{80 Ba}) [3] (71 Ma) [3.5] (73 Ma)
-
-			\item Write short notes on: Public Key Cryptography \hfill [3] (75 Ba) [4] (\bo{78 Ch})
-
-			\item Explain private and public key used in asymmetric cryptography. \hfill [5] (\bo{75 Bh})
 		\end{enumerate}
 
 	\subsection{Protection Mechanisms}
 		\begin{enumerate}[noitemsep, topsep=0pt]
-			\item (Assumed) Write short notes: Protection Domain \hfill [3] (\bo{80 Ch}, 75 Ba) [3.5] (73 Ma)
-			\lb Explain protection domain. \hfill [2] (\texttt{82 Ba}) [2.5] (\bo{69 Ch})
-			\lb (Assumed) Explain domain-object. \hfill [2] (\bo{70 Bh})
+			\item Protection Domains:
+				\begin{enumerate}[noitemsep, topsep=0pt]
+					\item Write short notes: Protection Domain \hfill [3] (\bo{80 Ch}, 75 Ba) [3.5] (73 Ma)
+					\lb Explain protection domain. \hfill [2] (\texttt{82 Ba}) [2.5] (\bo{69 Ch})
+					\lb Explain domain-object. \hfill [2] (\bo{70 Bh})
 
-			\item (Assumed) how is domain-object implemented for security? \hfill [2] (\bo{70 Bh})
+					\item (Assumed) how is domain-object implemented for security? \hfill [2] (\bo{70 Bh})
 
-			\item Write short notes on: Protection matrix. \hfill [2] (\bo{76 Bh})
+					\item Write short notes on: Protection matrix. \hfill [2] (\bo{76 Bh})
+				\end{enumerate}
+			
+			\item ACL:
+				\begin{enumerate}
+					\item What is ACL? \hfill [2] {\tiny (\bo{\texttt{81 Bh, 80 Bh}, 79 Ch, 77 Ch, 70 Bh}, \texttt{82 Ba, 81 Ba})} [2.5] {\tiny (\bo{69 Ch}, \texttt{80 Ba})} [3] {\tiny (\bo{68 Bh})}
+
+					\item Write short notes on: Access Control Lists. \hfill [3] (\bo{\texttt{79 Bh}})
+
+					\item Explain ACL with its use in security. \hfill [6] (76 Ba)
+					\lb What is the use of ACL? \hfill [3] (\bo{75 Bh})
+
+					\item How is ACL different from the capabilities list? \hfill [2] (\bo{\texttt{81 Bh}})
+
+					\item Describe how Access Control List is used. \hfill [2] (\bo{72 Ch}) [3] (\bo{80 Ch}) [4] (\bo{78 Ch})
+				\end{enumerate}
+			
+			
 
 			\item (Assumed) Why 'HASH' function is called Message Digestor?
 			\enter\hfill [1] (\bo{79 Ch}) [2] (\bo{\texttt{80 Bh}, 77 Ch}, \texttt{82 Ba})
@@ -1127,6 +1133,19 @@
 			\item (assumed) Explain about NFS protocol and draw the structure of NFS. \hfill [6] (\bo{68 Bh})
 		\end{enumerate}
 
+	\subsection{Basics of Cryptography}
+		\begin{enumerate}[noitemsep, topsep=0pt]
+			\item How does Caesar Cipher convert plain text to ciphertext? \hfill [4] (\bo{\texttt{81 Bh}})
+
+			\item Write short notes on Caesar Cipher. \hfill [3] (\bo{\texttt{79 Bh}, 74 Bh}, \texttt{82 Ba})
+
+			\item Write short notes on: Cryptography. \hfill [2.5] (\texttt{80 Ba}) [3] (71 Ma) [3.5] (73 Ma)
+
+			\item Write short notes on: Public Key Cryptography \hfill [3] (75 Ba) [4] (\bo{78 Ch})
+
+			\item Explain private and public key used in asymmetric cryptography. \hfill [5] (\bo{75 Bh})
+		\end{enumerate}
+
 	\subsection{Authentication}
 		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item How authentication is an essential mechanism for maintaining security? Explain.
@@ -1134,20 +1153,6 @@
 		\end{enumerate}
 
 	\subsection{OS Design Considerations For Security}
-	\subsection{Access Control Lists And OS Support}
-		\begin{enumerate}[noitemsep, topsep=0pt]
-			\item What is ACL?
-			\enter\hfill [2] (\bo{\texttt{81 Bh, 80 Bh}, 79 Ch, 77 Ch, 70 Bh}, \texttt{82 Ba, 81 Ba}) [2.5] (\bo{69 Ch}, \texttt{80 Ba}) [3] (\bo{68 Bh})
-
-			\item Write short notes on: Access Control Lists. \hfill [3] (\bo{\texttt{79 Bh}})
-
-			\item Explain ACL with its use in security. \hfill [6] (76 Ba)
-			\lb What is the use of ACL? \hfill [3] (\bo{75 Bh})
-
-			\item How is ACL different from the capabilities list? \hfill [2] (\bo{\texttt{81 Bh}})
-
-			\item Describe how Access Control List is used. \hfill [2] (\bo{72 Ch}) [3] (\bo{80 Ch}) [4] (\bo{78 Ch})
-		\end{enumerate}
 
 	\pagebreak
 
