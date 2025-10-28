@@ -40,7 +40,7 @@
 \begin{document}
 \maketitle
 
-\vspace{13cm}
+\vspace{8cm}
 \begin{large}\textbf{Notes}\end{large}
 \begin{itemize}
 \item PYQs of BEX/BEI/BCT's CT603 are combined.
@@ -89,7 +89,7 @@
 	\end{enumerate}
 	\subsection{Interconnection structures}
 	\begin{enumerate}[noitemsep, topsep = 0pt]
-	\item Explain the Interconnection structures of computer.\hfill[6] (75 Ash)\
+	\item Explain the Interconnection structures of computer.\hfill [6] (\texttt{82 Ba}, 75 Ash)\
 	\lb Definition\hfill[2] (73 Shr)
 	\lb Explain different types.\hfill[4] (73 Shr)
 	\item Explain the interconnection of CPU with Memory and I/O devices along with different operations over them.\hfill[3+3] (\bo{70 Ch})
@@ -147,6 +147,8 @@
 		
 		\item What are the most common fields in an instruction. \hfill [2] (\bo{68 Ch})
 		
+		\item Explain the logical and bit manipulation instruction with example. \hfill [4] (\texttt{82 Ba})
+		
 		\item Write down the code to evaluate in three address, two address, one address and zero address instruction format.
 		\begin{enumerate}[noitemsep, topsep = 0pt, label = \alph*.]
 			\item Y = (A-B/C)*[D+(E*G)] \hfill [8] (\bo{\texttt{81 Bh}, 76 Ch})
@@ -158,6 +160,7 @@
 			\item Y = A/B+(CxD) + F(H/G) \hfill [8] (\bo{70 Ch}
 			\item Y = A+(B*C)+D \hfill [8] (\bo{68 Ba})
 			\item Y = AB + (F/G) + CD \hfill [8] (\bo{67 Asa})
+			\item Y = ((A+B) * (C-D))/E \hfill [8] (\texttt{82 Ba})
 			\item N = ((P-QxR)/S)+(T/U)+VxW) \hfill [8] (81 Ba)
 			\item $\text{X} = \dfrac{\text{A-B+Cx(DxE-F})}{\text{G+HxK}}$ \hfill [8] (80 Ba)
 			\item Y = (A-B/C) x (D+ExG)/F \hfill [8] (78 Ka)
@@ -182,6 +185,8 @@
 		
 		\item Differentiate between Immediate and direct addressing modes. \hfill [4] (\bo{\texttt{81 Bh}})
 		
+		\item Descsribe the displacement addressing mode with example. \hfill [4] (\texttt{82 Ba})
+
 		\item Write down the need for addressing modes. \hfill [2] (\bo{74 Ch})
 		
 		\item Comparision of different types of addressing modes. \hfill [6] (\bo{76 Ch}) [8] (76 Ash) [10] (72 Ka)
@@ -192,7 +197,7 @@
 		\lb Explain with adv/disadv. \hfill [8] (81 Ba, 80 Ba) [10] (\bo{70 Ch})
 		\lb Explain with suitable example. \hfill [6] (\bo{\texttt{80 Bh, 79 Bh}, 74 Ch}) [8] (\bo{68 Ch}, 70 Asa)
 			
-		\item Following instructions are give: \hfill [10] (73 Shr)
+		\item Following instructions are given: \hfill [10] (73 Shr)
 		\begin{enumerate}[noitemsep, topsep = 0pt, label = \alph*.]
 			\item LDA 2000H
 			\item MVI B, 32H
@@ -214,15 +219,23 @@
 \section{Control Unit}
 	\begin{center}(6 Hours/10 Marks)\end{center} 
 	\subsection{Control Memory}
-	
+		\begin{enumerate}
+			\item Explain the organization of a control memory. \hfill [4] (71 Shr)
+			
+			\item Explain block diagram of micro-programmed control organization. \hfill [4] (76 Ash)
+		\end{enumerate}					
+			
 	\subsection{Addressing sequencing}
 		\begin{enumerate}
-			\item Explain address sequencing with the help of a block diagram. \hfill [5] (\bo{\texttt{80 Bh}})
-			
 			\item What is address sequencing? \hfill [3] (\bo{71 Ch, 67 Asa})
+			
+			\item Explain address sequencing with the help of a block diagram. \hfill [5] (\bo{\texttt{80 Bh}}, 72 Ka)
+			\lb Explain the selection of address for control memory with its block diagram.
+			\enter\hfill [7] (\bo{72 Ch, 71 Ch, 68 Ch})
 			
 			\item How does a sequencing logic work in micro-programmed control unit to execute a micro-program?
 			\enter\hfill [6] (\bo{70 Ch})
+			
 			\item Explain the address sequencing capabilities required in a control memory. \hfill [5] (\bo{67 Asa})
 		\end{enumerate}
 	
@@ -264,43 +277,32 @@
 	\subsection{Control Unit Operation}
 		\begin{enumerate}[noitemsep, topsep=0pt]
 			\item What are the types of control signals? \hfill [3] (\bo{68 Ba})
+			
+			\item Explain the basic hardwired control unit components. \hfill [4] (\texttt{82 Ba})
+			
+			\item Explain microprogrammed control unit with block diagram. \hfill [5] (\bo{\texttt{79 Bh}}, \texttt{80 Ba})
+			\lb (\textit{diagram not asked explicitly, just operation}) \hfill [7] (\bo{68 Ba})
+			
+			\item Differentiate between hardwired and microprogrammed control unit. 
+			\enter\hfill [4] (\bo{74 Ch}, 70 Asa) [5] (\bo{75 Ch, 70 Ch}, \texttt{80 Ba})
+			
+			\item Explain the organization structure of a microprogram control unit and the generation of control signals using microprogram. \hfill [10] (\bo{\texttt{78 Bh}})
 		\end{enumerate}
 	
 	\subsection{Design of Control Unit}
 		\begin{enumerate}[noitemsep, topsep=0pt]
-			\item Differentiate between hardwired and microprogrammed control unit. 
-			\enter\hfill [4] (\bo{74 Ch}, 70 Asa) [5] (\bo{75 Ch, 70 Ch}, \texttt{80 Ba})
-			
-			\item Describe the operation of hardwired control unit with a typical diagram. \hfill [5] (\bo{\texttt{79 Bh}})
-			\lb Explain the key steps of hardware implementation of control unit. \hfill [7] (\bo{68 Ba})
-			
-			\item Explain microprogrammed control unit with block diagram. \hfill [5] (\texttt{80 Ba})
-			
-			\item Explain the organization structure of a microprogram control unit and the generation of control signals using microprogram. \hfill [10] (\bo{\texttt{78 Bh}})
-			
-			\item Explain block diagram of micro-programmed control organization. \hfill [4] (76 Ash)
-			
-			\item Draw and explain block diagram of micro-programmed sequencer for control memory.
-			\enter\hfill [5] (\bo{75 Ch})	
-			\lb Draw the diagram of Micro-programmed sequencer for a control memory and explain it. 
-			\enter\hfill [10] (75 Ash)
-			\lb Explain the micro program sequencer used in microprogrammed control unit. \hfill [6] (\bo{74 Ch})
+			\item Explain the micro program sequencer used in microprogrammed control unit. \hfill [6] (\bo{74 Ch})	
+			\lb Draw \& explain block diagram of micro-programmed sequencer for control memory. 
+			\enter\hfill [5] (\bo{75 Ch}) [10] (75 Ash)
 			
 			\item Explain microinstruction format used in microprogramming control unit. \hfill [6] (73 Shr)
 			
 			\item What factors cause micro-programmed control unit to be selected over hardwired control unit.
 			\enter\hfill [3] (\bo{72 Ch})
 			
-			\item Explain with block diagram, how address of control memory is selected in micro-programmed control unit. \hfill [7] (\bo{72 Ch})
-			\lb Describe how address of control memory is selected. \hfill [7] (\bo{68 Ch})
-			
-			\item Explain the address sequencer with the help of a block diagram. \hfill [5] (72 Ka)
-			
-			\item Explain the selection of address for control memory with its block diagram. \hfill [7] (\bo{71 Ch})
-			
-			\item Explain the organization of a control memory. \hfill [4] (71 Shr)
-			
-			\item Explain with steps involved when you are designing micro-program control unit. \hfill [6] (70 Asa)
+			\item Explain with steps involved when you are designing 
+			\lb hardwired control unit. \hfill [6] (\texttt{82 Ba})
+			\lb micro-program control unit. \hfill [6] (70 Asa)
 		\end{enumerate}
 
 	\pagebreak
@@ -314,24 +316,9 @@
 
 			\item Explain types of pipelining. \hfill [3] (72 Ka)
 
-			\item Explain about the different types of conflicts that can be seen in a pipeline. \hfill [6] (\bo{\texttt{80 Bh}})
-
 			\item How can we prove that pipelining improves the performance of a computer? \hfill [4] (\texttt{81 Ba})
 
 			\item Derive the expression showing speed up ratio equals number of segments in pipeline. \hfill [3] (\bo{75 Ch})
-
-			\item What is meant by hazard in pipelining? \hfill [2] (76 Ash) [4] (\bo{\texttt{78 Bh}})
-
-			\item Describe different types of pipeline hazards. \hfill [4] (76 Ash)
-			\lb with example. \hfill [6] (\bo{\texttt{79 Bh}}, 72 Ka)
-
-			\item How can you overcome hazards? \hfill [2] (76 Ash)
-
-			\item Explain with example data and control hazards in pipeline conflict. \hfill [6] (\bo{\texttt{78 Bh}})
-
-			\item Explain control pipeline hazard and its solutions. \hfill [6] (\bo{72 Ch})
-
-			\item What is instruction hazard in pipeline? \hfill [2] (70 Asa)
 
 			\item Discuss in detail about data dependency problem that arises in pipelining along with its solution.
 			\enter\hfill [5] (\bo{75 Ch})
@@ -362,17 +349,33 @@
 
 			\item Describe four stage instruction pipeline. \hfill [4] (\bo{\texttt{81 Bh}}) [5] (\bo{76 Ch}, 78 Ka)
 			\lb Explain with example. \hfill [8] (70 Asa)
+			\lb Explain with diagram. \hfill [6] (\texttt{82 Ba})
+
+			\item Explain six stage instruction pipeline with example. \hfill [10] (75 Ash)	
 			
 			\item How pipeline processing is done in an instruction pipeline? \hfill [3] (78 Ka)
 
 			\item Construct time-space diagram for four instructions with four-stage pipeline and show how pipelining reduces the execution time? \hfill [5] (\texttt{81 Ba})
 			\lb Explain the operation of instruction pipeline for processing four segment instruction cycle with the help of space-time diagram. \hfill [6] (\texttt{81 Ba})
+			\lb Draw a time-space diagram for four segments having six tasks. \hfill [6] (\bo{76 Ch})
 
 			\item Show that the speedup factor for a pipelined processor is equal to the number of stages in a pipeline. \hfill [4] (\bo{\texttt{80 Bh}})
+			
+			\item Explain about the different types of conflicts that can be seen in a pipeline. \hfill [6] (\bo{\texttt{80 Bh}})
+			\lb Discuss pipeline conflicts with examples. \hfill [4] (\texttt{82 Ba})
 
-			\item Draw a time-space diagram for four segments having six tasks. \hfill [6] (\bo{76 Ch})
+			\item What is meant by hazard in pipelining? \hfill [2] (76 Ash) [4] (\bo{\texttt{78 Bh}})
 
-			\item Explain six stage instruction pipeline with example. \hfill [10] (75 Ash)
+			\item Describe different types of pipeline hazards. \hfill [4] (76 Ash)
+			\lb with example. \hfill [6] (\bo{\texttt{79 Bh}}, 72 Ka)
+
+			\item What is instruction hazard in pipeline? \hfill [2] (70 Asa)
+
+			\item Explain with example data and control hazards in pipeline conflict. \hfill [6] (\bo{\texttt{78 Bh}})
+
+			\item How can you overcome hazards? \hfill [2] (76 Ash)
+
+			\item Explain control pipeline hazard and its solutions. \hfill [6] (\bo{72 Ch})
 		\end{enumerate}
 
 	\subsection{RISC Pipeline}
@@ -435,7 +438,7 @@
 			\lb Explain signed binary division algorithm. \hfill [4] (73 Shr)
 			
 			\item Explain non-restoring division algorithm. \hfill [3] (\bo{75 Ch}) [5] (\bo{\texttt{78 Bh}})
-			\lb with flowchart. \hfill [5] (\texttt{80 Ba})
+			\lb with flowchart. \hfill [5] (\texttt{82 Ba, 80 Ba})
 			\lb with flowchart and example. \hfill [8] (\bo{70 Ch})
 			
 			\item Draw the flowchart for division of floating point numbers. \hfill [4] (\bo{72 Ch, 71 Ch})
@@ -451,7 +454,7 @@
 				\lb 10/3 \hfill [7] (\bo{75 Ch})
 
 			\item Divide using non-restoring algorithm.
-				\lb 12/5 \hfill [5] (\texttt{80 Ba})
+				\lb 12/5 \hfill [5] (\texttt{82 Ba, 80 Ba})
 				\lb 10/5 \hfill [5] (\bo{\texttt{78 Bh}})
 				\lb 15/4 \hfill [4] (73 Shr)
 		\end{enumerate}
@@ -471,6 +474,7 @@
 	\subsection{The Memory Hierarchy}
 		\begin{enumerate}
 			\item What is memory hierarchy and why it is formed in computer system? \hfill [2] (71 Shr)
+			\lb Why memory hierarchy is required in computer system? \hfill [3] (\texttt{82 Ba})
 			
 			\item Draw the memory hierarchy. \hfill [2] (\bo{72 Ch}, 72 Ka)
 		\end{enumerate}
@@ -531,6 +535,7 @@
 			\item Explain different replacement algorithm technique used in cache memory. \hfill [3] (\texttt{81 Ba}) [5] (\bo{\texttt{79 Bh}})
 
 			\item Explain LRU replacement algorithm in case of hit and miss with suitable example. \hfill [8] (\bo{\texttt{78 Bh}})
+			\lb Explain teh LRU replacement algorithm with example. \hfill [5] (\texttt{82 Ba})
 
 			\item Why replacement algorithm is necessary in associative mapping? \hfill [4] (\bo{76 Ch})
 			\lb Why replacement algorithm is used when designing cache? Explain with example.
@@ -617,19 +622,19 @@
 	\subsection{I/O Processors}
 		\begin{enumerate}
 			\item Explain the CPU and IOP communication channel using diagram. \hfill [5] (\bo{\texttt{81 Bh}})
+			
+			\item Compare and contrast between DMA and I/O processor. \hfill [5] (\texttt{82 Ba})
 
 			\item Why IOP is used in IO organization? \hfill [3] (\texttt{81 Ba}, 75 Ash) [5] (\bo{70 Ch}, 73 Shr)
 
 			\item Show the role of IO processor to assist the operation of the CPU. \hfill [4] (\bo{\texttt{80 Bh}})
+			
+			\item Explain CPU-IOP Communication with diagram. \hfill [5] (\texttt{82 Ba, 81 Ba}) [6] (72 Ka) [7] (75 Ash)
 		\end{enumerate}
 
 	\subsection{Data Communication Processor}
 		\begin{enumerate}
-			\item Why data communication processor is required in IO ogranization? \hfill [2] (\bo{76 Ch})
-
-			\item Explain the CPU-IOP communication with diagram. \hfill [6] (72 Ka) [7] (75 Ash)
-
-			\item Explain CPU-IOP Communication with diagram. \hfill [5] (\texttt{81 Ba})
+			\item Why data communication processor is required in IO ogranization? \hfill [2] (\bo{76 Ch})		
 		\end{enumerate}
 
 
@@ -651,7 +656,7 @@
 
 	\subsection{Interconnection Structures}
 		\begin{enumerate}
-			\item Discuss about loosely-coupled and tightly-cuopled architecture. \hfill [4] (\texttt{81 Ba})
+			\item Discuss about loosely-coupled and tightly-coupled architecture. \hfill [4] (\texttt{81 Ba})
 			\lb Difference between them. \hfill [4] (78 Ka)
 
 			\item Discuss about tightly-coupled multiprocessor with block diagram. \hfill [4] (76 Ash)
@@ -659,8 +664,8 @@
 			\item Explain the crossbar switch interconnection structure with block diagram. \hfill [4] (\texttt{81 Ba})
 
 			\item Differentiate Crossbar switch and Multistage switching network. \hfill [4] (71 Shr)
-
-			\item Explain hypercube interconnection network with example. \hfill [4] (\bo{76 Ch})
+			\lb Briefly discuss 8x8 omega switching networking with example. \hfill [4] (\texttt{82 Ba})
+			\lb Explain hypercube interconnection network with example. \hfill [4] (\bo{76 Ch})
 
 			\item Compare and contrast the interconnection structures used in multiprocessing environment.
 			\enter\hfill [4] (\bo{\texttt{79 Bh, 78 Bh}}) 
