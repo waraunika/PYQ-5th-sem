@@ -1003,7 +1003,7 @@
     \pagebreak
 \section{Query Processing and Optimization}
     \begin{center}(4 Hours/8 Marks)\end{center}
-     \begin{enumerate}[noitemsep, topsep=0pt]
+     \begin{enumerate}[topsep=0pt]
         	\item Define query processing. \hfill [1] (\bo{78 Ch}) [2] (73 Ma)
         	
         \item Explain about the steps involved in query processing. 
@@ -1015,51 +1015,33 @@
      	
      	\item What is task of evaluation engine in query processing? \hfill [4] (75 Ba)
      	
-     	\item (No idea where this belongs:) What is the significance of materilazied views? 
-     	\enter\hfill [2] (\bo{72 Ash, 68 Bh})
+     	\item What is the significance of materilazied views? \hfill [2] (\bo{72 Ash, 68 Bh})
   	\end{enumerate}
-        
-    \subsection{Pipelining}
-        \begin{enumerate}[noitemsep, topsep=0pt]
-			\item What is pipelining in query evaluation. \hfill [2] (72 Ma)
-			\lb Explain with an example. \hfill [3] (76 Ba)     
-        
-            \item Briefly explain about the pipelining approaches used for evaluation of query. \hfill [4] (\bo{\texttt{81 Bh}})
-            
-            \item How is pipeline approach different from materialization approach? \hfill [4] (\bo{78 Ch}) [5] (\bo{74 Bh})
-            
-            \item Explain how pipelining can be used to improve query evaluation of efficiency.
-            \enter\hfill [3] (\bo{77 Ch}) [4] (\bo{70 Bh})
-        \end{enumerate}
-        
-    \subsection{Query Cost Estimation}
-    \subsection{Query Operations}
+  	
     \subsection{Evaluation of Expressions}
-        \begin{enumerate}[noitemsep, topsep=0pt]            
-            \item What is pipelining evaluation in a query? Explain with an example. \hfill [3] (\bo{79 Ch})
-            
+        \begin{enumerate}[topsep=0pt]
             \item Explain the process how a query is evaluated in RDBMS systems. \hfill [3] (70 Ma)
             
 			\item Discuss the methods used for evaluation of entire expression tree. \hfill [3] (\bo{76 Bh})   
 			\lb Explain the various approaches used to evaluate any expression with suitable example. 
-			\enter\hfill [6] (73 Ma) 			
+			\enter\hfill [6] (73 Ma)
 			
-			\item Explain the difference between materialzation and pipelining methods for query evaluation 
+			\item What is pipelining in query evaluation. \hfill [2] (72 Ma)
+			\lb Briefly explain pipelining approaches. \hfill [4] (\bo{\texttt{81 Bh}})
+			\lb Explain with an example. \hfill [3] (\bo{79 Ch}, 76 Ba) 
+			
+			\item Explain how pipelining can be used to improve query evaluation of efficiency.
+            \enter\hfill [3] (\bo{77 Ch}) [4] (\bo{70 Bh}) 
+            
+            \item How is pipeline approach different from materialization approach? \hfill [4] (\bo{78 Ch}) [5] (\bo{74 Bh})
+            \lb Explain the difference between materialzation and pipelining methods for query evaluation 
 			\enter\hfill [3] (71 Ma)
     			
-			\item What are the major disadvantages of using materialization approach for evaluation of expression? And how does pipeling approach overcome those disadvantages? \hfill [6] (65 Ka)    			
-    			
-    			\item (Assumed) Transform the following relational algebra expression using equivalence rule. Show each step involved. \hfill [6] (\bo{\texttt{80 Bh}})\\
-    			instructor (ID, name, dept\_name, salary)\\
-    			teaches (ID, course\_id, sec\_id, semester, year)\\
-    			course (course\_id, title, dept\_name, credits)\\
-    			$\Pi_{\text{name, title}} \left( 
-    \sigma_{\text{dept\_name}} = \text{``Music"} \char`\^ \text{year} = 2017 \right.$
-			\enter\hspace{2cm}$ (\text{instructor}) \bowtie \left( \text{teaches} \bowtie \Pi_{\text{course\_id, title}} (\text{course}) \right))) $
+			\item What are the major disadvantages of using materialization approach for evaluation of expression? And how does pipeling approach overcome those disadvantages? \hfill [6] (65 Ka)
     		\end{enumerate}
     		
     \subsection{Query Optimization}
-        \begin{enumerate}[noitemsep, topsep=0pt]
+        \begin{enumerate}[topsep=0pt]
 			\item Write short notes on: Query optimization. \hfill [5] (\bo{67 Mng})        		
         		
         		\item What are the different approaches for Query Optimization? Explain in brief. \hfill [4] (\bo{80 Ch})
@@ -1070,9 +1052,11 @@
         		
 			\item Explain cost based query optimization and Heuristic optimization.
 			\enter\hfill [3] (\bo{71 Bh}) [4] (\bo{73 Bh}, 75 Ba)        		
-			\item Explain how a DBMS chooses an appropriate query execution plan for optimized query execution. \hfill [5] (71 Ma)
-			\lb Explain the process of query optimization. \hfill [6] (\bo{69 Bh})
-        		
+			
+			\item Explain the process of query optimization. \hfill [6] (\bo{69 Bh})
+			\lb Explain how a DBMS chooses an apt query execution plan for optimized query execution.
+			\enter\hfill [5] (71 Ma)
+			
         		\item Explain the differences between cost-based and heruistics based methods of query optimization.
         		\enter\hfill [4] (\bo{\texttt{79 Bh}}) [5] (\texttt{80 Ba})
         		
@@ -1082,9 +1066,15 @@
             
             \item How can you optimize the following query? \hfill [5] (\bo{71 Bh})\\
             $\Pi_{\text{name, title}}\left(\sigma_{\text{dept\_name=``Music"}}(\text{instructor} \bowtie \Pi_{\text{course\_id, title}} (\text{teaches} \bowtie \text{course}))\right)$
+            
+            \item Transform the following relational algebra expression using equivalence rule. Show each step involved. \hfill [6] (\bo{\texttt{80 Bh}})\\
+    			instructor (ID, name, dept\_name, salary)\\
+    			teaches (ID, course\_id, sec\_id, semester, year)\\
+    			course (course\_id, title, dept\_name, credits)\\
+    			$\Pi_{\text{name, title}} \left( 
+    \sigma_{\text{dept\_name}} = \text{``Music"} \char` \wedge \text{year} = 2017 \right.$
+			\enter\hspace{2cm}$ (\text{instructor}) \bowtie \left( \text{teaches} \bowtie \Pi_{\text{course\_id, title}} (\text{course}) \right))) $
         \end{enumerate}
-    \subsection{Query Decomposition}
-    \subsection{Performance Tuning}
 
     \pagebreak
 \section{File Structure and Hashing}
